@@ -1,0 +1,24 @@
+//| mill-version: 1.1.7
+//| mill-jvm-version: system
+// OpenRTL Lab | JPEG XL | version 1.0.0
+// SPDX-License-Identifier: MIT
+package build
+import mill._
+import mill.scalalib._
+object jpegxl extends ScalaModule {
+  def scalaVersion = "2.13.18"
+  def chiselVersion = "7.13.0"
+  override def moduleDir = super.moduleDir / os.up
+  override def sources = Task.Sources(moduleDir / "src" / "main" / "scala")
+  override def scalacOptions = Seq("-language:reflectiveCalls", "-deprecation", "-feature", "-Xcheckinit")
+  override def mvnDeps = Seq(mvn"org.chipsalliance::chisel:$chiselVersion")
+  override def scalacPluginMvnDeps = Seq(mvn"org.chipsalliance:::chisel-plugin:$chiselVersion")
+  object tool extends ScalaModule {
+    def scalaVersion = jpegxl.scalaVersion
+    override def moduleDir = jpegxl.moduleDir
+    override def sources = Task.Sources(moduleDir / "src" / "tool" / "scala")
+    override def scalacOptions = jpegxl.scalacOptions
+    override def scalacPluginMvnDeps = jpegxl.scalacPluginMvnDeps
+    def moduleDeps = Seq(jpegxl)
+  }
+}

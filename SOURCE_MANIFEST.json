@@ -1,0 +1,2375 @@
+{
+  "files": {
+    ".gitignore": {
+      "body_sha256": "b9495dde2d74accf73236e16d932007f5440bdbaec993d54d40ca4deace49577",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b9495dde2d74accf73236e16d932007f5440bdbaec993d54d40ca4deace49577"
+    },
+    ".gitignore.license": {
+      "body_sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "LICENSE": {
+      "body_sha256": "2277cd82c6051abb0d0c969fb604f54f42c13a7e3ee3f200eaa71221afe73516",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2277cd82c6051abb0d0c969fb604f54f42c13a7e3ee3f200eaa71221afe73516"
+    },
+    "LICENSE.license": {
+      "body_sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "README.md": {
+      "body_sha256": "eb8a05191c92943f1054731885255d12fb4e2382f343292938aa52671a16a0ef",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "122b8f072d145e9dfc5ec24bc6852b2f7dfa2aaee8657b119e728fffe52bff36"
+    },
+    "README.zh-CN.md": {
+      "body_sha256": "93ef26b8f14623ccc0b58e3324c7b394a1975e296d6112a282525e5ebbe151d0",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "889f8a701319622afb62ad4f5b2df807fd959fc603b30878f632c70bf0131429"
+    },
+    "THIRD_PARTY.md": {
+      "body_sha256": "c3d6ea6960b6c9883f53e1f5379aab50db6692bb9685d239181db7716bb347b1",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "4a5f132fad66378008a69c24ed011fcd45fedc3adb1bc146560c6faaed0466f6"
+    },
+    "THIRD_PARTY.zh-CN.md": {
+      "body_sha256": "ea987c2f54f1ab4980c3b0878c0d874405c7329bbe6ffc01b151bb9095acfe02",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "7234dc1b58495685243b06e36b9ca918e63b0b8c7f794ec344b8136a5fec0164"
+    },
+    "VERSION": {
+      "body_sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    "VERSION.license": {
+      "body_sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "build.mill": {
+      "body_sha256": "b11eff1cad662968bd65599d4e190f93cf6d50be15ef57d14a39f675486f0b54",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "f1f0854e75b7d7017c79984b819288c81342ae52352a1f62520d51b10a5a44dc"
+    },
+    "docs/build.md": {
+      "body_sha256": "c35a2cc60fb19ca85cdacf372a92a0b59b993d5b3a931b1c832441db0faeb8e9",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "83a8f5b7ce201e118cea1fc5c263d1682229b0a00c96beac543186026970b312"
+    },
+    "docs/build.zh-CN.md": {
+      "body_sha256": "701e0226cc28044febb6f889c2b49df101b465be535498fd4cba40d06192a154",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "93a1643ae5925489f5943b298ca06db2c6135d946810517be1243fc95b7e6176"
+    },
+    "docs/interfaces.md": {
+      "body_sha256": "7752d833f4700702e3c9ecdc2e748564b561b44f89eaa65ce89400d1ea69cfd5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "86c4fa2950e6211154f85b29744946cfd1c13d6e40542fd4bd680d8791d2c743"
+    },
+    "docs/interfaces.zh-CN.md": {
+      "body_sha256": "823c3b8cf4b06446075e627883493264ee64608231a0944b9decf5a368520047",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ec124b10d7b2e52395555a9ffa21d8441d8de8e58a29018d82c8bfa81d5583f7"
+    },
+    "docs/performance.md": {
+      "body_sha256": "a963129be95c3e528e6843c0d67ec423c72ff565f9cfde74c2541fbee729b994",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "fb238bf8aaf223c261f3c76970a244d4dd520992b019eb95bd18dbfb88941a18"
+    },
+    "docs/performance.zh-CN.md": {
+      "body_sha256": "cfa49969dd9925a7fe1750f728fdbe28784623482034ef5d532ef0d8eea98a6f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "60cccda6e6e6c4edecd9ac85d9a2dce291addaf76b7d4fed6c5598ae866207ce"
+    },
+    "docs/verification.md": {
+      "body_sha256": "9f53bdc56be4bb7aba009d0a2e8f03f26f06488e4668924d6730fee1421dda90",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "670674e90f89cbeb5c3932f54bfcb87ec5a44b02c6dc93feef9ff93ad29a1b6c"
+    },
+    "docs/verification.zh-CN.md": {
+      "body_sha256": "0d36160b9d57ad8f86298fbbc7ade610204da7b7a77fea1afd418de9a0e1abb2",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "6c4c61ae918d407506895110331bb5b084f6a7aff6b181f0336bd8c8919a7ca4"
+    },
+    "evidence/measurements.json": {
+      "body_sha256": "1e3d4e5f262d6b57f4eb6d809d69d14a58f173e6aa3a6fe2e16b17534f8dfd59",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1e3d4e5f262d6b57f4eb6d809d69d14a58f173e6aa3a6fe2e16b17534f8dfd59"
+    },
+    "evidence/measurements.json.license": {
+      "body_sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "evidence/task-cycles.json": {
+      "body_sha256": "c7d6fa0180c8d859ae4e0c8a883c5044d34dea5051fedf15e024ddb90c6dcee5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "c7d6fa0180c8d859ae4e0c8a883c5044d34dea5051fedf15e024ddb90c6dcee5"
+    },
+    "evidence/task-cycles.json.license": {
+      "body_sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "integration/src/main/scala/jpegxl/platform/JxlNative.scala": {
+      "body_sha256": "08ea1d918131274618932603c8f3c679a9f3774a4962dccd1fba717fe29c3395",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "4e6d44240a7ef7810755ed64b38f09f255b7f13d1156b7ef48f1c53e51f7c00f"
+    },
+    "integration/src/main/scala/jpegxl/platform/JxlTileLink.scala": {
+      "body_sha256": "1034aa49265c70c4d14ff5dfa38209f6200e026dc8f1089f5348000855ddf763",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "02ab9c4d6038ca4cc204c656cb8e2cbbac32799e1913386f88e83ea145affe8c"
+    },
+    "integration/src/main/scala/jpegxl/soc/CanHaveJxl.scala": {
+      "body_sha256": "dd890dc0b2ff72a9e3402596244b5a1d3f03c79d5a7fc5fab225934fe2e839df",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2bb8858b8bb0ae82da43c77c65772c7ec24cc5d0eb154d5ae3ca4ef71131b8d4"
+    },
+    "integration/src/main/scala/jpegxl/soc/WithJxl.scala": {
+      "body_sha256": "bee692d7315d9c428e4db6d650a2ee711a237b76f240b7ef8da5ff05ee57e886",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ab228bd2a5513e0d5c2fbbdda75f52c7179606f0ac936468bcedbd4f115d46cf"
+    },
+    "integration/src/test/scala/jpegxl/platform/JxlCsrSpec.scala": {
+      "body_sha256": "a2dc9f0e90b94cb28a8b39114e31733cc77d6019627cc89455e17a06eaf3730a",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "3315fb40e3f374e74031e7e4a0b6fffa1f883cdbb132c8e3d97a559c2635946f"
+    },
+    "integration/src/test/scala/jpegxl/platform/JxlDmaSpec.scala": {
+      "body_sha256": "fe139ef94d05378965c1bade1375e8aef46370f8a0d22494ef7ba3baf1181497",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "bc4b5729d8c68ebe2fffe3ab4b2f37ac04ea7d91fac6b497387f79365ab2c516"
+    },
+    "licenses/libjxl-LICENSE": {
+      "body_sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede",
+      "category": "third-party-notice",
+      "license": "BSD-3-Clause",
+      "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede"
+    },
+    "licenses/libjxl-LICENSE.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "licenses/libjxl-PATENTS": {
+      "body_sha256": "91915f8ae056a68a3c5bdf05d9f6f78bb6903e27a8ca3a8434c9e4ac87300575",
+      "category": "third-party-notice",
+      "license": "upstream-patent-grant",
+      "sha256": "91915f8ae056a68a3c5bdf05d9f6f78bb6903e27a8ca3a8434c9e4ac87300575"
+    },
+    "licenses/libjxl-PATENTS.license": {
+      "body_sha256": "3d31f17643ce9f1a0d35450d393a807cffa58f95048986367fbd0d41c2a7b42e",
+      "category": "original",
+      "license": "upstream-patent-grant",
+      "sha256": "3d31f17643ce9f1a0d35450d393a807cffa58f95048986367fbd0d41c2a7b42e"
+    },
+    "reference/fast_boundary_observer.cc": {
+      "body_sha256": "202cf3341e0ab7377540f80ddb9bba2673a6667b8e24e06cad0999dbb44d813d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "946a3839efb05455a42ca1fe78b4aab51fe1be2ea6a595d9f400a483cae279e9"
+    },
+    "reference/fast_chunk_observer.cc": {
+      "body_sha256": "b0efb33676e7aaaae905d5ac5009ac89ebb788116227788735e7ea32fb8b77b8",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "0a084e40a7a821f3b4a178e27e245e8a9492f0ebac16b8a02c41fa91f320256f"
+    },
+    "reference/fast_envelope_observer.cc": {
+      "body_sha256": "3e6db9114ebdb0566804bdbcbf402a9255053c2a95d6dfe0704027153d03cf15",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "84e4b2ed0f84beaa14c04345feb0cacde86247f8f951037df36c917e5e4c0dca"
+    },
+    "reference/fast_file_observer.cc": {
+      "body_sha256": "5ecbbcb12e9a549c9afb3321209950661b7f15236212ce76a1afb99bf671c93f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "56f8cbeaec3b51c0833512e64f9f67c03086a353a9c23aef1769269cf04b6fce"
+    },
+    "reference/fast_header_observer.cc": {
+      "body_sha256": "9b028750f296032c91232e3eb0cfd20bc649a1459088ca8aecb00d45161cd67d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "37761639aace6e3bded110151a7b0832840f92168467e16d0507f45caf6c69a2"
+    },
+    "reference/fast_length_observer.cc": {
+      "body_sha256": "a61b6bd6ca5f4dfd1f934a01b98db4b883f2097a8ee832790f0b5a913f23f19b",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "665a82ddcd92aa447e96813b2181eaba69aea321327908158b25d817de2c9cf2"
+    },
+    "reference/fast_oracle.cc": {
+      "body_sha256": "666aa6feedee50d4c914fe5605fa475f3fcbc998409c456021d2f8370b813f12",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "aac9341fda9bc6b741d1aa8d3d99e679ccdc32d9a2ddf02a1236ab4945b253c9"
+    },
+    "reference/fast_pack_observer.cc": {
+      "body_sha256": "9019f9b55703bc1df5622b6cd0b62f51fd1c610d6956f8b0cf75d9acd6ea18ba",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "0713d7307a4949eacd2b84d653765c00036fae283bdb3356f680a2791b700235"
+    },
+    "reference/fast_payload_observer.cc": {
+      "body_sha256": "411723bed75c169dc589ef12dcfca122837ac3df4fc49f7db9a9e1d071228ea3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1df45c5052b4244efb7d72367b3157ba129c88727604749acd268586a06fa80a"
+    },
+    "reference/fast_prefix_observer.cc": {
+      "body_sha256": "63f34c3644c2f24bd4af96a7ffe3ef55386029dbcaebc89d70fbb5b673f25cc5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "41521346cda1ab40db0e409d3e2b51080129e2799bd3e31083ce6da4b8f0f959"
+    },
+    "reference/fast_run_observer.cc": {
+      "body_sha256": "1b5ccf10446982a5ff425678d28f824619248fce481203969a759baa1e4862dc",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ff5e64a3a20f0cd486c4d8c9f785741a916e30b72154e5e8d8d02d3c2cb9940c"
+    },
+    "reference/fast_statistics_observer.cc": {
+      "body_sha256": "db8f01812c0fe58d7a3e536d7644ebf97c6d99464bc5086e510a69d8c49ecee7",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "0aca5dfa50817833fee91d64eb9629585284d7de5128d9c833030a42564d8a6e"
+    },
+    "reference/fast_window_observer.cc": {
+      "body_sha256": "c86280c6ee8f1be337ad22b86af78ebe46628744a032453b47f83befb72b5b92",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "d6295f6394837e853c939c2a55c2869bf094ca6d13a5919efeae937923861aec"
+    },
+    "rtl/native/FastBitPool.sv": {
+      "body_sha256": "1f7d531209c8c4828aba21ec8ce78774d59db33b1e8c8f88330939c398afed3b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "4e1f21a23a793be823cb8bb66c3a4d096154a73a2faa3e4e204fd7b1dba2fe0a"
+    },
+    "rtl/native/FastChannelCache.sv": {
+      "body_sha256": "637e2e809d0673132ff282996b3c13624a062010ae2ac945b575d507b57fd88b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "201d43953965abdb75381cde588122cee7cca729e7b1c638074f71baa68e140f"
+    },
+    "rtl/native/FastChunk8.sv": {
+      "body_sha256": "7464d2d293eb112afdb9b840966f77a88c347c92dbae870002673f7eb0c7fb40",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "dbc89ab0157cb9ba621ef756edc0cbdb523dcc481c6aa53cf571021d4cebf3f9"
+    },
+    "rtl/native/FastEncoderCore.sv": {
+      "body_sha256": "a86adcecbcb9b8901e2a2f9365ee51c841a54700e8892324b6c98ce6d5f096d3",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2af6cac5957d8ad9500c95b2d55ae16f64b9324d4d74a7740521f7b0b015f512"
+    },
+    "rtl/native/FastFileHeader.sv": {
+      "body_sha256": "155e2f82b8280139d8398af7a192fb355ff962beeba96f96ad3b121ef35e7416",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "979b1ee97672897c29287334257381e04cd499029693ad33cac5fa8484a071c7"
+    },
+    "rtl/native/FastFileTransport.sv": {
+      "body_sha256": "0e1bea9871a8b91ad078c762eec9e7c3cc2bdb88289f9e56c836b7ff9da8c40e",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "9184a5e1269839c2ff0f441e3dc407e48342137382683395c0683e454706fa3e"
+    },
+    "rtl/native/FastGlobalHeader.sv": {
+      "body_sha256": "bf5e279e44de18faae03999ab3209fc12c5eef215a3d1ca224bd90156c3ae195",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "186c25754a750cb08eedfb662cd701b0682aff3d1527a7857b220a9e7ed5fe55"
+    },
+    "rtl/native/FastHeaderChannel.sv": {
+      "body_sha256": "5f6ec411512bd71f1f5a2e3c7a9d92a4bd1cb5d2ff3ec39c0bc15778324520a4",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "749d2e2a9cf160bfb5dc5f216a7a06f1eeca85e6ccda32159e91283a13dbff64"
+    },
+    "rtl/native/FastHeaderGroup.sv": {
+      "body_sha256": "f96a24c3b1cc313fa0dfd4fdba0913feb4fd0caeb5a07d37fc29d789e79f3720",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2663c8f0f06d28611c17d7075644b11c4c7c5bb0c87a312341c43aaa1268042e"
+    },
+    "rtl/native/FastImageFront.sv": {
+      "body_sha256": "77daa35e0c264cd5f8aec92de327b68c7fe4cd7b6832c1e52026986921e23496",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "71a6d886dfcbf827a5423c1c55097e3fe73506d56b51d186ded5c06f7056bd41"
+    },
+    "rtl/native/FastLengthLane.sv": {
+      "body_sha256": "8007d41bca5ca4cd62719d349328d9154f348033716bb1347715666bf3ffc0b8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e80000f4f00075058285d7904337966054c1037e05f6ce75383d9ffcaa8e53a2"
+    },
+    "rtl/native/FastLengthLane_256.sv": {
+      "body_sha256": "2fa299eb87a147e31583ce9d79c3c696e5b1a9684d2ec2564e4beed4376da45c",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "afffee1b86b814616f9fdfb323599a3bb8d60285b5cad00f12a01527751f7ba4"
+    },
+    "rtl/native/FastLengthRow.sv": {
+      "body_sha256": "f5b64d49811fcde32a8e34643d98fa5593115b34a175f75a816a89e519e04780",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "fec15383a19d62fa11435d2be6e770efb2ff94cff59dd89a0d7c13d2b83c05e6"
+    },
+    "rtl/native/FastLengthRow_4.sv": {
+      "body_sha256": "a20cb1611733117cace3cc518e04fad5f52055b9aeb2402bf48b34516addeeda",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "7edd5fd70742d124171f06d12edf4197039dd883b522512ef3c5aef061771176"
+    },
+    "rtl/native/FastLengthSolver.sv": {
+      "body_sha256": "b3970a58a8701b730a6799b368a14c91d502e0553f888c34a644cd57a79afaf4",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "4f268dfed31d97a678201eb1413a64a6e936e30ee6f3258d363745e7df162adc"
+    },
+    "rtl/native/FastLengthSolver_4.sv": {
+      "body_sha256": "bbb45c40920bc2bede9fb18524ca8ed7996f0a348be758f892e596174ff7fc98",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e613400132bc434494bfcd2d04df3850cb64a5c132106b592609b02eea5530ec"
+    },
+    "rtl/native/FastNativeController.sv": {
+      "body_sha256": "16eb60d92f4f16479a18b5de9c8d2286d7932c229d717f4267559dcf5b35eaf8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e00bc354c03f5f23112837520d43cd89bf78fc4eb3ce0a0bc2a733e679818ca2"
+    },
+    "rtl/native/FastNativeEncoder.sv": {
+      "body_sha256": "ff78b028dd83ba4b0c4b5621a36234e22d48ccc93409c85f18a1e75bd77a488d",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e53b105b4307f7739b5326394f541c126518e4eafdec92eee9361676c5ca535a"
+    },
+    "rtl/native/FastPixelFront.sv": {
+      "body_sha256": "f55329c4a7c67b311d8165e102c259de9ac1da61e0a6b446af3a2f1bb8180919",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "ece236f177a83cf271fe4c6c0fda9404e2447244e5fd076edf16590e82991e1d"
+    },
+    "rtl/native/FastPixelWindow.sv": {
+      "body_sha256": "0a25b8230c472f267c6cd4ec996f8d42eb02099cbea40a2ec5d1fa75b3bf03af",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "a24ba50fa3911954b4272700cfa6a3083541a65856a3b353edbe81a2217fc312"
+    },
+    "rtl/native/FastPrefixChannel.sv": {
+      "body_sha256": "3ed16f3cf320fcdbfb84478cb71c99234a5dce95bec9018e0dcc8db3cdd58124",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "32b7fa82e6674e2405b0155ba77860806b3e423caff962bf1afc0b495913d7d9"
+    },
+    "rtl/native/FastPrefixGroup.sv": {
+      "body_sha256": "1cdeeab622bb19128733395f6b648aa739f70f6ff45d62adf7e9d9a95d6a3b45",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "54d85446581990705c769c9236612b00053be0c8185b885e646b3c910ac8c825"
+    },
+    "rtl/native/FastPrefixMemoGroup.sv": {
+      "body_sha256": "85869d2068478c90004ac10c7890f1e2c86084677f4838cd68bc7e82b31ba279",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "bf372103eab9396e998317c677ad447c5da9870728264f358731372b484fe203"
+    },
+    "rtl/native/FastRunPlanner.sv": {
+      "body_sha256": "c5715b21e87327f24c08d6cf94879185f05903d3590480b276a33ef02417d928",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "cb5c985bccbd612436e664178536ac580374848d8c391dcd0ed1b1783ae9e2df"
+    },
+    "rtl/native/FastScanController.sv": {
+      "body_sha256": "44931c8890402da112b7f8ada7f169f16bc24a223529f8100444af5ba28eace1",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "c83ebbc94d96d063a93bb8e839e6257a61923af2763c04602db265cb75012941"
+    },
+    "rtl/native/FastStatistics.sv": {
+      "body_sha256": "89bd9a8a12000d942f7c9cb0f92d06958bf0c5808367849dc08e1456ad7d0d52",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "ad1c1d1d668185a13b363afd4664f23cf2eb084fce019996993ec25a8506d602"
+    },
+    "rtl/native/FastSymbolPack8.sv": {
+      "body_sha256": "cde8b06c52943356355273e2f5c5fdc049b624e448db6d125f19d3d24e6335c6",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "c887249071503a7ef54157690b8b119713288ca53fa3b6d26c3b8e589e517791"
+    },
+    "rtl/native/JxlFpgaAdd24x2.sv": {
+      "body_sha256": "a9e5e0521cb4368ae308382858fdb8ef92ecab9907f5a384a6c051d7e0b7841a",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "bc5afcacfa514857695f6a4fc368f9f04072bfb2407f49a845eab15eb0042177"
+    },
+    "rtl/native/JxlFpgaMultiply12.sv": {
+      "body_sha256": "1057537b225a4d2ddeb5e98b8a2b4712a2b5ee0aeda9508113dfd9015b867261",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "abb11ac13ece253d15c7737d7cf0985e31ce4c3c061c89ed2ae720d295841906"
+    },
+    "rtl/native/JxlFpgaSyncRam.sv": {
+      "body_sha256": "fe4358f3e2d34d2797ee43096ac52b92df778bea52479b503554b82d86a9cc3a",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "cfc66d899a90960ee4a6810ffb7fcbe1f21ef0f3f77cc97a3f2e3e2b0fbe3ebe"
+    },
+    "rtl/native/Queue1_FastPackedBlock.sv": {
+      "body_sha256": "2efd29d60defb328dc23cc43758e88bebd7826e9e2330b2a971e675245f3e2ab",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "cc1d7f4c358ace9b7f04989c2e4dec80208d38eecdcf1b2ba12cae5aa9aca7dc"
+    },
+    "rtl/native/Queue2_Bool.sv": {
+      "body_sha256": "77304a7dd481b1a2b9aaac1aa54c8f5e2bf40c3d9da682a1e695f4434063e744",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "426008fa08b7fd61ac33225de9a3d205fecd416401b49bec0b7a3841118a4472"
+    },
+    "rtl/native/Queue2_FastNativeCancelAck.sv": {
+      "body_sha256": "8cf89ac61e2154e29f822d90e9c6d6b456cfd50b54989ec2407a3d90e84df752",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "83241cfb2725e9bc6201e9a5c60bd1b49aff133ce38755a86ccdcc17b31c8a53"
+    },
+    "rtl/native/Queue2_FastStatisticsResult.sv": {
+      "body_sha256": "b61d6969c9f4382802890f8cb7f2ba62edccdf535c7b2ecbebb4cfe7f6accd06",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e8695b28f7f08c8a035642524ada5965d2ad7791393dd6abedff09d968a3e665"
+    },
+    "rtl/native/Queue4_FastFileSlice.sv": {
+      "body_sha256": "4ae7affca4692dc29f171d69edfc6934e52ff3b2ef27a1d67d9f0bdd2f2e8dc1",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "5be7998d6828b9baa889775258ca99e0d1ee45619a5b75b45e3eda945e48fc59"
+    },
+    "rtl/native/Queue4_FastWindowMetadata.sv": {
+      "body_sha256": "40f05d035ab72effed649e633c9b162f4d84c1e335d162e004afa8c91e50bc62",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "5793263fac47d95d644f1c178371038e37699cd427c41f7e14ecaebcaad7215d"
+    },
+    "rtl/native/RRArbiter2_FastFileCommand.sv": {
+      "body_sha256": "8aeb8054ef04a87569a5dd1f10ef7910732c51b4f086d6367a2296f7abd95d27",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e9feedaf9943ac2cb3b740acfde7227ace1c1cdc8181c62424118dd939063d98"
+    },
+    "rtl/native/RRArbiter2_FastPackedBlock.sv": {
+      "body_sha256": "61b10282d899db3eb0d85b293564c916e96fdaf8ffa6606e8285bf77b17b42a4",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "40fee1d9381fedd71adb18adc6e8e0c409ad9965c19443db90368f744c2a9ff1"
+    },
+    "rtl/native/RRArbiter2_FastScanCommand.sv": {
+      "body_sha256": "c894e7db14469d56bbd6547081bf2d7d16bdf810f0090efe1967de724c12c264",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "26aebd85b2e101e8f0cc9f0ef98c241a92ecf316369209c0d4961101176e7c89"
+    },
+    "rtl/native/RRArbiter2_FastStatisticsCommand.sv": {
+      "body_sha256": "67e48cfcaa7f648ed39bd5eb95219def5cca0965bbba457cba3d654de7ea8d82",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "6c582f320247ebffbe5168c2831bd15c5bf612eb4e33c5b70e92910c52f0caec"
+    },
+    "rtl/native/RRArbiter4_FastEncoderCommand.sv": {
+      "body_sha256": "71455dc589185c6166e314f2b2f2a6eb98b6775791b9fc93fcafd8e52b99c391",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "87b81826af8cccfbec1c8992fce59c051e0f5c41b26939c480ff6cd07091fc0c"
+    },
+    "rtl/native/RRArbiter4_FastNativeResult.sv": {
+      "body_sha256": "131e1421afd8ac1cf7961656f44a7346092ce807633986c95f4ed1efc8549f53",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "5e0b262f0eaacfe752450cf3a25f70af7c97be93565c3478268323ef4cf81e78"
+    },
+    "rtl/native/RRArbiter4_UInt2.sv": {
+      "body_sha256": "3b51089f6a323a228746db8f3e6afb9c0f746712a6a9e6841c8e1e990d77b680",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "10f9af1327a52d9108c4ca8a5e97aad51632219218274efcdc361d9cdac86305"
+    },
+    "rtl/native/ram_2x1.sv": {
+      "body_sha256": "93a944993befb393177e038350b9cf21dca159296b716f63a05ef9f7044f4295",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2555128f709279508385a68fafbfb422061b74d2f93a639a0d4b42e4a9bfcf63"
+    },
+    "rtl/native/ram_2x33.sv": {
+      "body_sha256": "85e935e6427e281cdcf95c98f1450da48d1df91f825ead33deb72daa91552583",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "891ee5581c0ccea8b68f3906367084e690262de1217a58a87e5974a25a3bef56"
+    },
+    "rtl/native/ram_2x3790.sv": {
+      "body_sha256": "a711a0ce8ea21d36b059b6de16e143da6dc58270ba6e2daa6550e1c496fc50bd",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "7339d402fa72dadcea81fc92ac444a0fb54b5f0a588435baa09a9641bf316257"
+    },
+    "rtl/native/ram_4x140.sv": {
+      "body_sha256": "30d135099b404d824f1c373d2a5b901fcbbb321ed8fc7654d164029b1794c4ac",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "fcd703b99b2a75c97544340b464528140cd3a8b5362dc2d232284beae07d09cb"
+    },
+    "rtl/native/ram_4x4.sv": {
+      "body_sha256": "07a4c61e5979e64f1353e4489a477a506cb7e97185810f88555a015857eeb720",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "a6358859e42ed1477c98e6a4013fe0e1fbaf0654b5eb84cbd1c9665618ef34d1"
+    },
+    "rtl/native/rtl.f": {
+      "body_sha256": "b8d4af040760fefafe9d3704c0896031909a076a60025feec97eae9381963f25",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b8d4af040760fefafe9d3704c0896031909a076a60025feec97eae9381963f25"
+    },
+    "rtl/native/rtl.f.license": {
+      "body_sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "rtl/native/verification/assert/FastBitPool_Verification_Assert.sv": {
+      "body_sha256": "a463fb7254980ef3573a30b7d24149185d30b22fab067595d8f00ef0d26a7750",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "dc26b1bb1e3caf499645bdab2984617351bc8ee04dcdfc30ba85357b8c3144fc"
+    },
+    "rtl/native/verification/assert/FastChannelCache_Verification_Assert.sv": {
+      "body_sha256": "9cd8174afd85be28a4b16d5d0cc6a3b99ad58026af69391bc53ffb3f0c8b70d3",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "4af7b3e940657fe2584c0165a0c0a8e872f144b33d1a6c972683facd4aad1c7a"
+    },
+    "rtl/native/verification/assert/FastChunk8_Verification_Assert.sv": {
+      "body_sha256": "78c63a14e4777886de832b54b3770c4ef92c1830ecbc30e02f6ee31872b27140",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "d5f413d37bd7b6c96cfc322a7fb5c0d589fd5e904f901b8c4b5314a52b30279c"
+    },
+    "rtl/native/verification/assert/FastEncoderCore_Verification_Assert.sv": {
+      "body_sha256": "9b77376a8917316a52f405899c7db02ad631b7e97fa4e2d86a4ca8c2d2873c25",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "c573be772385b29c69220d97f7c74b5d79dddd58ae68bfc092856b918e847428"
+    },
+    "rtl/native/verification/assert/FastFileHeader_Verification_Assert.sv": {
+      "body_sha256": "42d11525bbc5b118c6cfb71474a45fc57c13ddb95d45242edb86bc90424ff5f0",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e3c4a984798e8fc5e2f10788c3c91711aa4b0ab458bf136ddd538da736eb146a"
+    },
+    "rtl/native/verification/assert/FastFileTransport_Verification_Assert.sv": {
+      "body_sha256": "e8a9a89f679f71c6e4a83aec53d5f7075e817ab0d91e9d7d78efae8f3877ee01",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2de8ae10bc195777aed21e3cb8a4086a562f6cffc720c36c72f1606f7e914c0c"
+    },
+    "rtl/native/verification/assert/FastGlobalHeader_Verification_Assert.sv": {
+      "body_sha256": "f082beec1d14ea4013633d8ce4bef9e3e377967e1279ffd601e6ad0f8e73519f",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "4a110d7ae00cc813a263a4713ac58f131a379ca0107eb74db2e7e8411162098b"
+    },
+    "rtl/native/verification/assert/FastHeaderChannel_Verification_Assert.sv": {
+      "body_sha256": "a981ce2872da1ef4b420f269c6595c5cdeecae404c6a748f3bd27284647d4192",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "30c212bbe70da28fbd6875012ef1e62f74c9b8b122ece543eb70bffb2ff4d7df"
+    },
+    "rtl/native/verification/assert/FastHeaderGroup_Verification_Assert.sv": {
+      "body_sha256": "12d28c076809898f0672f8f4b9712dc147689310d6b8d7b2163c2772aeb62929",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2d21c449de54be537f773ce858c9fb879dfaa082455e582dd539621467f5834e"
+    },
+    "rtl/native/verification/assert/FastLengthSolver_4_Verification_Assert.sv": {
+      "body_sha256": "2b3925b261f8933df43d7f306f19ed82ce4af8dceebb31fc3f10ee348262baf4",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "7999a17fb0fddb6dc5119f4f4deabc9c6626a8a2d72c974e59bad487fbcc6f1e"
+    },
+    "rtl/native/verification/assert/FastLengthSolver_Verification_Assert.sv": {
+      "body_sha256": "a077294bd564f5b6a653cc3b93e9828d63e57194c5b4c44109a4bd4d64751cc9",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2b8ce5ed943cea4a4066b5e5b4da841ed54ef451c858d3d58bba8a6e296ff313"
+    },
+    "rtl/native/verification/assert/FastNativeController_Verification_Assert.sv": {
+      "body_sha256": "08de87d461eb176bbc0e684782d48f944d7136fc0a45f03f6e559d989ea5927b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "ce1f8be0905871029a1a7297a6e8cb47aa41261d65f1aaee495cb2e46498d6cf"
+    },
+    "rtl/native/verification/assert/FastPixelWindow_Verification_Assert.sv": {
+      "body_sha256": "6922c85d1642c993e8e280416942ef68db577b8e367f93fceb635ffd1013252a",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "ee273b0016cb6b63d4a7b557e449cd06c3886562fd6c11f8ba73349fd0702408"
+    },
+    "rtl/native/verification/assert/FastPrefixChannel_Verification_Assert.sv": {
+      "body_sha256": "defa550c965dbe01fa5942216552081c17bbb7f08cb7323d276660302813a3b9",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "62c1cda648526fa588b25d088018d8f3062e97e7aab78ed70713184af6991906"
+    },
+    "rtl/native/verification/assert/FastPrefixGroup_Verification_Assert.sv": {
+      "body_sha256": "6a43f1a6b6d9d6c73d276659021b9dab4f62ed2fbdb5d9c9daf8361eb0be84f0",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "0f306f4dcef8bfe16731465bc0990d7f5ce6f0ef92d28ebb17e8d1274fee4b4d"
+    },
+    "rtl/native/verification/assert/FastPrefixMemoGroup_Verification_Assert.sv": {
+      "body_sha256": "0d344d03f0fd7ccc91dd2857f78c5a520c548041819fb85d3f028523f12d236d",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "f2c9729fbeac5b6a1482a60fcb05b876445bd89b3137c4d985e2c4c7d5b03571"
+    },
+    "rtl/native/verification/assert/FastRunPlanner_Verification_Assert.sv": {
+      "body_sha256": "b0d6c23473f791efb487a88836bc463885fe039d36a1a57c90e5d61b69600232",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "640f548d4a49d70654ad0845661aab3b01323ad08ab8309b2ca658eefc3e729c"
+    },
+    "rtl/native/verification/assert/FastScanController_Verification_Assert.sv": {
+      "body_sha256": "154b21d435aef718efcc0b6fdc2e997a2b4aa5b07cd8c004d7e54e9cbbfdbbc8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "7112c031ba53ceaea481900a1d4e03eb911e54ffe06dbab4022b613e4abd5fb9"
+    },
+    "rtl/native/verification/assert/FastStatistics_Verification_Assert.sv": {
+      "body_sha256": "3be6ce0bef8be81f4de0df652b7088b8a7e60fc4881ebaf0342b3ae2ff8177a3",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "d35871062779b67f003b77441524dbaadde614412dcb1ab87951e8b33abbc1f6"
+    },
+    "rtl/native/verification/assert/FastSymbolPack8_Verification_Assert.sv": {
+      "body_sha256": "08e51d166c1b0b1dcc5f3089de8e7142f42095db3bd2d1346eced8c1bc40ccb1",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e1e960f23e79748381d5fa365f5495007075ff2e2311905eac5299de2023031e"
+    },
+    "rtl/native/verification/assert/layers-FastBitPool-Verification-Assert.sv": {
+      "body_sha256": "155389fc205e78e983ca9bc78cd8e2fc5bf3d54451ce84bb8ac25138906bbbd2",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "7530134f699662e86564206a747e710d415a0113e55aa6761254fdb3a24c8757"
+    },
+    "rtl/native/verification/assert/layers-FastChannelCache-Verification-Assert.sv": {
+      "body_sha256": "a62e1f59169c31bd2b172b037b4b5957d9dcc37b78467abd4a74a368d46348ea",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "0b85f39be7c1fe59fd472a2270044ac70b2b62c76c951633a61d38d8c90755b3"
+    },
+    "rtl/native/verification/assert/layers-FastChunk8-Verification-Assert.sv": {
+      "body_sha256": "88a991da5ac2ffaa8a76a66285f744455a5e1f2f80f4665fae31f7bfde12aeff",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "4b5c951b2332dee1e5551a8679e6a8d221c38de1f5b6c4d29167f6d506f0be70"
+    },
+    "rtl/native/verification/assert/layers-FastEncoderCore-Verification-Assert.sv": {
+      "body_sha256": "253cfe0cd1f51ce61369baf72820f70194dcda63185f6b6a0d4f632df461533d",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "82e71943f3f83430c46c04007e4782ca88ffe1e110f02538d512d001335d6275"
+    },
+    "rtl/native/verification/assert/layers-FastFileHeader-Verification-Assert.sv": {
+      "body_sha256": "8ea59a3024a3ad4f9262aeb1ae25ffe400aaee4ab023c0eacc92451adbb52c9b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "f8cfa0910e4738f6edbe11298a4141256f858eed8163b3521a84e20eac229c1b"
+    },
+    "rtl/native/verification/assert/layers-FastFileTransport-Verification-Assert.sv": {
+      "body_sha256": "8a145ccc0d603829e6997c29d7a3b836a264c6b4ab948417a0c835e2ca39e60e",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "5ed4489828749b89430ee36e0a7812768498a99ddae67371ad40cb8b2bcc6559"
+    },
+    "rtl/native/verification/assert/layers-FastGlobalHeader-Verification-Assert.sv": {
+      "body_sha256": "923271cd87555f4998079e176c6fcae29fa0033c872962d89ca3b31b9c752fcf",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "da9cab5e1be655d48e460fb1a6d09ee51932f16e7d68799af333ebab3396e77a"
+    },
+    "rtl/native/verification/assert/layers-FastHeaderChannel-Verification-Assert.sv": {
+      "body_sha256": "b5dbbc217e2446f0fd2d93a15fe4df8e3d10356ca42efa6c01655a72c38abf29",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "7ac28d21b9e234a9ff5cfc9b974579cbba7fa99460c0f5ce213e738693b51126"
+    },
+    "rtl/native/verification/assert/layers-FastHeaderGroup-Verification-Assert.sv": {
+      "body_sha256": "19dbe3972539dd1e90dc603d5f99a8986a61be2483030dc04d25749dae3c148c",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "f0e0baee0f81fdf4937f2305b69564f57388c2219ad0edd8ee93b8e989d99340"
+    },
+    "rtl/native/verification/assert/layers-FastImageFront-Verification-Assert.sv": {
+      "body_sha256": "954610140720a588c9091c8d4cc9f1be53d11e38cfc8420c5ea1a36e6a3c5a4d",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "880143cb035f1689643f7d861b97f9ab76d62ddb28371e869ade17c173938df2"
+    },
+    "rtl/native/verification/assert/layers-FastLengthSolver-Verification-Assert.sv": {
+      "body_sha256": "0b8e0da0b88f1d30aa3f9e27fb8f33fcf441deeea65c0323ec4ee3d2a1e7965b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "dbed5f73dc210ad4f3bb73841b7fdd5c86675438a448d274efb2b58cf7abfb3d"
+    },
+    "rtl/native/verification/assert/layers-FastLengthSolver_4-Verification-Assert.sv": {
+      "body_sha256": "d92f79194cb2f3e74092f054fd81748aae240c18ef468522145f84c26b873eea",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "c51a433bdf3037ebf59b53c6737566f96fb1469a8ae837794e257142337a47e3"
+    },
+    "rtl/native/verification/assert/layers-FastNativeController-Verification-Assert.sv": {
+      "body_sha256": "b3350f6183e6fdad861f5a7cec4f54bfe91b80f20dcb810913d8231333dfdab4",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "f6a15bd104f370bfe22fe78249d9d31d7318bce011bd9e36251cd6182aff4130"
+    },
+    "rtl/native/verification/assert/layers-FastNativeEncoder-Verification-Assert.sv": {
+      "body_sha256": "7a3db6cf693feb219b819b19b661ba74c1df9e5be0388aeb7e36b7771049df3a",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "8c736314133c07dbd0c8ee67343f4143797227599e6b076e7835866fe0c32d25"
+    },
+    "rtl/native/verification/assert/layers-FastPixelFront-Verification-Assert.sv": {
+      "body_sha256": "a9d1aca01bb1d0522ae8a2603bfa664987e73c4217aa94e126828cfd2ea0e034",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "b8245ce52cb3f3115d21b424056a4c3fa35f2a7295081e4631bb443186b919e7"
+    },
+    "rtl/native/verification/assert/layers-FastPixelWindow-Verification-Assert.sv": {
+      "body_sha256": "0a2efece726b231b1e99e2d2cd13933e84faa59ca663d9e2c665c2d16b1ba1f3",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "cc0c204d034b64e4e87c367b35b205f8da58b305160c117d066f32ea85e5cfcf"
+    },
+    "rtl/native/verification/assert/layers-FastPrefixChannel-Verification-Assert.sv": {
+      "body_sha256": "f7eebd6c9ae504dd224a3447e866aed71fe67b75eda28f1351a270acc17e447e",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "3a7ae1fbb4fc232a10133356be1b5da2c4f4315e2d6f20c1c31f76de15d42dd8"
+    },
+    "rtl/native/verification/assert/layers-FastPrefixGroup-Verification-Assert.sv": {
+      "body_sha256": "802b095d50fd4eb66f57a47b8e9554e22686ed7fb4b19cbbc342d35bf223397b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "e0730bf5851f85b8f41f88a4e5b5b6f4ee2b5a59eb8fdf62dea308572bcc0c6c"
+    },
+    "rtl/native/verification/assert/layers-FastPrefixMemoGroup-Verification-Assert.sv": {
+      "body_sha256": "6b8278ba29f4a525c341e1f04627ad434c433251544ea6beca1b619cfa0cf422",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "47f2cbe0677f01766b919ed16b1648f82a9b9d22bd8f53a174fa3ede015a4b1c"
+    },
+    "rtl/native/verification/assert/layers-FastRunPlanner-Verification-Assert.sv": {
+      "body_sha256": "c1c00ef520bfa5c1eb118755a742edaa43717ceb59181e76c871112a468e49f8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "3339666821df1dee576534cfb117635b76a0fc77af5b7ee295c0bbb6cb744deb"
+    },
+    "rtl/native/verification/assert/layers-FastScanController-Verification-Assert.sv": {
+      "body_sha256": "0ad33b90277c03e3809bd77f2eb8a35cfe297b020e93cd440f1bbd47c4f842f7",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "43d5f0d8e5761dca1e1ca966ef29e7820549185fdaee8d2e8295875c6a61fd75"
+    },
+    "rtl/native/verification/assert/layers-FastStatistics-Verification-Assert.sv": {
+      "body_sha256": "58ca4f049cdacfb1e37b92d80542075a79c965b79c654a065d7de65f060cc498",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "0cdfe8a02b138fe3e2a46fe8d1acb09d71fe8d549f109fe3fc7f146a6add9b5b"
+    },
+    "rtl/native/verification/assert/layers-FastSymbolPack8-Verification-Assert.sv": {
+      "body_sha256": "a4a090aa43b232b92cce204150b4cfba174481f7a0ebd9f50f8c90d8e521bbb1",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2bf75a99069b33aebc29839279ec7162282dc265210c6baca28034de2fdb638c"
+    },
+    "rtl/native/verification/assume/layers-FastNativeEncoder-Verification-Assume.sv": {
+      "body_sha256": "2a879ab11c8b38b71e7530fa3f30f39e9531741338d78bd15a385450574f7922",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "9b9b81ef895cec19f056f6a61cba86717dd8cd571c1fc693c13db0b416dca63b"
+    },
+    "rtl/native/verification/cover/layers-FastNativeEncoder-Verification-Cover.sv": {
+      "body_sha256": "8cf0bf862f41efc293eb1c8e7e37a922bd69ed89f53ee92938ac4f5969e41b60",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "f09af8578c9c37864f59e5cc3eed1a04ea169a8d8141644e69e58543f51c30c4"
+    },
+    "rtl/native/verification/layers-FastBitPool-Verification.sv": {
+      "body_sha256": "b0a81687da826177bc6c39826cd8315d9273670990d780daa9b38baccac811f8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "eae369eee9eb80d65a3042f04ea850123cca8fdbd64886754de35b1967acfc62"
+    },
+    "rtl/native/verification/layers-FastChannelCache-Verification.sv": {
+      "body_sha256": "b4ce46ca46212aa10d7f03ad81e992eca44dd434e657f931ca604bc108895298",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "8ca63e3c2b89b64d39455cc64c89b0911017a6daf66797d217498f175ae00a19"
+    },
+    "rtl/native/verification/layers-FastChunk8-Verification.sv": {
+      "body_sha256": "ab6bd9cb0f58d5dd37df8536ee22670527ff3bbf8ed1df03e32b73e03d8b5630",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "d3c605bac6e515727e359edfaaabc5e7b630794fc499c5c7738930cde836c6a6"
+    },
+    "rtl/native/verification/layers-FastEncoderCore-Verification.sv": {
+      "body_sha256": "458b5c1fbf536d41d9b7f3af3abd88ff62701a6525bbba98f773073666777123",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "d29f1a63db2e51d15649afaadb8839cb6961fd11eb3d245ea328f0233a76feeb"
+    },
+    "rtl/native/verification/layers-FastFileHeader-Verification.sv": {
+      "body_sha256": "301f190b55b24289f9a9cfb11d783cab86d3b080270ac062a65f0040b6935025",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "084f5f75933cb7b58b769fdc9dad4d107d095954394407235f0544b8a29ad051"
+    },
+    "rtl/native/verification/layers-FastFileTransport-Verification.sv": {
+      "body_sha256": "694fd7502ddc6ec595e6e0509d6af565c42ccb7703b7be2b4d4a932314f17a36",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "a07c07650fe353b8deb5dd77d0eb8e1ea6348fd7990df54dca21d05dcced4064"
+    },
+    "rtl/native/verification/layers-FastGlobalHeader-Verification.sv": {
+      "body_sha256": "7ce05b2a22c3b7182d009e6cb997690fc6f68e6fadb246a1e81fcaf2a8c9f79b",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "ac1234ce16cad6663106cca7966843f7178d5cbc1341630b9daae9d11bc9b551"
+    },
+    "rtl/native/verification/layers-FastHeaderChannel-Verification.sv": {
+      "body_sha256": "b659418b3953212d99af810e4a4c4b171d869ef3501adbbd0fa7624c0ac8efbe",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "b2529cadd8b0e37f1ce7f9fef3ff105cea18c2e5dcb0b8106fe39bb72e0d330d"
+    },
+    "rtl/native/verification/layers-FastHeaderGroup-Verification.sv": {
+      "body_sha256": "45a36a9d8960cc8639acce2fddcc8546780fa221d3ca905699dc33e33d1c6454",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "c490127357ec6e7b8ddf722d2abcc4d339a676c3935ed25e4d42d99f3343f059"
+    },
+    "rtl/native/verification/layers-FastImageFront-Verification.sv": {
+      "body_sha256": "dd15c2eb9e38d95c6f170708be022aa05f8887db1deccd0f6672978abe2f7956",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "9c250f0140059d561fbcab13f255ab17d10b65734e4e49589117047d12f05bdc"
+    },
+    "rtl/native/verification/layers-FastLengthSolver-Verification.sv": {
+      "body_sha256": "e9517ed8c40ed2c10d52e26e62d82f616ba329500a563d5b540930bd44aec58c",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "25c3eddf6fab809a6dcaab24b60a4538da0450b1c9ca94d76ae95a472ce597e1"
+    },
+    "rtl/native/verification/layers-FastLengthSolver_4-Verification.sv": {
+      "body_sha256": "26a42809ad7888273e1470d6f1de815759b35c02c26a0012c1baa2688470e0d8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2bc09b877c69ed58ca6d5c187e0be346fdb664c856b11c22645135bf6438c798"
+    },
+    "rtl/native/verification/layers-FastNativeController-Verification.sv": {
+      "body_sha256": "b05181f0c00d84ffba5507db055ece6d89639d0b8362af8606fa890d404a0213",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "69292eabaf53f15a957ce30d2abebdd6a7ee8a5d1f5a7e5622063d0f3d56c993"
+    },
+    "rtl/native/verification/layers-FastNativeEncoder-Verification.sv": {
+      "body_sha256": "492b0c72a817ddde220a201e033db8fbf9d6a47dd9d16dd0af751e0b7081c274",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "a16ab0abce351743d4f7a4448c487b2450e2766b4016561421176691518725c9"
+    },
+    "rtl/native/verification/layers-FastPixelFront-Verification.sv": {
+      "body_sha256": "8990bce83bfb16bde66bc149460757b45a3f0053d6e2cbbcff3c899d841be20f",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "877f89717faa7c40f999c88c2f6ed4dd532ec2556b2749c7d18153ce79e82495"
+    },
+    "rtl/native/verification/layers-FastPixelWindow-Verification.sv": {
+      "body_sha256": "dd6926acb9b82ffc2b200af85fc92160a2fa90880b17c20f54222d6bc4fd5da8",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "6c4702f847cea21810deeb23f857a56ff5ed321bd384b66c5c166421d30a116c"
+    },
+    "rtl/native/verification/layers-FastPrefixChannel-Verification.sv": {
+      "body_sha256": "9aabf7b7af3a46afe82d09379ce366c91ab71bb273bde4c77ae9962d85013e03",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "bc083ac73a186f03616f723763947cc6527cc4d6b57a7038cdfbc09d2f90c418"
+    },
+    "rtl/native/verification/layers-FastPrefixGroup-Verification.sv": {
+      "body_sha256": "0a9bc3eb6d5eca998b35af0e326b429ec02a2161bf4cd6804b9a4b02e5625f34",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "b594cdcf48a4d6314b7ab94aeb5a45fb30cc785a9e1c4f8ba6aee713c8bcbfa8"
+    },
+    "rtl/native/verification/layers-FastPrefixMemoGroup-Verification.sv": {
+      "body_sha256": "3a2736cc9faf6c89fb57ef2de95351b2b7304740255c737b0061f6d65bf1e2be",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "502cc20c3f25e59ab21d4a777cdedf0f5b4772da124f4a416152d790e12079fd"
+    },
+    "rtl/native/verification/layers-FastRunPlanner-Verification.sv": {
+      "body_sha256": "692de021eba1092702e9b463432c813d4e91ddfe1e7996759455ccbb86d9f6ec",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "119e47bb36954d7573a3cef6a08f9da3e4b2fd7f6d53c012e22d70510d37aaea"
+    },
+    "rtl/native/verification/layers-FastScanController-Verification.sv": {
+      "body_sha256": "9c5e1a018dd60b40f9dbf3f2c86fb92fe438a3017009ea4e990e8ae2f1b047e3",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "5608bf51a658b83bcc328cc4435af201a55e350a5708c4b55731aeb7017d8072"
+    },
+    "rtl/native/verification/layers-FastStatistics-Verification.sv": {
+      "body_sha256": "618d517608d69d6e8e8c03dbc2347d99e0b5838a1700597dcddd2c6cdd37bffa",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "2d82bc23c84376b03dc8ec9f5873b0a4246347d4fa5f9e7a2cb42892216926b4"
+    },
+    "rtl/native/verification/layers-FastSymbolPack8-Verification.sv": {
+      "body_sha256": "10e4c2c5a26c76c0e290941c054a547039009b94411a7ca7eea65c43532b6930",
+      "category": "generated-rtl",
+      "license": "MIT",
+      "sha256": "4705aeff4c6e5021c4efc9a2850ea8f1aab8636446409227db30df1201f6e7a4"
+    },
+    "software/jxl_benchmark.c": {
+      "body_sha256": "24025861135f833e7825339d5754d0992e4127223f1beb440bf28327e578c518",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "bdbe51d5d314171c01aaab05e4a46b171a78db325a5517ccc7af94e35fff5e4d"
+    },
+    "software/jxl_cpu_buffers.h": {
+      "body_sha256": "44d06ae7b447efe8ef427e53b629bbb2f1a89f0805918d89c62aad13b322696d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "f7e9d8163a3f0ab43eba8a7b464de9efaf30e93441f56df18b2efad6d244cd92"
+    },
+    "software/jxl_mmio.h": {
+      "body_sha256": "7fa216421c3545074855261f66974e5e96c05edc4bd58a65ebd2d72c88b8f12c",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1fccb2d53742b64ef00461237467a0c6a91c72d605c71da3f39fb57584d6f1e7"
+    },
+    "software/jxl_sparse_ddr.cpp": {
+      "body_sha256": "accb454a0c2ceaeefea0b6a9ac40ad4a681ce8617efcdac0019731154eee45af",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e8978f1f31b95ce2881c2acac3afbf17e885534e93dcfa59d2975edc15982ed1"
+    },
+    "software/jxl_sparse_ddr.sv": {
+      "body_sha256": "1759431dc46877238ba67421ee4ae951f47ae4e8e685bc0e4ffd7930ade0849c",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "34c86254b8c5be7e2c34e8d87668da6559cd275742fa92026a69929491764acd"
+    },
+    "software/jxl_sparse_loadmem.cpp": {
+      "body_sha256": "5000f931a3502d5ce6f52a457eddbd33112a2114b95ec71a442f56f7a5080cbf",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2eb2a66ff4a53522b06993df8722f6fd8fda62beec7e2c613f8e396cce536f89"
+    },
+    "software/jxl_sparse_loadmem.h": {
+      "body_sha256": "31ccf1601b6ead4bf690254c7c6e7e65a0e455ba37784a68ca6e9b85ab086477",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "d0139d5bad713856239e4858485654bca0566ada166512a926e7c68fe187d20c"
+    },
+    "software/link.ld": {
+      "body_sha256": "6ec2141682cfb5c6bc29f134b01e674c185d8705d7c53b415152c92afa2b75c8",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "08b1ba9d20caed75f250af7c6a4dc026402025fcc222467d58211bf44aa98d72"
+    },
+    "software/start.S": {
+      "body_sha256": "46ad71169850e040c00a14d1deecf4867f17418ab098eca7c012a8443238127a",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "786c6bdce6b44595ee2f67112febeb1c3214428136da46f108a98416dbb1fec3"
+    },
+    "software/test_jxl_cpu_buffers.c": {
+      "body_sha256": "0a279e88e7b70953b83f4ae84df6d39fd55637154dfe05be1c5236dedcf24d74",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "c062c96a81bac3cfcf40e8268e072c1708fc8e435fe348a6c51428874092345d"
+    },
+    "software/test_jxl_dma.cpp": {
+      "body_sha256": "86bcab2b065ac0f6928442bb5db9adb1f2f02737bf868051201a67db08f125dd",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "22fcf36887e73e1b187442f3b1fa51c7f9aba7c3ffdc9435cbc6d738b42cfb51"
+    },
+    "software/test_jxl_domain.cpp": {
+      "body_sha256": "09c6553d6633873ba5af2c2a8f89c7fe025622e5a0b8ff4b365240353d8b7371",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e8140ab86ecc9e938bedda505dbadec83839052b4f23ba60136afa704e5930b6"
+    },
+    "software/test_jxl_mmio.c": {
+      "body_sha256": "9f33c137fc0d79ba8c07edb0ebe4227a0ba1510e1e32114f596daf6f1f04df92",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "7c59e2ca95bc221e04531fff43ebc1da133f62c5feccf5e9b8e259512e33530c"
+    },
+    "src/main/scala/openimage/jpegxl/BankedBytes.scala": {
+      "body_sha256": "232a2ab1396793962a8457c8ee0d0f0cb8116335b145c51611f361e6101398a7",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "6ac0be692a12b6129fcc0c892ec34235907f8155c67bf0209fe7ee69b7a8f725"
+    },
+    "src/main/scala/openimage/jpegxl/BitReader.scala": {
+      "body_sha256": "2f82169864c3f1b01b41706248e059b0cb7e0bc103c31dad7f34e5910f0c64f6",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "9db226a02003fcc99ccd6f96da7fe9bcf3b427c53984e9bcc40a6b8e5d303f7c"
+    },
+    "src/main/scala/openimage/jpegxl/CanonicalTable.scala": {
+      "body_sha256": "335610bf065d8a84258cc535617cf4b8353f2d24d4369a6882cc16631fa9cbde",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "3941f3df15210c45366338622daffb69e8ec2f5640ad9c15fe52ccbab61731bc"
+    },
+    "src/main/scala/openimage/jpegxl/CodestreamHeader.scala": {
+      "body_sha256": "411415329aa86cc492f382c60052bc5b1f562dbfdd1a9ed6834ab559304e1004",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "c8a34247b66d8bb2b8d4a97f877d7c5eeb89eb6aeb95825183259fe9404b4c74"
+    },
+    "src/main/scala/openimage/jpegxl/FieldGrammar.scala": {
+      "body_sha256": "90d9f6bf60b1aace8464b90c9c140cf0113d7128608f1c87d9017d54a14860f5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "bc8f5be9bd407054c183c35b40acb8fd065b9f84f832d0aa8dc466f826d749b1"
+    },
+    "src/main/scala/openimage/jpegxl/JxlDecoder.scala": {
+      "body_sha256": "7f5d366e1eb32e9bf17f72985627af22428efad7bcb15c27d49dec379c3dafe6",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "8cb39ebf2e3d1b8d17bf73f3c7d8e95004a0c92961d20c41bd41ca4ad7917639"
+    },
+    "src/main/scala/openimage/jpegxl/JxlEncoder.scala": {
+      "body_sha256": "3b4bac11806f0c986e53148598957f12f51e815998878a8767526749ae59b96a",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "a99775b240e37cd57b51ef85155e698a5eec95537a6ba90229de1b610dfbcb0d"
+    },
+    "src/main/scala/openimage/jpegxl/MATree.scala": {
+      "body_sha256": "3b6e79222ba413ee77502c9a2e7bbdf9fbba71e50dcdf4ff96367263e12bef92",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ef5f16a3ee2cd66cf6c050ef6d8b6ffc70bb030e0fd93886316cc80bb7dd9afe"
+    },
+    "src/main/scala/openimage/jpegxl/ModularEntropy.scala": {
+      "body_sha256": "4dd633f2c653b2ee9fe2e7e238c015be198baeec3d0f3251b2d63ef29d19fdb5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "51ddc71ce27ed453271aef8a154a2398062c15a58e8a7327840299a859c940c6"
+    },
+    "src/main/scala/openimage/jpegxl/Native.scala": {
+      "body_sha256": "a44c6a503453a12463afb31cb4ea1ab582f5b93e5cc6bb8375f9c89d0b30fb12",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b9118700f0859d6eb1fdd7b3bc1bc707ce0f51f45111a5cb846a6a21d68f4a28"
+    },
+    "src/main/scala/openimage/jpegxl/PrefixParser.scala": {
+      "body_sha256": "0988b6cac1aed69576790ded3e19d272ca583a7125a8414467d5208c9604c429",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "c8c8aea756b0d7990900c37c1d5eccab092939910d868ea8326a8b060f118034"
+    },
+    "src/main/scala/openimage/jpegxl/ReadStream.scala": {
+      "body_sha256": "893d7fccf06ff1253f04a1bb429573b97e81cf72bf0997a92618685cc61fb60e",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "80b14e8268f8fd2fe9b7e22206e796e0060ee0d8d65cdda5f340151705058460"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastBitPool.scala": {
+      "body_sha256": "c191b771be016e73e79a1d42d1be3518a9730ecd4e844c0be58502fa8349cb4f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "f237686f4a5464807aa07c6b823a6f4f06e8f14465b4bf2bb3a0cd46740bf740"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastChannelCache.scala": {
+      "body_sha256": "84ed93a5bd43e83f9ab44fcd8299cd3ecd8e6326b37c24f98509a103b8a90d84",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "a8b044051cf2cce3a20b316db66c2b2e79742be6676a8dbc798d764f1a2a2d48"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastChunk8.scala": {
+      "body_sha256": "f551301998bdb660b57446a84d7299eb63c5f7cf77f7ed3268137b0b1086c5ad",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b1d9824802bd0adce49d79faedb03f7e27a7cdd74694a7e1f87cdfc4757ae444"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastCodeHeader.scala": {
+      "body_sha256": "1430f0e4b46a57bdc79d6c65aee403d6f9296956342ceccbdfa7e1a347b54a23",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "237db94c32ff997d408b512ec11c4b85cb519b415bc2f69a9152566ec28142e2"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastEncoderCore.scala": {
+      "body_sha256": "d00a9008f703a5ff22075d929d2babea495be0e40e83d897dd6e403c3aefe03b",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "56db8b0e6f5a61648c3361f53edeedd5f49706840b4b039d9e0284032b1bbf1a"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastFileHeaders.scala": {
+      "body_sha256": "95f24e3fe2a2fe5695fc201454d50c7111373ea3c1282dba428a50c9b7d5f0cd",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "f1e7e7a4136075955b1598be42436245b35711a70af9945d2145032fda21dec3"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastFileTransport.scala": {
+      "body_sha256": "0244bd5a2e2852f29e099f4b10a4d07a22d1419d06735ec4138b45144b4da0a3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "733148273862476176da625561957744dd49c78c923072dd84ddc0da10397b7a"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastFpgaAdd.scala": {
+      "body_sha256": "5d78f68ef7667a9873684b4b4e1b4834f9fcbdf2c3091ce8a68c6afe7117e953",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1b6f52c737fb5c6bd9065c42e97004f987dd179bf7882a55a109731c68f95d32"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastFpgaMemory.scala": {
+      "body_sha256": "aedaa38fb03ea7d0e5a4677286987ec3cf384be122621b95bbad036880c9b7d7",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "922fd56825270de87b4f05682bd6cb0e999d5e73e78f81994e582593b69b2f13"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastFpgaMultiply.scala": {
+      "body_sha256": "46523830a4f152bfb8737b4946333979a94298f09913f43ecd625d365d8d9262",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e4a419b88dcbb74bd40bfa418cd9ea64e4973e2bc5b6e549639fe0e6515e02b2"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastLengthRow.scala": {
+      "body_sha256": "0bdbcbee05a73921c6b5e1b080bb834e32589d3a930e9edf40ac34656501a8d2",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "a394a3d1c93e466af155af002d02885321e1ad283efe36e30d5df5998d7dfc8d"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastLengthSolver.scala": {
+      "body_sha256": "6b02f82cb6dcad7f2ebb0e4e91637af6f237fb325f63ced791008d643aac9e67",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "4c36ded7ae95efdb61825be37c9d2f4add8e3c03e937e0c4bdb91e8e53d7213a"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastNativeEncoder.scala": {
+      "body_sha256": "ad0db90f5712468980351d35eaaf024daaf5ecb316118f4d6e913e277a9cdd1d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e6f9087751e6921c705662cdda019ac724b0cbf3248ca7ee7399ac6c28f742e3"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastPixelWindow.scala": {
+      "body_sha256": "15d76eb6ced8ab7c4c9001f2475002a8003b5f07f5d866086f1bb17d92a331c8",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "868f50155455c3f3809dad914c7e6e3ab6474790c83f26817b3b45d0236c600d"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastPrefixCode.scala": {
+      "body_sha256": "355596d6a9fac24f9873b8e99f2c0c49ea4e97a262f7466819c1a88e10f194bf",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "a6d1088aa545fd7e67ac425029bc9c92b456816dbc5cf084487c494dad6a1ae5"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastPrefixMemoGroup.scala": {
+      "body_sha256": "820b963b9ea2add74ff2bdd17f6bbe245141499237936bbdc0e01d4c3a9eb2ea",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "c4d5e3918811b4cf731079e82d3c6bab33a14cd8a9ab4a3284606a3df569ebd7"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastRetiming.scala": {
+      "body_sha256": "6dae792fc4d12640f7a6a55e3a26e6e9442c190d5245695b74359a3de7934445",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "23aa8c2417eb3a4f81b57f0d2c7e32373f1b707e6d32644b5445cc6897363537"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastRunPlanner.scala": {
+      "body_sha256": "23bc1b886031ee858afa8d704bbbba28d27db4dc5bbd231088c383cb01bdee80",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b5aaa1759bfdc173f208a4e9e6d2f5faeaa440f43d195b9e657adc63ddd5afc7"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastScanController.scala": {
+      "body_sha256": "c1f27047afee0b899faddb0ee8bbcde282347271400e5f55802e257ba834ee65",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1536025c41320fc9e3dc698b024318db0b81017e596a61c519e9d8c71c02c624"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastStatistics.scala": {
+      "body_sha256": "2214d512ddb4ed2bc4e778e503a495e740a2be48e498419000aa41d355de1585",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "bb8717cdd989c40d36c2b200e1b746f88657f5c4b7ffbe9e9c943e4a04b417bd"
+    },
+    "src/main/scala/openimage/jpegxl/fast/FastSymbolPack8.scala": {
+      "body_sha256": "5f7421f7d74f0978313fecd4a9b4b79d50d2b2bcc325b52eab9d1e5615e05016",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "5e2fe9a9ca49308631e7be6984c5f2102975f5cc2943434215d7448366d05cd2"
+    },
+    "src/tool/scala/openimage/jpegxl/BankedBytesTest.scala": {
+      "body_sha256": "86bb0cfaed5502dd3597fe87cc9dccd3760e6bed60b2ec8440c4e879137c47f3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e2d8288b366312f70c543c3ded44bbfda2bbe47e453a79f9e0c0e5f9068948f2"
+    },
+    "src/tool/scala/openimage/jpegxl/DecoderComponentTest.scala": {
+      "body_sha256": "3b46888b011e6a96b08091aad6eb7673f4142d450b0b2421be3cf400f3ed6af5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "3ae3e3dbfc54346b74ca7c828600c7c5ec8cf7b61f5110d2a47ab47b0f6979a6"
+    },
+    "src/tool/scala/openimage/jpegxl/EmitDecoder.scala": {
+      "body_sha256": "0c083bd9a98522aeef92fd371bb5981512cecfddd085ca2e683eb0f07e744afa",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b344f0b1d88000ae8d38d1529189f8219ebdc37586a1db4023f197263025eb37"
+    },
+    "src/tool/scala/openimage/jpegxl/EmitEncoder.scala": {
+      "body_sha256": "b5ffe939c9935c7120fb09138bdfb8c317c5b59c6f96e137f7a1c32f0439a175",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ca3ce5afbfdcd29c8c848d6ab1da81e8878227461678d9a45f60baf82a7fbb77"
+    },
+    "src/tool/scala/openimage/jpegxl/EncoderTest.scala": {
+      "body_sha256": "963e05813dfd70d5c01186e144fc41e3bd6fffa4a8089fd3b55510fb10c2b99d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "8331208e772781983cda38aba79d3b51e12bdda318909f83a3ce412a1abfb84b"
+    },
+    "src/tool/scala/openimage/jpegxl/EntropyTest.scala": {
+      "body_sha256": "f62be9364e09d529875b4a59f82ef0587ced10bd453cfa951891ade8cdaf298b",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "70386d9361bf288a8a038769d03b45f14021b65672be5da24a37e68460eaf68e"
+    },
+    "src/tool/scala/openimage/jpegxl/PrefixGrammarTest.scala": {
+      "body_sha256": "eec5a0a92175d55151f69ce8213565034fb196abea46e1c2ca533601d7e2b2a7",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2ea5e5da85b5af7b5cfa161c18b73fb8a0d14024fea07d4bac0e5f3db4999aaf"
+    },
+    "src/tool/scala/openimage/jpegxl/ReadStreamTest.scala": {
+      "body_sha256": "3855c02d6e153c0b8027ffba6e6cb57aec45e4796eefdf67a65ef491d7cc96e1",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1ac657e2bad8853d87c77a6b6a12e3e91e02632d57d4b7966574bef384a3c25c"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastChunkTest.scala": {
+      "body_sha256": "9701267fd5a3ada681f931435260cc735de0c16f17d57f9c610f3f30f042ac27",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "4c3ae341d2ca7412170bc7552371def0543db3ad09f54ef27d626e683ec3ec62"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastCoreTest.scala": {
+      "body_sha256": "ebbed9ee781cb2ad1a3bf6ad04724e3fc341309ba5548ca3bb791220d85b6f4d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "d130137134a1c0493b28b4723b1d36c66af31cd4c1ab038735059f37a943b8cb"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastEnvelopeTest.scala": {
+      "body_sha256": "52c943f1cdb20f3a0d4791774d366027fa61bf10762435b60da53217379bb0d5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "fb781610f72dd6958b4f46eb066d33b4683e376a02fab9db447e50210bb25a30"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastFileTest.scala": {
+      "body_sha256": "d214cd3834a281d22a2db72ea198119c9becebbad09636dfdadb2134d4c524e3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "241372ad530f7c108df51e172f0efdc56c4f5b583376fceeed67a7811f0e6c51"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastHeaderTest.scala": {
+      "body_sha256": "a67089a8e12e3b55b625d804c3b4f0033308405e83b56d9cc9ac37d7b296724d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "fb6b5a27e5d2bd112bbbc039f614b0de75cfa9ccd87acd6ea42c02b08c89b873"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastLengthRowMiter.scala": {
+      "body_sha256": "76139bca4a6d947f5c1c3ffc1e78280ec3f0b7c1f632265b863321ce4c74a4ef",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "f34c3819b8d2e94a74564a131da4a5351efd4f9e85a3c61aab83cf815a3c83a1"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastLengthTest.scala": {
+      "body_sha256": "3267780b0da9f30b8cf1307440cc869cb58391d0f781e8e701fb7c0bba941124",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "5e25c6c6cb877a94b5ed168d58b4461eaeb14333c5d5e5655e0e113606e58e4d"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastNativeBoundaryTest.scala": {
+      "body_sha256": "9880086a2f0d2801dd1c8f059080b82b7d40bd38b8be3d93792b1d358b8ec338",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e9c25baf03761911f9e3e45fc8fd083c13d0a43e125242a5919d9d3e600f456a"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastNativeFaultTest.scala": {
+      "body_sha256": "f9ac89add20d8f78b71a2ff25cad775821a4c42ad9c0355265af8de162602324",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "a937ff47830ef106443fbd2c8e7dedfc1a0cabc7e8f468593e8d5731d01578d6"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastNativePerfTest.scala": {
+      "body_sha256": "48ea5c8894aced113d441fbabdee5ced0e34669e09705735bb3d71f6ac65c08d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "874f29c9dc23e9e6743731b52e6d5bd2c1819370fdbc5ec6c9cba3648c4c4fbc"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastNativeTest.scala": {
+      "body_sha256": "639637d3b07d30e649ef2ece52d84febc45c8703ec46100f4fd78b7eebee0cc1",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "90a69aed8acc594db8c7b640c070b7ded8ed9de51f81f2fb2be59199a1a16702"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastPackTest.scala": {
+      "body_sha256": "4ea648b2dc068546fe02bc94b93af3885f6644e2e84ad0e300046e9c84503bcc",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "35fffae983b8159151fecfd06464e8487beea301310463bf3749097e1bf824c5"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastPoolTest.scala": {
+      "body_sha256": "f7438357ff38460f75d2dec4c8b06be3ba6d175c933f8185ba9daaa36abc9bc0",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "06bbb231ad9a9f7c3e9bf29dfe0c6156b3091a6c791bc213d72695882d9cfb92"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastPrefixMemoTest.scala": {
+      "body_sha256": "361f4abe9b26fc31df7d4f5714eb9272b35801fbe82cd8f1326d92fa55c53ee3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "8b2bf217f7135cbbbe3e2c80714835ca18e7376c0e9b4f60863b3e0248c167b0"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastPrefixTest.scala": {
+      "body_sha256": "7345ff88f56b5dc6c3bdd35066ce7f54e3c908c1baea3cce7e9b10fe8b653a3f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "1622266fe9d24deb30f104517262fe62ddb67efc80573089031a96f1df2e638e"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastRunTest.scala": {
+      "body_sha256": "effcc69594c888b715b0c48e6b12223517fe73c7be42b107ec7c7f29ddb2aba2",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "23cb8045682dec6a1acd72ce9684fdbb97aff26a3ad5fab73aaa1643caf3294e"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastScanTest.scala": {
+      "body_sha256": "b852f134856832597f0a97be524851fd1d5c8a9c161ada82b88fb18a9dddb735",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "66bdda04bd5cfd8bb8ebb3c915bb2a85e05544f877cfafed5aa50c59e49e4761"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastStatisticsTest.scala": {
+      "body_sha256": "68ddf0af675ca69022807949bfebd930f9dbaaacdcd5c343449b188286b32d0f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "3e6c0d1220d68071ec3a7a10a67f267766cea62d93fc04d7cbc5519190f47ff6"
+    },
+    "src/tool/scala/openimage/jpegxl/fast/FastWindowTest.scala": {
+      "body_sha256": "f6b7afecc4c976fea2b50e7ad38296fe08e3035df899f33ce9b5b309433fdc58",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "7ad1e690bbf203acfc69c987e1ddcb24802c97fa712d939862379544e5bbc387"
+    },
+    "tests/fixtures/file-0.bin": {
+      "body_sha256": "fc94076484d090cda12a836421ecbc927170563738f6bb3d73479fb186a9a4f5",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "fc94076484d090cda12a836421ecbc927170563738f6bb3d73479fb186a9a4f5"
+    },
+    "tests/fixtures/file-0.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-1.bin": {
+      "body_sha256": "cb09ac15b5981e93009756ac831a67e3ba44f973c7ef693a088a6825e2fcd8dd",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "cb09ac15b5981e93009756ac831a67e3ba44f973c7ef693a088a6825e2fcd8dd"
+    },
+    "tests/fixtures/file-1.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-10.bin": {
+      "body_sha256": "8221f1e9807b3d8895ef568a6d4c376a16a3f91a1a74b06bcf4b1c71de9bcc03",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "8221f1e9807b3d8895ef568a6d4c376a16a3f91a1a74b06bcf4b1c71de9bcc03"
+    },
+    "tests/fixtures/file-10.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-11.bin": {
+      "body_sha256": "dbe3b4185f8d4db42de84e016f454e91008f69f0abf582c988e93e0de7636411",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "dbe3b4185f8d4db42de84e016f454e91008f69f0abf582c988e93e0de7636411"
+    },
+    "tests/fixtures/file-11.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-12.bin": {
+      "body_sha256": "2bf5041c2b515acc249b1b20a45340500bd05b1d3eadeea14a97ba8b70e5f3cb",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "2bf5041c2b515acc249b1b20a45340500bd05b1d3eadeea14a97ba8b70e5f3cb"
+    },
+    "tests/fixtures/file-12.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-13.bin": {
+      "body_sha256": "cf90bd4ef4b98760186617c267ea0eca34b77891cc742a7f62f6fe427e9e760a",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "cf90bd4ef4b98760186617c267ea0eca34b77891cc742a7f62f6fe427e9e760a"
+    },
+    "tests/fixtures/file-13.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-14.bin": {
+      "body_sha256": "b0b04261985194c658df9b3d830a21cc0d48cfa69e60bd99e8f7c8633880e1ed",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "b0b04261985194c658df9b3d830a21cc0d48cfa69e60bd99e8f7c8633880e1ed"
+    },
+    "tests/fixtures/file-14.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-15.bin": {
+      "body_sha256": "2b9f1c586dbf625d95fd935ed0ee1eb8e095caff4fa36dc1856fb7e528ad45a7",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "2b9f1c586dbf625d95fd935ed0ee1eb8e095caff4fa36dc1856fb7e528ad45a7"
+    },
+    "tests/fixtures/file-15.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-16.bin": {
+      "body_sha256": "3a0b79b50fbca817b643b5c9c97bd31b047b16c6171d01261a7ff0f6f88c8259",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "3a0b79b50fbca817b643b5c9c97bd31b047b16c6171d01261a7ff0f6f88c8259"
+    },
+    "tests/fixtures/file-16.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-17.bin": {
+      "body_sha256": "6374e565bd877f8032c867e0df561f92f3e103513b60a8e25aa6e5c781b8359b",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "6374e565bd877f8032c867e0df561f92f3e103513b60a8e25aa6e5c781b8359b"
+    },
+    "tests/fixtures/file-17.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-18.bin": {
+      "body_sha256": "4ae941940762a973ae7abf345f42f24ff244456932f09555e2027be86dbd6ec4",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "4ae941940762a973ae7abf345f42f24ff244456932f09555e2027be86dbd6ec4"
+    },
+    "tests/fixtures/file-18.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-19.bin": {
+      "body_sha256": "69db367a8ba6917eabf0a115fffbb3848aa8938392445e87f1185efee9488855",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "69db367a8ba6917eabf0a115fffbb3848aa8938392445e87f1185efee9488855"
+    },
+    "tests/fixtures/file-19.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-2.bin": {
+      "body_sha256": "ff4f01d3dfa6e3c003db2c0d1a6fd7501a645dbde03605c5fca4d759df55dac7",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "ff4f01d3dfa6e3c003db2c0d1a6fd7501a645dbde03605c5fca4d759df55dac7"
+    },
+    "tests/fixtures/file-2.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-20.bin": {
+      "body_sha256": "2764c7a2cc4e11d5a234b7bd306914eafc5dd13e0017403a1f9bdbcef69de3af",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "2764c7a2cc4e11d5a234b7bd306914eafc5dd13e0017403a1f9bdbcef69de3af"
+    },
+    "tests/fixtures/file-20.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-21.bin": {
+      "body_sha256": "75bdc3bc95883723db45545691f25d94b74c9634edc466b6045f7e707221b6be",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "75bdc3bc95883723db45545691f25d94b74c9634edc466b6045f7e707221b6be"
+    },
+    "tests/fixtures/file-21.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-22.bin": {
+      "body_sha256": "43bc1c0ccc2a38f7fbbe7ddc43a01aa6153cf39142ccf20045f4bb966e7a3bfd",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "43bc1c0ccc2a38f7fbbe7ddc43a01aa6153cf39142ccf20045f4bb966e7a3bfd"
+    },
+    "tests/fixtures/file-22.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-23.bin": {
+      "body_sha256": "267b1b94e1573920f8675a7bdf19e5f7c370d06be35387ead41e105d4f70741f",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "267b1b94e1573920f8675a7bdf19e5f7c370d06be35387ead41e105d4f70741f"
+    },
+    "tests/fixtures/file-23.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-24.bin": {
+      "body_sha256": "a362fef212735d503a9fb660be47993d12f39b9859c9462c38fb5f59e4450088",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "a362fef212735d503a9fb660be47993d12f39b9859c9462c38fb5f59e4450088"
+    },
+    "tests/fixtures/file-24.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-25.bin": {
+      "body_sha256": "abb6f6756f2995bde2847dfa1b7f2437e31444394dc4848233d5f9876cb0c31b",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "abb6f6756f2995bde2847dfa1b7f2437e31444394dc4848233d5f9876cb0c31b"
+    },
+    "tests/fixtures/file-25.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-26.bin": {
+      "body_sha256": "46281627e9d23884baadb717fa47ef5dddbeac15f6603a5c1fb15cd98dd68e77",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "46281627e9d23884baadb717fa47ef5dddbeac15f6603a5c1fb15cd98dd68e77"
+    },
+    "tests/fixtures/file-26.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-27.bin": {
+      "body_sha256": "345b51f4c04581c2c5251793255b61d65ed8f8e26dbee116ed07f603a5c85372",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "345b51f4c04581c2c5251793255b61d65ed8f8e26dbee116ed07f603a5c85372"
+    },
+    "tests/fixtures/file-27.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-28.bin": {
+      "body_sha256": "16af8de9020c0db1d0343075a7b971587ee5ecd3ec6d3f5d6fff9230b30bc3c5",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "16af8de9020c0db1d0343075a7b971587ee5ecd3ec6d3f5d6fff9230b30bc3c5"
+    },
+    "tests/fixtures/file-28.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-29.bin": {
+      "body_sha256": "4b28c0882453ff4535f7a678dff99211466981145e47d0b8a12c24395aa8fe86",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "4b28c0882453ff4535f7a678dff99211466981145e47d0b8a12c24395aa8fe86"
+    },
+    "tests/fixtures/file-29.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-3.bin": {
+      "body_sha256": "350263edde72f639bd0be2ea1b63b3050b941d04d2303baeea006259c2c0da3c",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "350263edde72f639bd0be2ea1b63b3050b941d04d2303baeea006259c2c0da3c"
+    },
+    "tests/fixtures/file-3.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-30.bin": {
+      "body_sha256": "8aae03a546ca173ae22e96b9303f9ca2e844dffc33deb191cf718490f4debfb3",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "8aae03a546ca173ae22e96b9303f9ca2e844dffc33deb191cf718490f4debfb3"
+    },
+    "tests/fixtures/file-30.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-31.bin": {
+      "body_sha256": "4120e4c81de7de2af972b19e0d108655cc6fae12b7c041acbda291439bf1cb67",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "4120e4c81de7de2af972b19e0d108655cc6fae12b7c041acbda291439bf1cb67"
+    },
+    "tests/fixtures/file-31.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-4.bin": {
+      "body_sha256": "87b419fa36e5ca21b6154a3a4eab20b9a581f96921aef2915932818414c9660a",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "87b419fa36e5ca21b6154a3a4eab20b9a581f96921aef2915932818414c9660a"
+    },
+    "tests/fixtures/file-4.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-5.bin": {
+      "body_sha256": "0cddb61550479ae73c40f65e234c30383f377ddde31d3385aba99f6c83a6b806",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "0cddb61550479ae73c40f65e234c30383f377ddde31d3385aba99f6c83a6b806"
+    },
+    "tests/fixtures/file-5.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-6.bin": {
+      "body_sha256": "12940d149bd8b1b95b1b0e40ea7134492b8cea14930fef0fb012a06a6697e8ea",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "12940d149bd8b1b95b1b0e40ea7134492b8cea14930fef0fb012a06a6697e8ea"
+    },
+    "tests/fixtures/file-6.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-7.bin": {
+      "body_sha256": "cabf3cea398e0529a249fda1611e4943812e1bfd19d52d0be41f3bb9afaec146",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "cabf3cea398e0529a249fda1611e4943812e1bfd19d52d0be41f3bb9afaec146"
+    },
+    "tests/fixtures/file-7.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-8.bin": {
+      "body_sha256": "9e5da8b6b2203c023af789bb3d5f74822a1a895e231583670dbc30b1ff2b0b01",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "9e5da8b6b2203c023af789bb3d5f74822a1a895e231583670dbc30b1ff2b0b01"
+    },
+    "tests/fixtures/file-8.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/file-9.bin": {
+      "body_sha256": "0bee70bdf31d3ebced0da45f7c5f5987935136ce5b231e71e45a1c4bd262f02f",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "0bee70bdf31d3ebced0da45f7c5f5987935136ce5b231e71e45a1c4bd262f02f"
+    },
+    "tests/fixtures/file-9.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/fixtures.json": {
+      "body_sha256": "5705c2f59bc17eaa45fd17760ed23a08b55bf9960f01f9192ca5b746d4aa1cd7",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "5705c2f59bc17eaa45fd17760ed23a08b55bf9960f01f9192ca5b746d4aa1cd7"
+    },
+    "tests/fixtures/fixtures.json.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/jxl_official_fixtures.h": {
+      "body_sha256": "04aaabfdd9d6b5a7eef6ae8a4c60f9c13b251f3b1cd2e5b7af22960c37ebd70e",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "04aaabfdd9d6b5a7eef6ae8a4c60f9c13b251f3b1cd2e5b7af22960c37ebd70e"
+    },
+    "tests/fixtures/jxl_official_fixtures.h.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-0.bin": {
+      "body_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+    },
+    "tests/fixtures/raw-0.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-1.bin": {
+      "body_sha256": "be32a73016f6f55b580adcc7041010de62e3826440e837554869647d66ad1727",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "be32a73016f6f55b580adcc7041010de62e3826440e837554869647d66ad1727"
+    },
+    "tests/fixtures/raw-1.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-10.bin": {
+      "body_sha256": "1d6f3e7946101e19e458a63004805269fa94526b51bb8da2facddf08f32a1579",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "1d6f3e7946101e19e458a63004805269fa94526b51bb8da2facddf08f32a1579"
+    },
+    "tests/fixtures/raw-10.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-11.bin": {
+      "body_sha256": "220d0179684a4842d026720e089a36a94b15b9b4b88c53902f44dffec8875ce6",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "220d0179684a4842d026720e089a36a94b15b9b4b88c53902f44dffec8875ce6"
+    },
+    "tests/fixtures/raw-11.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-12.bin": {
+      "body_sha256": "f0a7715efa818965143a50d73b7570d2e1a4b5b4c5a8d67580dff490ee12628f",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "f0a7715efa818965143a50d73b7570d2e1a4b5b4c5a8d67580dff490ee12628f"
+    },
+    "tests/fixtures/raw-12.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-13.bin": {
+      "body_sha256": "c55d5ed9d9fa04a702996ac7292a9070a1308e69e21e09c06824534dd912176d",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "c55d5ed9d9fa04a702996ac7292a9070a1308e69e21e09c06824534dd912176d"
+    },
+    "tests/fixtures/raw-13.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-14.bin": {
+      "body_sha256": "41a444994baa3b1221c851e3a1015fbb3458b62fff053e7681e6ea9b79c1d857",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "41a444994baa3b1221c851e3a1015fbb3458b62fff053e7681e6ea9b79c1d857"
+    },
+    "tests/fixtures/raw-14.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-15.bin": {
+      "body_sha256": "eb6bad3e7c27a0ea6d6fa5b13d3e37e5a7f69477d4c49b1bcbe3602525f9c5de",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "eb6bad3e7c27a0ea6d6fa5b13d3e37e5a7f69477d4c49b1bcbe3602525f9c5de"
+    },
+    "tests/fixtures/raw-15.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-16.bin": {
+      "body_sha256": "709e80c88487a2411e1ee4dfb9f22a861492d20c4765150c0c794abd70f8147c",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "709e80c88487a2411e1ee4dfb9f22a861492d20c4765150c0c794abd70f8147c"
+    },
+    "tests/fixtures/raw-16.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-17.bin": {
+      "body_sha256": "d12449c8124182545ae91924286cc6af13528bcf62a5ddbd5e00b891fffc1b48",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "d12449c8124182545ae91924286cc6af13528bcf62a5ddbd5e00b891fffc1b48"
+    },
+    "tests/fixtures/raw-17.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-18.bin": {
+      "body_sha256": "e1acae65250110b82ab2bd8f1b3b1dacc808f3fcba2ebcda00767d771d90e72f",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "e1acae65250110b82ab2bd8f1b3b1dacc808f3fcba2ebcda00767d771d90e72f"
+    },
+    "tests/fixtures/raw-18.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-19.bin": {
+      "body_sha256": "c43f62a9c40cca0cad6d413f868cc1cb3d5e955ba3d8b029de2395389a4744c5",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "c43f62a9c40cca0cad6d413f868cc1cb3d5e955ba3d8b029de2395389a4744c5"
+    },
+    "tests/fixtures/raw-19.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-2.bin": {
+      "body_sha256": "0b3b4eba5c7d53beec5ac1aa3b64c56188bcbf52906e124e5ab3e77a96fdd9cd",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "0b3b4eba5c7d53beec5ac1aa3b64c56188bcbf52906e124e5ab3e77a96fdd9cd"
+    },
+    "tests/fixtures/raw-2.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-20.bin": {
+      "body_sha256": "d5cd0adaed52134db4caf96ac019cb71334e6536a96e4bde26dd9216b96dc5a7",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "d5cd0adaed52134db4caf96ac019cb71334e6536a96e4bde26dd9216b96dc5a7"
+    },
+    "tests/fixtures/raw-20.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-21.bin": {
+      "body_sha256": "97213c5b2ce731f78d783ebbeb62b46c4ba0e729b0f7565cc19fa52b031cdb52",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "97213c5b2ce731f78d783ebbeb62b46c4ba0e729b0f7565cc19fa52b031cdb52"
+    },
+    "tests/fixtures/raw-21.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-22.bin": {
+      "body_sha256": "976949dd0cbf3275139f54fa6b004ef1c3dbaa4a88a45e7c1c0bda791a5bd18f",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "976949dd0cbf3275139f54fa6b004ef1c3dbaa4a88a45e7c1c0bda791a5bd18f"
+    },
+    "tests/fixtures/raw-22.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-23.bin": {
+      "body_sha256": "174cd0b5cbacf7f7fd8beb158d2dfca08980ea65bc9c765530e29a640c77032d",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "174cd0b5cbacf7f7fd8beb158d2dfca08980ea65bc9c765530e29a640c77032d"
+    },
+    "tests/fixtures/raw-23.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-24.bin": {
+      "body_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    "tests/fixtures/raw-24.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-25.bin": {
+      "body_sha256": "4a83aa458b0a2379f2c7a336bd0d936f33d55fa35fd8bf823ba81cdde29725aa",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "4a83aa458b0a2379f2c7a336bd0d936f33d55fa35fd8bf823ba81cdde29725aa"
+    },
+    "tests/fixtures/raw-25.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-26.bin": {
+      "body_sha256": "394152fd3340fffa12f633c438e234f5da6fbbb1dd3a4c824584b0e36395e9c7",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "394152fd3340fffa12f633c438e234f5da6fbbb1dd3a4c824584b0e36395e9c7"
+    },
+    "tests/fixtures/raw-26.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-27.bin": {
+      "body_sha256": "6425647583fe54f9029412b9923a2afdf05cac9584627822fb3caacdaefb9f68",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "6425647583fe54f9029412b9923a2afdf05cac9584627822fb3caacdaefb9f68"
+    },
+    "tests/fixtures/raw-27.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-28.bin": {
+      "body_sha256": "3a6f991f3e2ad5552afd5988352e4f291e129f3149062611c08b3893feb63c92",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "3a6f991f3e2ad5552afd5988352e4f291e129f3149062611c08b3893feb63c92"
+    },
+    "tests/fixtures/raw-28.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-29.bin": {
+      "body_sha256": "15cefc07fc0e7cfb52b425ce28a7ef8f88e8507f1be8e012a67cae69e5319293",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "15cefc07fc0e7cfb52b425ce28a7ef8f88e8507f1be8e012a67cae69e5319293"
+    },
+    "tests/fixtures/raw-29.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-3.bin": {
+      "body_sha256": "dbc1cc1e6d4f0511e545ae2bb7c9a7158fd3e11401bd2fe9f56a5000fb51e4ba",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "dbc1cc1e6d4f0511e545ae2bb7c9a7158fd3e11401bd2fe9f56a5000fb51e4ba"
+    },
+    "tests/fixtures/raw-3.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-30.bin": {
+      "body_sha256": "b9927c5daea8fdb51c68e628d4488f485924d55183c6a841b87e4241cb328c3a",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "b9927c5daea8fdb51c68e628d4488f485924d55183c6a841b87e4241cb328c3a"
+    },
+    "tests/fixtures/raw-30.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-31.bin": {
+      "body_sha256": "42ec8eceda63be9a8a4a3794f92613dccd90ff4b063c4449618ea60b84844645",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "42ec8eceda63be9a8a4a3794f92613dccd90ff4b063c4449618ea60b84844645"
+    },
+    "tests/fixtures/raw-31.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-4.bin": {
+      "body_sha256": "3312ebee214f09971b3a69a0a732248325d7ac0dc755db0bbcbc5cb663365fa0",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "3312ebee214f09971b3a69a0a732248325d7ac0dc755db0bbcbc5cb663365fa0"
+    },
+    "tests/fixtures/raw-4.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-5.bin": {
+      "body_sha256": "50d24b3c71170d2ab1d55ac1123a224ab1d8f8b0474bbee5edce4dfba4ed9d1a",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "50d24b3c71170d2ab1d55ac1123a224ab1d8f8b0474bbee5edce4dfba4ed9d1a"
+    },
+    "tests/fixtures/raw-5.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-6.bin": {
+      "body_sha256": "a1000ceb70b3eef55fee0602bd7e9a5eed5cc127a83f250dd31ad7f0252513aa",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "a1000ceb70b3eef55fee0602bd7e9a5eed5cc127a83f250dd31ad7f0252513aa"
+    },
+    "tests/fixtures/raw-6.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-7.bin": {
+      "body_sha256": "e59accb348cf5145ab7b19a061ce35e30c1b867ec41831b141e156fe19f56a94",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "e59accb348cf5145ab7b19a061ce35e30c1b867ec41831b141e156fe19f56a94"
+    },
+    "tests/fixtures/raw-7.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-8.bin": {
+      "body_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7"
+    },
+    "tests/fixtures/raw-8.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/fixtures/raw-9.bin": {
+      "body_sha256": "c56c6f48c42bdcd4a531035fbe04f0faf303fdcf1e69ca5e20e5335a7d7935d3",
+      "category": "reference-data",
+      "license": "BSD-3-Clause",
+      "sha256": "c56c6f48c42bdcd4a531035fbe04f0faf303fdcf1e69ca5e20e5335a7d7935d3"
+    },
+    "tests/fixtures/raw-9.bin.license": {
+      "body_sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844",
+      "category": "original",
+      "license": "BSD-3-Clause",
+      "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
+    },
+    "tests/test_public_checks.py": {
+      "body_sha256": "8a6152a40b34bc5b14540f9d4cebced8258333b840cbb46561c94758f76b86fe",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "88e69f9065d55a9c62f5a71144dd967702e696b1a8dcc20b1ce0834606e2d1bb"
+    },
+    "tools/check_generated.py": {
+      "body_sha256": "7ee1cb9f5115b18ab34f135dd4e85f001f1ad03be2d98a6846eb834f81fdbbe4",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "733026cd540f6bc0b3a3cf8691c4ef935ca9bc6c3aac8d60e13773e5a7ba186d"
+    },
+    "tools/check_host.py": {
+      "body_sha256": "5c15d21f082bf8e13bdfd14d7c95e763a5896ca6ecbd677ecf6f1c1e7034f403",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ff36a4ffe261ea9442c5382eeff36aef6f1169d1c91d5c1e867f321cb7a1000f"
+    },
+    "tools/check_measurements.py": {
+      "body_sha256": "a3aa4564095d5859cd8fbed5c5fb45bd0ae6373dfd03c3a63073579bb55596b3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e8216634d9f635a330c85ab153cbcbfcafd2278a158cd5ffd71d7613e11f9e1c"
+    },
+    "tools/check_public_tree.py": {
+      "body_sha256": "1c889fb2886b5c409e225085d368d745608d8a91121d9e1dd9112bdaffa7a635",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "fc9040a93e782df31771904d9f84ed9e86338f0495f1a47aabecf84b9fdd99a3"
+    },
+    "tools/fast_chunk_clock.cpp": {
+      "body_sha256": "7556b4672df197ccefc1e529cbc110aab4ec5616fef4e573d9b4e47c0ab48bc6",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "fa70edc87266e4386df5b825e30258650cea40237cb9cf5de31070fd25a75b8a"
+    },
+    "tools/fast_core_clock.cpp": {
+      "body_sha256": "84f7a8a7d91c3551579aff7806ff9ff1821539ee3e1d0b6557937f38a07e61b6",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "587c9c13ac7288fd10eaab16dd00b4042a04c3f0ac953f6be85bfaeb80580b55"
+    },
+    "tools/fast_envelope_clock.cpp": {
+      "body_sha256": "407bbc01426759b091b3d98fd7edcfdc8743fabed02011f057ce371d708f20a1",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ee24615c161f689ed9ba9d93596b32e6e2970ddadac0c87367c545ec92f78eb1"
+    },
+    "tools/fast_file_clock.cpp": {
+      "body_sha256": "1cdbf47004368a610616070da97953d501febb133d706ae5cb48ee66d6607c04",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "cd426d21bb512753d20ce0ab3c041157d42e9ad7fc6d24e8a051f6153fec01e8"
+    },
+    "tools/fast_header_clock.cpp": {
+      "body_sha256": "c8bca0c6c48d63132bcff0fdc8bc08514da3d7b40d002e91cde6f65a03a0d7f8",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "bd372f0f82cac7cb691d64d226ba7f8271e6ffff8d3bff4c0fb2f466fee8b171"
+    },
+    "tools/fast_length_clock.cpp": {
+      "body_sha256": "23650b9ddec0a1d5e0b213b9afd11f08bf25a1a83e2c0b95ab12f7c05cf7550b",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "642cc754a354feea41267ad0b24a9ee1a28d78f04f584668b56f154c7733ccf2"
+    },
+    "tools/fast_length_row_clock.cpp": {
+      "body_sha256": "f79b2aacb73d1ffb4aab15f5a7a5bd99e7df6dae7bae36cbb26b8c882d5817f0",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e9d73cd578b3bc6597f3ee0be78712ef24687715224b65a63696c39ad75d7fba"
+    },
+    "tools/fast_native_boundary_clock.cpp": {
+      "body_sha256": "920eb41d708de9393b8e1468b4b74faf83c98ac80cd648c7c1a5ce4a74260f79",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "9ff8a68968e81b76ef9570016b72c8a7908d50aab7437a1d543e25743c4eae2c"
+    },
+    "tools/fast_native_clock.cpp": {
+      "body_sha256": "444828adb0987295bbc32c12534fd4f0db43c9608511702385a227f76b9d64e3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "6b4b49bbc609c96873592a0909fd5d078f82f35300b0586ae07f1ce2676bbe1b"
+    },
+    "tools/fast_native_fault_clock.cpp": {
+      "body_sha256": "c2040f1fe6dca3f05742ffde1fb9177dd93edb0cf73067d483872f3c09eaa81f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "e0928c89ccc42ebb4a8e0b25c5ca60ea9c0a598b3d96726609446479add1b1b9"
+    },
+    "tools/fast_native_perf_clock.cpp": {
+      "body_sha256": "7b039701da310bb7752decfbdbca6302f3ae41ec4af5318499146cd8a4ad6675",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "9da5e2f74c0a23f7ab8a5b32a771008dced5f87c77dce8081cfd92ec6c723446"
+    },
+    "tools/fast_pack_clock.cpp": {
+      "body_sha256": "8c78d5153277bf3acf32c28f5fb896259ab43a6098729571c8ecb4103ea7dfd7",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "760d58f1a6520e7b6dc85a98393c1dcffbe7943df68ba47378256e976e1ca47a"
+    },
+    "tools/fast_pool_clock.cpp": {
+      "body_sha256": "98483179670ae909e2175cd61c6a7726aa8adb7b62e90feb94ea615f80147e50",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "4520e6b2edf73a9fbb235cf180c884223695c48fb0d2ff6be20d93120fa96ebc"
+    },
+    "tools/fast_prefix_clock.cpp": {
+      "body_sha256": "ca959692ebdb2a2a1aaa0a98ba8295e1ef0e972f0c33f5d4404b34b5e996ecd5",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "92737016d1225c19ec50003cf556c7085e5b9f1b21eb31b0d9718e8e27a39829"
+    },
+    "tools/fast_prefix_memo_clock.cpp": {
+      "body_sha256": "ad9b8de2251b623f1d5b3c168f19a426a740cbb4a5115bf711711025e0184e14",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "d8477b934b70f95a185ce65a2c32a0ccf866e04fe0d238eeb6eb900f3bb0dcbc"
+    },
+    "tools/fast_run_clock.cpp": {
+      "body_sha256": "7ac9f53f927c19f27d6e168e243fc8533428a11ee9c7f70ecc9def0725ab329b",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "d85a2d2d9f20b217071ad0c125be4367339b40920503f5effa7c9d4a6a4bb08e"
+    },
+    "tools/fast_scan_clock.cpp": {
+      "body_sha256": "86c86e9d63a042847220bc2a64b8c1085bff7afffcd0eda1c31559aa956be92f",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "961302b5416e56447071f11252a7b78719f1714be29880e9b74839a0893b0b8c"
+    },
+    "tools/fast_statistics_clock.cpp": {
+      "body_sha256": "098eac86498039f86f2b19f306b322fb2e78f1a3444f2264b1ac8fa998b031d3",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ac12096c810aa7fdac74c52d84670b2aa3294ab771b6dd38156c12d4db0ebdd8"
+    },
+    "tools/fast_window_clock.cpp": {
+      "body_sha256": "6e9d724990348bd9e756c699e3a88e2251fff6c8ae05c0c28be72c0c93bfbc34",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "9eef35699b93256d45e529654c77600d3e3b9f324cf14344f068153f5a25e945"
+    },
+    "tools/run_row_test.py": {
+      "body_sha256": "7d5a5497667b1469a6ae8eb4992fff1eb25bc49ebcd9e86fda14bfd251f1f1c8",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "de621ee959a3e91b5f453f7443838020fb56dc6cdb57fdcce1b674e01e3739ac"
+    },
+    "tools/sim_clock.cpp": {
+      "body_sha256": "6b373fdc6bea55462aab87bc27d3c191c891f98f6cd274d7d92b42b541b4631c",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "82b56d965fa304b14a9fb8f9590418bb16f9b23a31fee5069eb3b390115ac294"
+    }
+  },
+  "version": "1.0.0"
+}

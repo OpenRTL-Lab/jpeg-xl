@@ -1,0 +1,1950 @@
+{
+  "status": 0,
+  "verified_tasks": 3168,
+  "clock_hz": 50000000,
+  "rounds": [
+    {
+      "round": 1,
+      "tasks": 1056,
+      "batch32_cycles_total": 4429223,
+      "batch32_mixed_input_MBps": 259.8704106792546
+    },
+    {
+      "round": 2,
+      "tasks": 1056,
+      "batch32_cycles_total": 4437417,
+      "batch32_mixed_input_MBps": 259.39054183999383
+    },
+    {
+      "round": 3,
+      "tasks": 1056,
+      "batch32_cycles_total": 4433397,
+      "batch32_mixed_input_MBps": 259.6257452242603
+    }
+  ],
+  "rows": [
+    {
+      "id": 0,
+      "channels": 1,
+      "width": 1,
+      "height": 1,
+      "raw_bytes": 1,
+      "file_bytes": 174,
+      "samples": [
+        {
+          "cpu_single_cycles": 2986,
+          "cpu_batch32_cycles": 19795,
+          "cpu_single_us": 59.72,
+          "cpu_batch32_ms": 0.3959,
+          "cpu_batch32_per_task_us": 12.371875,
+          "hardware_single_us": 38.0,
+          "first_output_single_us": 37.24,
+          "batch32_input_MBps": 0.0808284920434453,
+          "batch32_MPixels": 0.0808284920434453,
+          "batch32_jobs_per_second": 80828.49204344531
+        },
+        {
+          "cpu_single_cycles": 3050,
+          "cpu_batch32_cycles": 19760,
+          "cpu_single_us": 61.0,
+          "cpu_batch32_ms": 0.3952,
+          "cpu_batch32_per_task_us": 12.35,
+          "hardware_single_us": 38.02,
+          "first_output_single_us": 37.24,
+          "batch32_input_MBps": 0.08097165991902834,
+          "batch32_MPixels": 0.08097165991902834,
+          "batch32_jobs_per_second": 80971.65991902835
+        },
+        {
+          "cpu_single_cycles": 2988,
+          "cpu_batch32_cycles": 19907,
+          "cpu_single_us": 59.76,
+          "cpu_batch32_ms": 0.39814,
+          "cpu_batch32_per_task_us": 12.441875,
+          "hardware_single_us": 38.04,
+          "first_output_single_us": 37.24,
+          "batch32_input_MBps": 0.08037373788114734,
+          "batch32_MPixels": 0.08037373788114734,
+          "batch32_jobs_per_second": 80373.73788114733
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2988,
+        "cpu_batch32_cycles": 19795,
+        "cpu_single_us": 59.76,
+        "cpu_batch32_ms": 0.3959,
+        "cpu_batch32_per_task_us": 12.371875,
+        "hardware_single_us": 38.02,
+        "first_output_single_us": 37.24,
+        "batch32_input_MBps": 0.0808284920434453,
+        "batch32_MPixels": 0.0808284920434453,
+        "batch32_jobs_per_second": 80828.49204344531
+      },
+      "throughput_min_MBps": 0.08037373788114734,
+      "throughput_max_MBps": 0.08097165991902834
+    },
+    {
+      "id": 1,
+      "channels": 1,
+      "width": 7,
+      "height": 3,
+      "raw_bytes": 21,
+      "file_bytes": 180,
+      "samples": [
+        {
+          "cpu_single_cycles": 949,
+          "cpu_batch32_cycles": 19817,
+          "cpu_single_us": 18.98,
+          "cpu_batch32_ms": 0.39634,
+          "cpu_batch32_per_task_us": 12.385625,
+          "hardware_single_us": 6.44,
+          "first_output_single_us": 5.66,
+          "batch32_input_MBps": 1.6955139526669023,
+          "batch32_MPixels": 1.6955139526669023,
+          "batch32_jobs_per_second": 80738.75965080486
+        },
+        {
+          "cpu_single_cycles": 957,
+          "cpu_batch32_cycles": 19781,
+          "cpu_single_us": 19.14,
+          "cpu_batch32_ms": 0.39562,
+          "cpu_batch32_per_task_us": 12.363125,
+          "hardware_single_us": 6.22,
+          "first_output_single_us": 5.42,
+          "batch32_input_MBps": 1.6985996663464942,
+          "batch32_MPixels": 1.6985996663464942,
+          "batch32_jobs_per_second": 80885.6983974521
+        },
+        {
+          "cpu_single_cycles": 953,
+          "cpu_batch32_cycles": 19861,
+          "cpu_single_us": 19.06,
+          "cpu_batch32_ms": 0.39722,
+          "cpu_batch32_per_task_us": 12.413125,
+          "hardware_single_us": 6.44,
+          "first_output_single_us": 5.66,
+          "batch32_input_MBps": 1.6917577161270831,
+          "batch32_MPixels": 1.6917577161270831,
+          "batch32_jobs_per_second": 80559.89124414683
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 953,
+        "cpu_batch32_cycles": 19817,
+        "cpu_single_us": 19.06,
+        "cpu_batch32_ms": 0.39634,
+        "cpu_batch32_per_task_us": 12.385625,
+        "hardware_single_us": 6.44,
+        "first_output_single_us": 5.66,
+        "batch32_input_MBps": 1.6955139526669023,
+        "batch32_MPixels": 1.6955139526669023,
+        "batch32_jobs_per_second": 80738.75965080486
+      },
+      "throughput_min_MBps": 1.6917577161270831,
+      "throughput_max_MBps": 1.6985996663464942
+    },
+    {
+      "id": 2,
+      "channels": 1,
+      "width": 8,
+      "height": 128,
+      "raw_bytes": 1024,
+      "file_bytes": 189,
+      "samples": [
+        {
+          "cpu_single_cycles": 2820,
+          "cpu_batch32_cycles": 20703,
+          "cpu_single_us": 56.4,
+          "cpu_batch32_ms": 0.41406,
+          "cpu_batch32_per_task_us": 12.939375,
+          "hardware_single_us": 43.72,
+          "first_output_single_us": 42.96,
+          "batch32_input_MBps": 79.13828913684007,
+          "batch32_MPixels": 79.13828913684007,
+          "batch32_jobs_per_second": 77283.48548519539
+        },
+        {
+          "cpu_single_cycles": 2822,
+          "cpu_batch32_cycles": 20715,
+          "cpu_single_us": 56.44,
+          "cpu_batch32_ms": 0.4143,
+          "cpu_batch32_per_task_us": 12.946875,
+          "hardware_single_us": 43.72,
+          "first_output_single_us": 42.96,
+          "batch32_input_MBps": 79.0924450881004,
+          "batch32_MPixels": 79.0924450881004,
+          "batch32_jobs_per_second": 77238.71590634805
+        },
+        {
+          "cpu_single_cycles": 2804,
+          "cpu_batch32_cycles": 20694,
+          "cpu_single_us": 56.08,
+          "cpu_batch32_ms": 0.41388,
+          "cpu_batch32_per_task_us": 12.93375,
+          "hardware_single_us": 43.32,
+          "first_output_single_us": 42.56,
+          "batch32_input_MBps": 79.17270706484972,
+          "batch32_MPixels": 79.17270706484972,
+          "batch32_jobs_per_second": 77317.0967430173
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2820,
+        "cpu_batch32_cycles": 20703,
+        "cpu_single_us": 56.4,
+        "cpu_batch32_ms": 0.41406,
+        "cpu_batch32_per_task_us": 12.939375,
+        "hardware_single_us": 43.72,
+        "first_output_single_us": 42.96,
+        "batch32_input_MBps": 79.13828913684007,
+        "batch32_MPixels": 79.13828913684007,
+        "batch32_jobs_per_second": 77283.48548519539
+      },
+      "throughput_min_MBps": 79.0924450881004,
+      "throughput_max_MBps": 79.17270706484972
+    },
+    {
+      "id": 3,
+      "channels": 1,
+      "width": 17,
+      "height": 255,
+      "raw_bytes": 4335,
+      "file_bytes": 6034,
+      "samples": [
+        {
+          "cpu_single_cycles": 4705,
+          "cpu_batch32_cycles": 38978,
+          "cpu_single_us": 94.1,
+          "cpu_batch32_ms": 0.77956,
+          "cpu_batch32_per_task_us": 24.36125,
+          "hardware_single_us": 79.98,
+          "first_output_single_us": 61.96,
+          "batch32_input_MBps": 177.94653394222382,
+          "batch32_MPixels": 177.94653394222382,
+          "batch32_jobs_per_second": 41048.79675714506
+        },
+        {
+          "cpu_single_cycles": 4702,
+          "cpu_batch32_cycles": 44306,
+          "cpu_single_us": 94.04,
+          "cpu_batch32_ms": 0.88612,
+          "cpu_batch32_per_task_us": 27.69125,
+          "hardware_single_us": 80.4,
+          "first_output_single_us": 62.18,
+          "batch32_input_MBps": 156.54764591703156,
+          "batch32_MPixels": 156.54764591703156,
+          "batch32_jobs_per_second": 36112.490407619734
+        },
+        {
+          "cpu_single_cycles": 4804,
+          "cpu_batch32_cycles": 43403,
+          "cpu_single_us": 96.08,
+          "cpu_batch32_ms": 0.86806,
+          "cpu_batch32_per_task_us": 27.126875,
+          "hardware_single_us": 82.38,
+          "first_output_single_us": 63.42,
+          "batch32_input_MBps": 159.80462180033638,
+          "batch32_MPixels": 159.80462180033638,
+          "batch32_jobs_per_second": 36863.81125728636
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 4705,
+        "cpu_batch32_cycles": 43403,
+        "cpu_single_us": 94.1,
+        "cpu_batch32_ms": 0.86806,
+        "cpu_batch32_per_task_us": 27.126875,
+        "hardware_single_us": 80.4,
+        "first_output_single_us": 62.18,
+        "batch32_input_MBps": 159.80462180033638,
+        "batch32_MPixels": 159.80462180033638,
+        "batch32_jobs_per_second": 36863.81125728636
+      },
+      "throughput_min_MBps": 156.54764591703156,
+      "throughput_max_MBps": 177.94653394222382
+    },
+    {
+      "id": 4,
+      "channels": 1,
+      "width": 256,
+      "height": 1,
+      "raw_bytes": 256,
+      "file_bytes": 604,
+      "samples": [
+        {
+          "cpu_single_cycles": 2708,
+          "cpu_batch32_cycles": 20433,
+          "cpu_single_us": 54.16,
+          "cpu_batch32_ms": 0.40866,
+          "cpu_batch32_per_task_us": 12.770625,
+          "hardware_single_us": 40.68,
+          "first_output_single_us": 38.48,
+          "batch32_input_MBps": 20.04600401311604,
+          "batch32_MPixels": 20.04600401311604,
+          "batch32_jobs_per_second": 78304.70317623453
+        },
+        {
+          "cpu_single_cycles": 2701,
+          "cpu_batch32_cycles": 20381,
+          "cpu_single_us": 54.02,
+          "cpu_batch32_ms": 0.40762,
+          "cpu_batch32_per_task_us": 12.738125,
+          "hardware_single_us": 40.48,
+          "first_output_single_us": 38.28,
+          "batch32_input_MBps": 20.09714930572592,
+          "batch32_MPixels": 20.09714930572592,
+          "batch32_jobs_per_second": 78504.48947549188
+        },
+        {
+          "cpu_single_cycles": 2708,
+          "cpu_batch32_cycles": 20399,
+          "cpu_single_us": 54.16,
+          "cpu_batch32_ms": 0.40798,
+          "cpu_batch32_per_task_us": 12.749375,
+          "hardware_single_us": 40.68,
+          "first_output_single_us": 38.48,
+          "batch32_input_MBps": 20.079415657630275,
+          "batch32_MPixels": 20.079415657630275,
+          "batch32_jobs_per_second": 78435.21741261827
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2708,
+        "cpu_batch32_cycles": 20399,
+        "cpu_single_us": 54.16,
+        "cpu_batch32_ms": 0.40798,
+        "cpu_batch32_per_task_us": 12.749375,
+        "hardware_single_us": 40.68,
+        "first_output_single_us": 38.48,
+        "batch32_input_MBps": 20.079415657630275,
+        "batch32_MPixels": 20.079415657630275,
+        "batch32_jobs_per_second": 78435.21741261827
+      },
+      "throughput_min_MBps": 20.04600401311604,
+      "throughput_max_MBps": 20.09714930572592
+    },
+    {
+      "id": 5,
+      "channels": 1,
+      "width": 1,
+      "height": 256,
+      "raw_bytes": 256,
+      "file_bytes": 478,
+      "samples": [
+        {
+          "cpu_single_cycles": 1312,
+          "cpu_batch32_cycles": 20304,
+          "cpu_single_us": 26.24,
+          "cpu_batch32_ms": 0.40608,
+          "cpu_batch32_per_task_us": 12.69,
+          "hardware_single_us": 12.88,
+          "first_output_single_us": 11.12,
+          "batch32_input_MBps": 20.173364854215915,
+          "batch32_MPixels": 20.173364854215915,
+          "batch32_jobs_per_second": 78802.20646178092
+        },
+        {
+          "cpu_single_cycles": 1282,
+          "cpu_batch32_cycles": 20285,
+          "cpu_single_us": 25.64,
+          "cpu_batch32_ms": 0.4057,
+          "cpu_batch32_per_task_us": 12.678125,
+          "hardware_single_us": 12.82,
+          "first_output_single_us": 11.06,
+          "batch32_input_MBps": 20.192260290855312,
+          "batch32_MPixels": 20.192260290855312,
+          "batch32_jobs_per_second": 78876.01676115356
+        },
+        {
+          "cpu_single_cycles": 1296,
+          "cpu_batch32_cycles": 20145,
+          "cpu_single_us": 25.92,
+          "cpu_batch32_ms": 0.4029,
+          "cpu_batch32_per_task_us": 12.590625,
+          "hardware_single_us": 13.38,
+          "first_output_single_us": 11.6,
+          "batch32_input_MBps": 20.332588731695207,
+          "batch32_MPixels": 20.332588731695207,
+          "batch32_jobs_per_second": 79424.17473318441
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1296,
+        "cpu_batch32_cycles": 20285,
+        "cpu_single_us": 25.92,
+        "cpu_batch32_ms": 0.4057,
+        "cpu_batch32_per_task_us": 12.678125,
+        "hardware_single_us": 12.88,
+        "first_output_single_us": 11.12,
+        "batch32_input_MBps": 20.192260290855312,
+        "batch32_MPixels": 20.192260290855312,
+        "batch32_jobs_per_second": 78876.01676115356
+      },
+      "throughput_min_MBps": 20.173364854215915,
+      "throughput_max_MBps": 20.332588731695207
+    },
+    {
+      "id": 6,
+      "channels": 1,
+      "width": 255,
+      "height": 2,
+      "raw_bytes": 510,
+      "file_bytes": 948,
+      "samples": [
+        {
+          "cpu_single_cycles": 1213,
+          "cpu_batch32_cycles": 20392,
+          "cpu_single_us": 24.26,
+          "cpu_batch32_ms": 0.40784,
+          "cpu_batch32_per_task_us": 12.745,
+          "hardware_single_us": 11.1,
+          "first_output_single_us": 7.94,
+          "batch32_input_MBps": 40.0156924284033,
+          "batch32_MPixels": 40.0156924284033,
+          "batch32_jobs_per_second": 78462.14201647705
+        },
+        {
+          "cpu_single_cycles": 1205,
+          "cpu_batch32_cycles": 20722,
+          "cpu_single_us": 24.1,
+          "cpu_batch32_ms": 0.41444,
+          "cpu_batch32_per_task_us": 12.95125,
+          "hardware_single_us": 11.42,
+          "first_output_single_us": 8.26,
+          "batch32_input_MBps": 39.37843837467426,
+          "batch32_MPixels": 39.37843837467426,
+          "batch32_jobs_per_second": 77212.62426406717
+        },
+        {
+          "cpu_single_cycles": 1213,
+          "cpu_batch32_cycles": 20444,
+          "cpu_single_us": 24.26,
+          "cpu_batch32_ms": 0.40888,
+          "cpu_batch32_per_task_us": 12.7775,
+          "hardware_single_us": 11.72,
+          "first_output_single_us": 8.52,
+          "batch32_input_MBps": 39.913911171982,
+          "batch32_MPixels": 39.913911171982,
+          "batch32_jobs_per_second": 78262.5709254549
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1213,
+        "cpu_batch32_cycles": 20444,
+        "cpu_single_us": 24.26,
+        "cpu_batch32_ms": 0.40888,
+        "cpu_batch32_per_task_us": 12.7775,
+        "hardware_single_us": 11.42,
+        "first_output_single_us": 8.26,
+        "batch32_input_MBps": 39.913911171982,
+        "batch32_MPixels": 39.913911171982,
+        "batch32_jobs_per_second": 78262.5709254549
+      },
+      "throughput_min_MBps": 39.37843837467426,
+      "throughput_max_MBps": 40.0156924284033
+    },
+    {
+      "id": 7,
+      "channels": 1,
+      "width": 256,
+      "height": 256,
+      "raw_bytes": 65536,
+      "file_bytes": 72968,
+      "samples": [
+        {
+          "cpu_single_cycles": 20930,
+          "cpu_batch32_cycles": 420691,
+          "cpu_single_us": 418.6,
+          "cpu_batch32_ms": 8.41382,
+          "cpu_batch32_per_task_us": 262.931875,
+          "hardware_single_us": 401.68,
+          "first_output_single_us": 285.9,
+          "batch32_input_MBps": 249.25087534556243,
+          "batch32_MPixels": 249.25087534556243,
+          "batch32_jobs_per_second": 3803.266530541419
+        },
+        {
+          "cpu_single_cycles": 21166,
+          "cpu_batch32_cycles": 422378,
+          "cpu_single_us": 423.32,
+          "cpu_batch32_ms": 8.44756,
+          "cpu_batch32_per_task_us": 263.98625,
+          "hardware_single_us": 405.68,
+          "first_output_single_us": 285.8,
+          "batch32_input_MBps": 248.2553542087893,
+          "batch32_MPixels": 248.2553542087893,
+          "batch32_jobs_per_second": 3788.0760835081373
+        },
+        {
+          "cpu_single_cycles": 21011,
+          "cpu_batch32_cycles": 420621,
+          "cpu_single_us": 420.22,
+          "cpu_batch32_ms": 8.41242,
+          "cpu_batch32_per_task_us": 262.888125,
+          "hardware_single_us": 403.32,
+          "first_output_single_us": 285.72,
+          "batch32_input_MBps": 249.2923558262664,
+          "batch32_MPixels": 249.2923558262664,
+          "batch32_jobs_per_second": 3803.899472446692
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 21011,
+        "cpu_batch32_cycles": 420691,
+        "cpu_single_us": 420.22,
+        "cpu_batch32_ms": 8.41382,
+        "cpu_batch32_per_task_us": 262.931875,
+        "hardware_single_us": 403.32,
+        "first_output_single_us": 285.8,
+        "batch32_input_MBps": 249.25087534556243,
+        "batch32_MPixels": 249.25087534556243,
+        "batch32_jobs_per_second": 3803.266530541419
+      },
+      "throughput_min_MBps": 248.2553542087893,
+      "throughput_max_MBps": 249.2923558262664
+    },
+    {
+      "id": 8,
+      "channels": 2,
+      "width": 1,
+      "height": 1,
+      "raw_bytes": 2,
+      "file_bytes": 174,
+      "samples": [
+        {
+          "cpu_single_cycles": 2599,
+          "cpu_batch32_cycles": 19843,
+          "cpu_single_us": 51.98,
+          "cpu_batch32_ms": 0.39686,
+          "cpu_batch32_per_task_us": 12.401875,
+          "hardware_single_us": 37.78,
+          "first_output_single_us": 37.0,
+          "batch32_input_MBps": 0.16126593761024038,
+          "batch32_MPixels": 0.08063296880512019,
+          "batch32_jobs_per_second": 80632.9688051202
+        },
+        {
+          "cpu_single_cycles": 2611,
+          "cpu_batch32_cycles": 19958,
+          "cpu_single_us": 52.22,
+          "cpu_batch32_ms": 0.39916,
+          "cpu_batch32_per_task_us": 12.47375,
+          "hardware_single_us": 38.04,
+          "first_output_single_us": 37.24,
+          "batch32_input_MBps": 0.16033670708487824,
+          "batch32_MPixels": 0.08016835354243912,
+          "batch32_jobs_per_second": 80168.35354243912
+        },
+        {
+          "cpu_single_cycles": 2611,
+          "cpu_batch32_cycles": 20004,
+          "cpu_single_us": 52.22,
+          "cpu_batch32_ms": 0.40008,
+          "cpu_batch32_per_task_us": 12.5025,
+          "hardware_single_us": 38.04,
+          "first_output_single_us": 37.24,
+          "batch32_input_MBps": 0.15996800639872025,
+          "batch32_MPixels": 0.07998400319936012,
+          "batch32_jobs_per_second": 79984.00319936013
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2611,
+        "cpu_batch32_cycles": 19958,
+        "cpu_single_us": 52.22,
+        "cpu_batch32_ms": 0.39916,
+        "cpu_batch32_per_task_us": 12.47375,
+        "hardware_single_us": 38.04,
+        "first_output_single_us": 37.24,
+        "batch32_input_MBps": 0.16033670708487824,
+        "batch32_MPixels": 0.08016835354243912,
+        "batch32_jobs_per_second": 80168.35354243912
+      },
+      "throughput_min_MBps": 0.15996800639872025,
+      "throughput_max_MBps": 0.16126593761024038
+    },
+    {
+      "id": 9,
+      "channels": 2,
+      "width": 7,
+      "height": 3,
+      "raw_bytes": 42,
+      "file_bytes": 187,
+      "samples": [
+        {
+          "cpu_single_cycles": 960,
+          "cpu_batch32_cycles": 19744,
+          "cpu_single_us": 19.2,
+          "cpu_batch32_ms": 0.39488,
+          "cpu_batch32_per_task_us": 12.34,
+          "hardware_single_us": 6.44,
+          "first_output_single_us": 5.66,
+          "batch32_input_MBps": 3.40356564019449,
+          "batch32_MPixels": 1.701782820097245,
+          "batch32_jobs_per_second": 81037.27714748784
+        },
+        {
+          "cpu_single_cycles": 945,
+          "cpu_batch32_cycles": 19717,
+          "cpu_single_us": 18.9,
+          "cpu_batch32_ms": 0.39434,
+          "cpu_batch32_per_task_us": 12.323125,
+          "hardware_single_us": 6.2,
+          "first_output_single_us": 5.42,
+          "batch32_input_MBps": 3.408226403611097,
+          "batch32_MPixels": 1.7041132018055485,
+          "batch32_jobs_per_second": 81148.24770502612
+        },
+        {
+          "cpu_single_cycles": 967,
+          "cpu_batch32_cycles": 19894,
+          "cpu_single_us": 19.34,
+          "cpu_batch32_ms": 0.39788,
+          "cpu_batch32_per_task_us": 12.43375,
+          "hardware_single_us": 6.42,
+          "first_output_single_us": 5.66,
+          "batch32_input_MBps": 3.377902885292048,
+          "batch32_MPixels": 1.688951442646024,
+          "batch32_jobs_per_second": 80426.25917362019
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 960,
+        "cpu_batch32_cycles": 19744,
+        "cpu_single_us": 19.2,
+        "cpu_batch32_ms": 0.39488,
+        "cpu_batch32_per_task_us": 12.34,
+        "hardware_single_us": 6.42,
+        "first_output_single_us": 5.66,
+        "batch32_input_MBps": 3.40356564019449,
+        "batch32_MPixels": 1.701782820097245,
+        "batch32_jobs_per_second": 81037.27714748784
+      },
+      "throughput_min_MBps": 3.377902885292048,
+      "throughput_max_MBps": 3.408226403611097
+    },
+    {
+      "id": 10,
+      "channels": 2,
+      "width": 8,
+      "height": 128,
+      "raw_bytes": 2048,
+      "file_bytes": 204,
+      "samples": [
+        {
+          "cpu_single_cycles": 2998,
+          "cpu_batch32_cycles": 21338,
+          "cpu_single_us": 59.96,
+          "cpu_batch32_ms": 0.42676,
+          "cpu_batch32_per_task_us": 13.33625,
+          "hardware_single_us": 46.6,
+          "first_output_single_us": 45.64,
+          "batch32_input_MBps": 153.56640734839254,
+          "batch32_MPixels": 76.78320367419627,
+          "batch32_jobs_per_second": 74983.5973380823
+        },
+        {
+          "cpu_single_cycles": 2978,
+          "cpu_batch32_cycles": 21377,
+          "cpu_single_us": 59.56,
+          "cpu_batch32_ms": 0.42754,
+          "cpu_batch32_per_task_us": 13.360625,
+          "hardware_single_us": 46.72,
+          "first_output_single_us": 45.76,
+          "batch32_input_MBps": 153.28624222294988,
+          "batch32_MPixels": 76.64312111147494,
+          "batch32_jobs_per_second": 74846.79796042475
+        },
+        {
+          "cpu_single_cycles": 3008,
+          "cpu_batch32_cycles": 21274,
+          "cpu_single_us": 60.16,
+          "cpu_batch32_ms": 0.42548,
+          "cpu_batch32_per_task_us": 13.29625,
+          "hardware_single_us": 46.72,
+          "first_output_single_us": 45.76,
+          "batch32_input_MBps": 154.0283914637586,
+          "batch32_MPixels": 77.0141957318793,
+          "batch32_jobs_per_second": 75209.17551941337
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2998,
+        "cpu_batch32_cycles": 21338,
+        "cpu_single_us": 59.96,
+        "cpu_batch32_ms": 0.42676,
+        "cpu_batch32_per_task_us": 13.33625,
+        "hardware_single_us": 46.72,
+        "first_output_single_us": 45.76,
+        "batch32_input_MBps": 153.56640734839254,
+        "batch32_MPixels": 76.78320367419627,
+        "batch32_jobs_per_second": 74983.5973380823
+      },
+      "throughput_min_MBps": 153.28624222294988,
+      "throughput_max_MBps": 154.0283914637586
+    },
+    {
+      "id": 11,
+      "channels": 2,
+      "width": 17,
+      "height": 255,
+      "raw_bytes": 8670,
+      "file_bytes": 11662,
+      "samples": [
+        {
+          "cpu_single_cycles": 5583,
+          "cpu_batch32_cycles": 58375,
+          "cpu_single_us": 111.66,
+          "cpu_batch32_ms": 1.1675,
+          "cpu_batch32_per_task_us": 36.484375,
+          "hardware_single_us": 97.9,
+          "first_output_single_us": 66.08,
+          "batch32_input_MBps": 237.63597430406853,
+          "batch32_MPixels": 118.81798715203426,
+          "batch32_jobs_per_second": 27408.993576017132
+        },
+        {
+          "cpu_single_cycles": 5661,
+          "cpu_batch32_cycles": 57919,
+          "cpu_single_us": 113.22,
+          "cpu_batch32_ms": 1.15838,
+          "cpu_batch32_per_task_us": 36.199375,
+          "hardware_single_us": 99.58,
+          "first_output_single_us": 67.3,
+          "batch32_input_MBps": 239.50689756383917,
+          "batch32_MPixels": 119.75344878191959,
+          "batch32_jobs_per_second": 27624.786339543156
+        },
+        {
+          "cpu_single_cycles": 5783,
+          "cpu_batch32_cycles": 58570,
+          "cpu_single_us": 115.66,
+          "cpu_batch32_ms": 1.1714,
+          "cpu_batch32_per_task_us": 36.60625,
+          "hardware_single_us": 100.44,
+          "first_output_single_us": 67.98,
+          "batch32_input_MBps": 236.84480109270956,
+          "batch32_MPixels": 118.42240054635478,
+          "batch32_jobs_per_second": 27317.739457059928
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 5661,
+        "cpu_batch32_cycles": 58375,
+        "cpu_single_us": 113.22,
+        "cpu_batch32_ms": 1.1675,
+        "cpu_batch32_per_task_us": 36.484375,
+        "hardware_single_us": 99.58,
+        "first_output_single_us": 67.3,
+        "batch32_input_MBps": 237.63597430406853,
+        "batch32_MPixels": 118.81798715203426,
+        "batch32_jobs_per_second": 27408.993576017132
+      },
+      "throughput_min_MBps": 236.84480109270956,
+      "throughput_max_MBps": 239.50689756383917
+    },
+    {
+      "id": 12,
+      "channels": 2,
+      "width": 256,
+      "height": 1,
+      "raw_bytes": 512,
+      "file_bytes": 1035,
+      "samples": [
+        {
+          "cpu_single_cycles": 2810,
+          "cpu_batch32_cycles": 20860,
+          "cpu_single_us": 56.2,
+          "cpu_batch32_ms": 0.4172,
+          "cpu_batch32_per_task_us": 13.0375,
+          "hardware_single_us": 42.54,
+          "first_output_single_us": 39.08,
+          "batch32_input_MBps": 39.27133269415148,
+          "batch32_MPixels": 19.63566634707574,
+          "batch32_jobs_per_second": 76701.82166826462
+        },
+        {
+          "cpu_single_cycles": 2793,
+          "cpu_batch32_cycles": 20727,
+          "cpu_single_us": 55.86,
+          "cpu_batch32_ms": 0.41454,
+          "cpu_batch32_per_task_us": 12.954375,
+          "hardware_single_us": 42.72,
+          "first_output_single_us": 39.16,
+          "batch32_input_MBps": 39.523327061320984,
+          "batch32_MPixels": 19.761663530660492,
+          "batch32_jobs_per_second": 77193.99816664254
+        },
+        {
+          "cpu_single_cycles": 2820,
+          "cpu_batch32_cycles": 20607,
+          "cpu_single_us": 56.4,
+          "cpu_batch32_ms": 0.41214,
+          "cpu_batch32_per_task_us": 12.879375,
+          "hardware_single_us": 42.9,
+          "first_output_single_us": 39.34,
+          "batch32_input_MBps": 39.75348182656379,
+          "batch32_MPixels": 19.876740913281896,
+          "batch32_jobs_per_second": 77643.5191925074
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2810,
+        "cpu_batch32_cycles": 20727,
+        "cpu_single_us": 56.2,
+        "cpu_batch32_ms": 0.41454,
+        "cpu_batch32_per_task_us": 12.954375,
+        "hardware_single_us": 42.72,
+        "first_output_single_us": 39.16,
+        "batch32_input_MBps": 39.523327061320984,
+        "batch32_MPixels": 19.761663530660492,
+        "batch32_jobs_per_second": 77193.99816664254
+      },
+      "throughput_min_MBps": 39.27133269415148,
+      "throughput_max_MBps": 39.75348182656379
+    },
+    {
+      "id": 13,
+      "channels": 2,
+      "width": 1,
+      "height": 256,
+      "raw_bytes": 512,
+      "file_bytes": 784,
+      "samples": [
+        {
+          "cpu_single_cycles": 1351,
+          "cpu_batch32_cycles": 20529,
+          "cpu_single_us": 27.02,
+          "cpu_batch32_ms": 0.41058,
+          "cpu_batch32_per_task_us": 12.830625,
+          "hardware_single_us": 14.14,
+          "first_output_single_us": 11.38,
+          "batch32_input_MBps": 39.90452530566516,
+          "batch32_MPixels": 19.95226265283258,
+          "batch32_jobs_per_second": 77938.52598762726
+        },
+        {
+          "cpu_single_cycles": 1378,
+          "cpu_batch32_cycles": 20616,
+          "cpu_single_us": 27.56,
+          "cpu_batch32_ms": 0.41232,
+          "cpu_batch32_per_task_us": 12.885,
+          "hardware_single_us": 14.44,
+          "first_output_single_us": 11.8,
+          "batch32_input_MBps": 39.73612727978269,
+          "batch32_MPixels": 19.868063639891346,
+          "batch32_jobs_per_second": 77609.62359332557
+        },
+        {
+          "cpu_single_cycles": 1391,
+          "cpu_batch32_cycles": 20640,
+          "cpu_single_us": 27.82,
+          "cpu_batch32_ms": 0.4128,
+          "cpu_batch32_per_task_us": 12.9,
+          "hardware_single_us": 14.84,
+          "first_output_single_us": 12.08,
+          "batch32_input_MBps": 39.689922480620154,
+          "batch32_MPixels": 19.844961240310077,
+          "batch32_jobs_per_second": 77519.37984496124
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1378,
+        "cpu_batch32_cycles": 20616,
+        "cpu_single_us": 27.56,
+        "cpu_batch32_ms": 0.41232,
+        "cpu_batch32_per_task_us": 12.885,
+        "hardware_single_us": 14.44,
+        "first_output_single_us": 11.8,
+        "batch32_input_MBps": 39.73612727978269,
+        "batch32_MPixels": 19.868063639891346,
+        "batch32_jobs_per_second": 77609.62359332557
+      },
+      "throughput_min_MBps": 39.689922480620154,
+      "throughput_max_MBps": 39.90452530566516
+    },
+    {
+      "id": 14,
+      "channels": 2,
+      "width": 255,
+      "height": 2,
+      "raw_bytes": 1020,
+      "file_bytes": 1721,
+      "samples": [
+        {
+          "cpu_single_cycles": 1400,
+          "cpu_batch32_cycles": 21156,
+          "cpu_single_us": 28.0,
+          "cpu_batch32_ms": 0.42312,
+          "cpu_batch32_per_task_us": 13.2225,
+          "hardware_single_us": 15.26,
+          "first_output_single_us": 9.7,
+          "batch32_input_MBps": 77.14123652864436,
+          "batch32_MPixels": 38.57061826432218,
+          "batch32_jobs_per_second": 75628.66326337682
+        },
+        {
+          "cpu_single_cycles": 1408,
+          "cpu_batch32_cycles": 21426,
+          "cpu_single_us": 28.16,
+          "cpu_batch32_ms": 0.42852,
+          "cpu_batch32_per_task_us": 13.39125,
+          "hardware_single_us": 14.68,
+          "first_output_single_us": 9.12,
+          "batch32_input_MBps": 76.16914029683562,
+          "batch32_MPixels": 38.08457014841781,
+          "batch32_jobs_per_second": 74675.6277419957
+        },
+        {
+          "cpu_single_cycles": 1401,
+          "cpu_batch32_cycles": 21130,
+          "cpu_single_us": 28.02,
+          "cpu_batch32_ms": 0.4226,
+          "cpu_batch32_per_task_us": 13.20625,
+          "hardware_single_us": 14.74,
+          "first_output_single_us": 9.18,
+          "batch32_input_MBps": 77.23615712257454,
+          "batch32_MPixels": 38.61807856128727,
+          "batch32_jobs_per_second": 75721.72266919073
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1401,
+        "cpu_batch32_cycles": 21156,
+        "cpu_single_us": 28.02,
+        "cpu_batch32_ms": 0.42312,
+        "cpu_batch32_per_task_us": 13.2225,
+        "hardware_single_us": 14.74,
+        "first_output_single_us": 9.18,
+        "batch32_input_MBps": 77.14123652864436,
+        "batch32_MPixels": 38.57061826432218,
+        "batch32_jobs_per_second": 75628.66326337682
+      },
+      "throughput_min_MBps": 76.16914029683562,
+      "throughput_max_MBps": 77.23615712257454
+    },
+    {
+      "id": 15,
+      "channels": 2,
+      "width": 256,
+      "height": 256,
+      "raw_bytes": 131072,
+      "file_bytes": 146129,
+      "samples": [
+        {
+          "cpu_single_cycles": 30153,
+          "cpu_batch32_cycles": 720511,
+          "cpu_single_us": 603.06,
+          "cpu_batch32_ms": 14.41022,
+          "cpu_batch32_per_task_us": 450.319375,
+          "hardware_single_us": 584.58,
+          "first_output_single_us": 378.54,
+          "batch32_input_MBps": 291.0645361417105,
+          "batch32_MPixels": 145.53226807085525,
+          "batch32_jobs_per_second": 2220.646180280384
+        },
+        {
+          "cpu_single_cycles": 30102,
+          "cpu_batch32_cycles": 721191,
+          "cpu_single_us": 602.04,
+          "cpu_batch32_ms": 14.42382,
+          "cpu_batch32_per_task_us": 450.744375,
+          "hardware_single_us": 583.4,
+          "first_output_single_us": 378.52,
+          "batch32_input_MBps": 290.7900958275963,
+          "batch32_MPixels": 145.39504791379815,
+          "batch32_jobs_per_second": 2218.5523668487267
+        },
+        {
+          "cpu_single_cycles": 30149,
+          "cpu_batch32_cycles": 720476,
+          "cpu_single_us": 602.98,
+          "cpu_batch32_ms": 14.40952,
+          "cpu_batch32_per_task_us": 450.2975,
+          "hardware_single_us": 585.28,
+          "first_output_single_us": 378.22,
+          "batch32_input_MBps": 291.07867576435575,
+          "batch32_MPixels": 145.53933788217788,
+          "batch32_jobs_per_second": 2220.754057040068
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 30149,
+        "cpu_batch32_cycles": 720511,
+        "cpu_single_us": 602.98,
+        "cpu_batch32_ms": 14.41022,
+        "cpu_batch32_per_task_us": 450.319375,
+        "hardware_single_us": 584.58,
+        "first_output_single_us": 378.52,
+        "batch32_input_MBps": 291.0645361417105,
+        "batch32_MPixels": 145.53226807085525,
+        "batch32_jobs_per_second": 2220.646180280384
+      },
+      "throughput_min_MBps": 290.7900958275963,
+      "throughput_max_MBps": 291.07867576435575
+    },
+    {
+      "id": 16,
+      "channels": 3,
+      "width": 1,
+      "height": 1,
+      "raw_bytes": 3,
+      "file_bytes": 174,
+      "samples": [
+        {
+          "cpu_single_cycles": 2819,
+          "cpu_batch32_cycles": 20115,
+          "cpu_single_us": 56.38,
+          "cpu_batch32_ms": 0.4023,
+          "cpu_batch32_per_task_us": 12.571875,
+          "hardware_single_us": 41.74,
+          "first_output_single_us": 40.98,
+          "batch32_input_MBps": 0.23862788963460105,
+          "batch32_MPixels": 0.07954262987820035,
+          "batch32_jobs_per_second": 79542.62987820034
+        },
+        {
+          "cpu_single_cycles": 2813,
+          "cpu_batch32_cycles": 19889,
+          "cpu_single_us": 56.26,
+          "cpu_batch32_ms": 0.39778,
+          "cpu_batch32_per_task_us": 12.430625,
+          "hardware_single_us": 41.8,
+          "first_output_single_us": 40.98,
+          "batch32_input_MBps": 0.2413394338579114,
+          "batch32_MPixels": 0.08044647795263714,
+          "batch32_jobs_per_second": 80446.47795263714
+        },
+        {
+          "cpu_single_cycles": 2822,
+          "cpu_batch32_cycles": 19909,
+          "cpu_single_us": 56.44,
+          "cpu_batch32_ms": 0.39818,
+          "cpu_batch32_per_task_us": 12.443125,
+          "hardware_single_us": 41.98,
+          "first_output_single_us": 41.22,
+          "batch32_input_MBps": 0.2410969913104626,
+          "batch32_MPixels": 0.08036566377015421,
+          "batch32_jobs_per_second": 80365.6637701542
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2819,
+        "cpu_batch32_cycles": 19909,
+        "cpu_single_us": 56.38,
+        "cpu_batch32_ms": 0.39818,
+        "cpu_batch32_per_task_us": 12.443125,
+        "hardware_single_us": 41.8,
+        "first_output_single_us": 40.98,
+        "batch32_input_MBps": 0.2410969913104626,
+        "batch32_MPixels": 0.08036566377015421,
+        "batch32_jobs_per_second": 80365.6637701542
+      },
+      "throughput_min_MBps": 0.23862788963460105,
+      "throughput_max_MBps": 0.2413394338579114
+    },
+    {
+      "id": 17,
+      "channels": 3,
+      "width": 7,
+      "height": 3,
+      "raw_bytes": 63,
+      "file_bytes": 191,
+      "samples": [
+        {
+          "cpu_single_cycles": 970,
+          "cpu_batch32_cycles": 19898,
+          "cpu_single_us": 19.4,
+          "cpu_batch32_ms": 0.39796,
+          "cpu_batch32_per_task_us": 12.43625,
+          "hardware_single_us": 6.72,
+          "first_output_single_us": 5.92,
+          "batch32_input_MBps": 5.06583576238818,
+          "batch32_MPixels": 1.68861192079606,
+          "batch32_jobs_per_second": 80410.09146647905
+        },
+        {
+          "cpu_single_cycles": 977,
+          "cpu_batch32_cycles": 19829,
+          "cpu_single_us": 19.54,
+          "cpu_batch32_ms": 0.39658,
+          "cpu_batch32_per_task_us": 12.393125,
+          "hardware_single_us": 6.68,
+          "first_output_single_us": 5.92,
+          "batch32_input_MBps": 5.083463613898835,
+          "batch32_MPixels": 1.6944878712996116,
+          "batch32_jobs_per_second": 80689.89863331484
+        },
+        {
+          "cpu_single_cycles": 966,
+          "cpu_batch32_cycles": 19709,
+          "cpu_single_us": 19.32,
+          "cpu_batch32_ms": 0.39418,
+          "cpu_batch32_per_task_us": 12.318125,
+          "hardware_single_us": 6.46,
+          "first_output_single_us": 5.66,
+          "batch32_input_MBps": 5.114414734385306,
+          "batch32_MPixels": 1.7048049114617687,
+          "batch32_jobs_per_second": 81181.18626008423
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 970,
+        "cpu_batch32_cycles": 19829,
+        "cpu_single_us": 19.4,
+        "cpu_batch32_ms": 0.39658,
+        "cpu_batch32_per_task_us": 12.393125,
+        "hardware_single_us": 6.68,
+        "first_output_single_us": 5.92,
+        "batch32_input_MBps": 5.083463613898835,
+        "batch32_MPixels": 1.6944878712996116,
+        "batch32_jobs_per_second": 80689.89863331484
+      },
+      "throughput_min_MBps": 5.06583576238818,
+      "throughput_max_MBps": 5.114414734385306
+    },
+    {
+      "id": 18,
+      "channels": 3,
+      "width": 8,
+      "height": 128,
+      "raw_bytes": 3072,
+      "file_bytes": 196,
+      "samples": [
+        {
+          "cpu_single_cycles": 3312,
+          "cpu_batch32_cycles": 22096,
+          "cpu_single_us": 66.24,
+          "cpu_batch32_ms": 0.44192,
+          "cpu_batch32_per_task_us": 13.81,
+          "hardware_single_us": 53.16,
+          "first_output_single_us": 52.2,
+          "batch32_input_MBps": 222.4475018102824,
+          "batch32_MPixels": 74.14916727009414,
+          "batch32_jobs_per_second": 72411.29616220131
+        },
+        {
+          "cpu_single_cycles": 3335,
+          "cpu_batch32_cycles": 22103,
+          "cpu_single_us": 66.7,
+          "cpu_batch32_ms": 0.44206,
+          "cpu_batch32_per_task_us": 13.814375,
+          "hardware_single_us": 53.12,
+          "first_output_single_us": 52.14,
+          "batch32_input_MBps": 222.37705288874815,
+          "batch32_MPixels": 74.12568429624937,
+          "batch32_jobs_per_second": 72388.36357055603
+        },
+        {
+          "cpu_single_cycles": 3347,
+          "cpu_batch32_cycles": 21995,
+          "cpu_single_us": 66.94,
+          "cpu_batch32_ms": 0.4399,
+          "cpu_batch32_per_task_us": 13.746875,
+          "hardware_single_us": 53.36,
+          "first_output_single_us": 52.4,
+          "batch32_input_MBps": 223.46897022050467,
+          "batch32_MPixels": 74.48965674016821,
+          "batch32_jobs_per_second": 72743.80541032052
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 3335,
+        "cpu_batch32_cycles": 22096,
+        "cpu_single_us": 66.7,
+        "cpu_batch32_ms": 0.44192,
+        "cpu_batch32_per_task_us": 13.81,
+        "hardware_single_us": 53.16,
+        "first_output_single_us": 52.2,
+        "batch32_input_MBps": 222.4475018102824,
+        "batch32_MPixels": 74.14916727009414,
+        "batch32_jobs_per_second": 72411.29616220131
+      },
+      "throughput_min_MBps": 222.37705288874815,
+      "throughput_max_MBps": 223.46897022050467
+    },
+    {
+      "id": 19,
+      "channels": 3,
+      "width": 17,
+      "height": 255,
+      "raw_bytes": 13005,
+      "file_bytes": 16881,
+      "samples": [
+        {
+          "cpu_single_cycles": 6600,
+          "cpu_batch32_cycles": 77943,
+          "cpu_single_us": 132.0,
+          "cpu_batch32_ms": 1.55886,
+          "cpu_batch32_per_task_us": 48.714375,
+          "hardware_single_us": 117.16,
+          "first_output_single_us": 73.68,
+          "batch32_input_MBps": 266.96432008005854,
+          "batch32_MPixels": 88.98810669335283,
+          "batch32_jobs_per_second": 20527.821613230182
+        },
+        {
+          "cpu_single_cycles": 6580,
+          "cpu_batch32_cycles": 77774,
+          "cpu_single_us": 131.6,
+          "cpu_batch32_ms": 1.55548,
+          "cpu_batch32_per_task_us": 48.60875,
+          "hardware_single_us": 117.02,
+          "first_output_single_us": 75.5,
+          "batch32_input_MBps": 267.5444235862885,
+          "batch32_MPixels": 89.18147452876283,
+          "batch32_jobs_per_second": 20572.427803636176
+        },
+        {
+          "cpu_single_cycles": 6637,
+          "cpu_batch32_cycles": 78010,
+          "cpu_single_us": 132.74,
+          "cpu_batch32_ms": 1.5602,
+          "cpu_batch32_per_task_us": 48.75625,
+          "hardware_single_us": 118.96,
+          "first_output_single_us": 75.42,
+          "batch32_input_MBps": 266.7350339700038,
+          "batch32_MPixels": 88.91167799000128,
+          "batch32_jobs_per_second": 20510.191001153697
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 6600,
+        "cpu_batch32_cycles": 77943,
+        "cpu_single_us": 132.0,
+        "cpu_batch32_ms": 1.55886,
+        "cpu_batch32_per_task_us": 48.714375,
+        "hardware_single_us": 117.16,
+        "first_output_single_us": 75.42,
+        "batch32_input_MBps": 266.96432008005854,
+        "batch32_MPixels": 88.98810669335283,
+        "batch32_jobs_per_second": 20527.821613230182
+      },
+      "throughput_min_MBps": 266.7350339700038,
+      "throughput_max_MBps": 267.5444235862885
+    },
+    {
+      "id": 20,
+      "channels": 3,
+      "width": 256,
+      "height": 1,
+      "raw_bytes": 768,
+      "file_bytes": 1372,
+      "samples": [
+        {
+          "cpu_single_cycles": 3086,
+          "cpu_batch32_cycles": 20978,
+          "cpu_single_us": 61.72,
+          "cpu_batch32_ms": 0.41956,
+          "cpu_batch32_per_task_us": 13.11125,
+          "hardware_single_us": 48.08,
+          "first_output_single_us": 43.52,
+          "batch32_input_MBps": 58.57565068166651,
+          "batch32_MPixels": 19.525216893888835,
+          "batch32_jobs_per_second": 76270.37849175326
+        },
+        {
+          "cpu_single_cycles": 3132,
+          "cpu_batch32_cycles": 21106,
+          "cpu_single_us": 62.64,
+          "cpu_batch32_ms": 0.42212,
+          "cpu_batch32_per_task_us": 13.19125,
+          "hardware_single_us": 48.9,
+          "first_output_single_us": 44.34,
+          "batch32_input_MBps": 58.22041125746233,
+          "batch32_MPixels": 19.406803752487445,
+          "batch32_jobs_per_second": 75807.82715815408
+        },
+        {
+          "cpu_single_cycles": 3110,
+          "cpu_batch32_cycles": 20949,
+          "cpu_single_us": 62.2,
+          "cpu_batch32_ms": 0.41898,
+          "cpu_batch32_per_task_us": 13.093125,
+          "hardware_single_us": 48.7,
+          "first_output_single_us": 44.14,
+          "batch32_input_MBps": 58.65673779178004,
+          "batch32_MPixels": 19.552245930593344,
+          "batch32_jobs_per_second": 76375.96066638026
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 3110,
+        "cpu_batch32_cycles": 20978,
+        "cpu_single_us": 62.2,
+        "cpu_batch32_ms": 0.41956,
+        "cpu_batch32_per_task_us": 13.11125,
+        "hardware_single_us": 48.7,
+        "first_output_single_us": 44.14,
+        "batch32_input_MBps": 58.57565068166651,
+        "batch32_MPixels": 19.525216893888835,
+        "batch32_jobs_per_second": 76270.37849175326
+      },
+      "throughput_min_MBps": 58.22041125746233,
+      "throughput_max_MBps": 58.65673779178004
+    },
+    {
+      "id": 21,
+      "channels": 3,
+      "width": 1,
+      "height": 256,
+      "raw_bytes": 768,
+      "file_bytes": 856,
+      "samples": [
+        {
+          "cpu_single_cycles": 1434,
+          "cpu_batch32_cycles": 20601,
+          "cpu_single_us": 28.68,
+          "cpu_batch32_ms": 0.41202,
+          "cpu_batch32_per_task_us": 12.875625,
+          "hardware_single_us": 15.76,
+          "first_output_single_us": 12.78,
+          "batch32_input_MBps": 59.64758992281928,
+          "batch32_MPixels": 19.882529974273094,
+          "batch32_jobs_per_second": 77666.13271200427
+        },
+        {
+          "cpu_single_cycles": 1388,
+          "cpu_batch32_cycles": 20588,
+          "cpu_single_us": 27.76,
+          "cpu_batch32_ms": 0.41176,
+          "cpu_batch32_per_task_us": 12.8675,
+          "hardware_single_us": 15.22,
+          "first_output_single_us": 12.26,
+          "batch32_input_MBps": 59.685253545754804,
+          "batch32_MPixels": 19.895084515251604,
+          "batch32_jobs_per_second": 77715.17388770157
+        },
+        {
+          "cpu_single_cycles": 1419,
+          "cpu_batch32_cycles": 20452,
+          "cpu_single_us": 28.38,
+          "cpu_batch32_ms": 0.40904,
+          "cpu_batch32_per_task_us": 12.7825,
+          "hardware_single_us": 15.64,
+          "first_output_single_us": 12.82,
+          "batch32_input_MBps": 60.08214355564248,
+          "batch32_MPixels": 20.027381185214157,
+          "batch32_jobs_per_second": 78231.9577547428
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1419,
+        "cpu_batch32_cycles": 20588,
+        "cpu_single_us": 28.38,
+        "cpu_batch32_ms": 0.41176,
+        "cpu_batch32_per_task_us": 12.8675,
+        "hardware_single_us": 15.64,
+        "first_output_single_us": 12.78,
+        "batch32_input_MBps": 59.685253545754804,
+        "batch32_MPixels": 19.895084515251604,
+        "batch32_jobs_per_second": 77715.17388770157
+      },
+      "throughput_min_MBps": 59.64758992281928,
+      "throughput_max_MBps": 60.08214355564248
+    },
+    {
+      "id": 22,
+      "channels": 3,
+      "width": 255,
+      "height": 2,
+      "raw_bytes": 1530,
+      "file_bytes": 2472,
+      "samples": [
+        {
+          "cpu_single_cycles": 1559,
+          "cpu_batch32_cycles": 21915,
+          "cpu_single_us": 31.18,
+          "cpu_batch32_ms": 0.4383,
+          "cpu_batch32_per_task_us": 13.696875,
+          "hardware_single_us": 18.3,
+          "first_output_single_us": 10.34,
+          "batch32_input_MBps": 111.70431211498973,
+          "batch32_MPixels": 37.23477070499658,
+          "batch32_jobs_per_second": 73009.3543235227
+        },
+        {
+          "cpu_single_cycles": 1580,
+          "cpu_batch32_cycles": 21838,
+          "cpu_single_us": 31.6,
+          "cpu_batch32_ms": 0.43676,
+          "cpu_batch32_per_task_us": 13.64875,
+          "hardware_single_us": 18.72,
+          "first_output_single_us": 11.14,
+          "batch32_input_MBps": 112.09817748878102,
+          "batch32_MPixels": 37.36605916292701,
+          "batch32_jobs_per_second": 73266.7826724059
+        },
+        {
+          "cpu_single_cycles": 1578,
+          "cpu_batch32_cycles": 21994,
+          "cpu_single_us": 31.56,
+          "cpu_batch32_ms": 0.43988,
+          "cpu_batch32_per_task_us": 13.74625,
+          "hardware_single_us": 18.6,
+          "first_output_single_us": 10.78,
+          "batch32_input_MBps": 111.30308265890699,
+          "batch32_MPixels": 37.10102755296899,
+          "batch32_jobs_per_second": 72747.1128489588
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1578,
+        "cpu_batch32_cycles": 21915,
+        "cpu_single_us": 31.56,
+        "cpu_batch32_ms": 0.4383,
+        "cpu_batch32_per_task_us": 13.696875,
+        "hardware_single_us": 18.6,
+        "first_output_single_us": 10.78,
+        "batch32_input_MBps": 111.70431211498973,
+        "batch32_MPixels": 37.23477070499658,
+        "batch32_jobs_per_second": 73009.3543235227
+      },
+      "throughput_min_MBps": 111.30308265890699,
+      "throughput_max_MBps": 112.09817748878102
+    },
+    {
+      "id": 23,
+      "channels": 3,
+      "width": 256,
+      "height": 256,
+      "raw_bytes": 196608,
+      "file_bytes": 221385,
+      "samples": [
+        {
+          "cpu_single_cycles": 40389,
+          "cpu_batch32_cycles": 1078994,
+          "cpu_single_us": 807.78,
+          "cpu_batch32_ms": 21.57988,
+          "cpu_batch32_per_task_us": 674.37125,
+          "hardware_single_us": 788.64,
+          "first_output_single_us": 483.44,
+          "batch32_input_MBps": 291.5426777164655,
+          "batch32_MPixels": 97.18089257215517,
+          "batch32_jobs_per_second": 1482.862740663989
+        },
+        {
+          "cpu_single_cycles": 40303,
+          "cpu_batch32_cycles": 1080010,
+          "cpu_single_us": 806.06,
+          "cpu_batch32_ms": 21.6002,
+          "cpu_batch32_per_task_us": 675.00625,
+          "hardware_single_us": 787.3,
+          "first_output_single_us": 484.96,
+          "batch32_input_MBps": 291.2684141813502,
+          "batch32_MPixels": 97.08947139378338,
+          "batch32_jobs_per_second": 1481.4677641873686
+        },
+        {
+          "cpu_single_cycles": 40209,
+          "cpu_batch32_cycles": 1079811,
+          "cpu_single_us": 804.18,
+          "cpu_batch32_ms": 21.59622,
+          "cpu_batch32_per_task_us": 674.881875,
+          "hardware_single_us": 784.62,
+          "first_output_single_us": 483.74,
+          "batch32_input_MBps": 291.32209247729463,
+          "batch32_MPixels": 97.10736415909821,
+          "batch32_jobs_per_second": 1481.7407861190522
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 40303,
+        "cpu_batch32_cycles": 1079811,
+        "cpu_single_us": 806.06,
+        "cpu_batch32_ms": 21.59622,
+        "cpu_batch32_per_task_us": 674.881875,
+        "hardware_single_us": 787.3,
+        "first_output_single_us": 483.74,
+        "batch32_input_MBps": 291.32209247729463,
+        "batch32_MPixels": 97.10736415909821,
+        "batch32_jobs_per_second": 1481.7407861190522
+      },
+      "throughput_min_MBps": 291.2684141813502,
+      "throughput_max_MBps": 291.5426777164655
+    },
+    {
+      "id": 24,
+      "channels": 4,
+      "width": 1,
+      "height": 1,
+      "raw_bytes": 4,
+      "file_bytes": 174,
+      "samples": [
+        {
+          "cpu_single_cycles": 2821,
+          "cpu_batch32_cycles": 19923,
+          "cpu_single_us": 56.42,
+          "cpu_batch32_ms": 0.39846,
+          "cpu_batch32_per_task_us": 12.451875,
+          "hardware_single_us": 41.98,
+          "first_output_single_us": 41.22,
+          "batch32_input_MBps": 0.32123676153189784,
+          "batch32_MPixels": 0.08030919038297446,
+          "batch32_jobs_per_second": 80309.19038297446
+        },
+        {
+          "cpu_single_cycles": 2813,
+          "cpu_batch32_cycles": 19972,
+          "cpu_single_us": 56.26,
+          "cpu_batch32_ms": 0.39944,
+          "cpu_batch32_per_task_us": 12.4825,
+          "hardware_single_us": 41.8,
+          "first_output_single_us": 40.98,
+          "batch32_input_MBps": 0.32044862807931107,
+          "batch32_MPixels": 0.08011215701982777,
+          "batch32_jobs_per_second": 80112.15701982776
+        },
+        {
+          "cpu_single_cycles": 2812,
+          "cpu_batch32_cycles": 19978,
+          "cpu_single_us": 56.24,
+          "cpu_batch32_ms": 0.39956,
+          "cpu_batch32_per_task_us": 12.48625,
+          "hardware_single_us": 42.02,
+          "first_output_single_us": 41.22,
+          "batch32_input_MBps": 0.32035238762638907,
+          "batch32_MPixels": 0.08008809690659727,
+          "batch32_jobs_per_second": 80088.09690659726
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 2813,
+        "cpu_batch32_cycles": 19972,
+        "cpu_single_us": 56.26,
+        "cpu_batch32_ms": 0.39944,
+        "cpu_batch32_per_task_us": 12.4825,
+        "hardware_single_us": 41.98,
+        "first_output_single_us": 41.22,
+        "batch32_input_MBps": 0.32044862807931107,
+        "batch32_MPixels": 0.08011215701982777,
+        "batch32_jobs_per_second": 80112.15701982776
+      },
+      "throughput_min_MBps": 0.32035238762638907,
+      "throughput_max_MBps": 0.32123676153189784
+    },
+    {
+      "id": 25,
+      "channels": 4,
+      "width": 7,
+      "height": 3,
+      "raw_bytes": 84,
+      "file_bytes": 198,
+      "samples": [
+        {
+          "cpu_single_cycles": 979,
+          "cpu_batch32_cycles": 20084,
+          "cpu_single_us": 19.58,
+          "cpu_batch32_ms": 0.40168,
+          "cpu_batch32_per_task_us": 12.5525,
+          "hardware_single_us": 6.86,
+          "first_output_single_us": 5.86,
+          "batch32_input_MBps": 6.6918940450109545,
+          "batch32_MPixels": 1.6729735112527386,
+          "batch32_jobs_per_second": 79665.40529774946
+        },
+        {
+          "cpu_single_cycles": 976,
+          "cpu_batch32_cycles": 19918,
+          "cpu_single_us": 19.52,
+          "cpu_batch32_ms": 0.39836,
+          "cpu_batch32_per_task_us": 12.44875,
+          "hardware_single_us": 6.82,
+          "first_output_single_us": 5.86,
+          "batch32_input_MBps": 6.747665428255849,
+          "batch32_MPixels": 1.6869163570639623,
+          "batch32_jobs_per_second": 80329.35033637915
+        },
+        {
+          "cpu_single_cycles": 979,
+          "cpu_batch32_cycles": 19960,
+          "cpu_single_us": 19.58,
+          "cpu_batch32_ms": 0.3992,
+          "cpu_batch32_per_task_us": 12.475,
+          "hardware_single_us": 6.82,
+          "first_output_single_us": 5.86,
+          "batch32_input_MBps": 6.733466933867736,
+          "batch32_MPixels": 1.683366733466934,
+          "batch32_jobs_per_second": 80160.32064128257
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 979,
+        "cpu_batch32_cycles": 19960,
+        "cpu_single_us": 19.58,
+        "cpu_batch32_ms": 0.3992,
+        "cpu_batch32_per_task_us": 12.475,
+        "hardware_single_us": 6.82,
+        "first_output_single_us": 5.86,
+        "batch32_input_MBps": 6.733466933867736,
+        "batch32_MPixels": 1.683366733466934,
+        "batch32_jobs_per_second": 80160.32064128257
+      },
+      "throughput_min_MBps": 6.6918940450109545,
+      "throughput_max_MBps": 6.747665428255849
+    },
+    {
+      "id": 26,
+      "channels": 4,
+      "width": 8,
+      "height": 128,
+      "raw_bytes": 4096,
+      "file_bytes": 212,
+      "samples": [
+        {
+          "cpu_single_cycles": 3516,
+          "cpu_batch32_cycles": 22726,
+          "cpu_single_us": 70.32,
+          "cpu_batch32_ms": 0.45452,
+          "cpu_batch32_per_task_us": 14.20375,
+          "hardware_single_us": 57.14,
+          "first_output_single_us": 56.14,
+          "batch32_input_MBps": 288.3745489747426,
+          "batch32_MPixels": 72.09363724368565,
+          "batch32_jobs_per_second": 70403.94262078677
+        },
+        {
+          "cpu_single_cycles": 3514,
+          "cpu_batch32_cycles": 22853,
+          "cpu_single_us": 70.28,
+          "cpu_batch32_ms": 0.45706,
+          "cpu_batch32_per_task_us": 14.283125,
+          "hardware_single_us": 56.9,
+          "first_output_single_us": 56.0,
+          "batch32_input_MBps": 286.77197742090755,
+          "batch32_MPixels": 71.69299435522689,
+          "batch32_jobs_per_second": 70012.68980002626
+        },
+        {
+          "cpu_single_cycles": 3538,
+          "cpu_batch32_cycles": 22754,
+          "cpu_single_us": 70.76,
+          "cpu_batch32_ms": 0.45508,
+          "cpu_batch32_per_task_us": 14.22125,
+          "hardware_single_us": 57.32,
+          "first_output_single_us": 56.28,
+          "batch32_input_MBps": 288.01968884591724,
+          "batch32_MPixels": 72.00492221147931,
+          "batch32_jobs_per_second": 70317.30684714776
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 3516,
+        "cpu_batch32_cycles": 22754,
+        "cpu_single_us": 70.32,
+        "cpu_batch32_ms": 0.45508,
+        "cpu_batch32_per_task_us": 14.22125,
+        "hardware_single_us": 57.14,
+        "first_output_single_us": 56.14,
+        "batch32_input_MBps": 288.01968884591724,
+        "batch32_MPixels": 72.00492221147931,
+        "batch32_jobs_per_second": 70317.30684714776
+      },
+      "throughput_min_MBps": 286.77197742090755,
+      "throughput_max_MBps": 288.3745489747426
+    },
+    {
+      "id": 27,
+      "channels": 4,
+      "width": 17,
+      "height": 255,
+      "raw_bytes": 17340,
+      "file_bytes": 22736,
+      "samples": [
+        {
+          "cpu_single_cycles": 7229,
+          "cpu_batch32_cycles": 103813,
+          "cpu_single_us": 144.58,
+          "cpu_batch32_ms": 2.07626,
+          "cpu_batch32_per_task_us": 64.883125,
+          "hardware_single_us": 129.68,
+          "first_output_single_us": 78.9,
+          "batch32_input_MBps": 267.2497664069047,
+          "batch32_MPixels": 66.81244160172618,
+          "batch32_jobs_per_second": 15412.327935807654
+        },
+        {
+          "cpu_single_cycles": 7402,
+          "cpu_batch32_cycles": 104688,
+          "cpu_single_us": 148.04,
+          "cpu_batch32_ms": 2.09376,
+          "cpu_batch32_per_task_us": 65.43,
+          "hardware_single_us": 133.48,
+          "first_output_single_us": 79.02,
+          "batch32_input_MBps": 265.01604768454837,
+          "batch32_MPixels": 66.25401192113709,
+          "batch32_jobs_per_second": 15283.509093687911
+        },
+        {
+          "cpu_single_cycles": 7306,
+          "cpu_batch32_cycles": 103983,
+          "cpu_single_us": 146.12,
+          "cpu_batch32_ms": 2.07966,
+          "cpu_batch32_per_task_us": 64.989375,
+          "hardware_single_us": 131.56,
+          "first_output_single_us": 78.84,
+          "batch32_input_MBps": 266.81284440725886,
+          "batch32_MPixels": 66.70321110181472,
+          "batch32_jobs_per_second": 15387.130588653914
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 7306,
+        "cpu_batch32_cycles": 103983,
+        "cpu_single_us": 146.12,
+        "cpu_batch32_ms": 2.07966,
+        "cpu_batch32_per_task_us": 64.989375,
+        "hardware_single_us": 131.56,
+        "first_output_single_us": 78.9,
+        "batch32_input_MBps": 266.81284440725886,
+        "batch32_MPixels": 66.70321110181472,
+        "batch32_jobs_per_second": 15387.130588653914
+      },
+      "throughput_min_MBps": 265.01604768454837,
+      "throughput_max_MBps": 267.2497664069047
+    },
+    {
+      "id": 28,
+      "channels": 4,
+      "width": 256,
+      "height": 1,
+      "raw_bytes": 1024,
+      "file_bytes": 1819,
+      "samples": [
+        {
+          "cpu_single_cycles": 3192,
+          "cpu_batch32_cycles": 21411,
+          "cpu_single_us": 63.84,
+          "cpu_batch32_ms": 0.42822,
+          "cpu_batch32_per_task_us": 13.381875,
+          "hardware_single_us": 50.2,
+          "first_output_single_us": 44.38,
+          "batch32_input_MBps": 76.52141422633227,
+          "batch32_MPixels": 19.130353556583067,
+          "batch32_jobs_per_second": 74727.9435804026
+        },
+        {
+          "cpu_single_cycles": 3193,
+          "cpu_batch32_cycles": 21389,
+          "cpu_single_us": 63.86,
+          "cpu_batch32_ms": 0.42778,
+          "cpu_batch32_per_task_us": 13.368125,
+          "hardware_single_us": 50.36,
+          "first_output_single_us": 44.4,
+          "batch32_input_MBps": 76.60012155781008,
+          "batch32_MPixels": 19.15003038945252,
+          "batch32_jobs_per_second": 74804.80620879891
+        },
+        {
+          "cpu_single_cycles": 3185,
+          "cpu_batch32_cycles": 21383,
+          "cpu_single_us": 63.7,
+          "cpu_batch32_ms": 0.42766,
+          "cpu_batch32_per_task_us": 13.364375,
+          "hardware_single_us": 50.22,
+          "first_output_single_us": 44.26,
+          "batch32_input_MBps": 76.62161530187532,
+          "batch32_MPixels": 19.15540382546883,
+          "batch32_jobs_per_second": 74825.79619323762
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 3192,
+        "cpu_batch32_cycles": 21389,
+        "cpu_single_us": 63.84,
+        "cpu_batch32_ms": 0.42778,
+        "cpu_batch32_per_task_us": 13.368125,
+        "hardware_single_us": 50.22,
+        "first_output_single_us": 44.38,
+        "batch32_input_MBps": 76.60012155781008,
+        "batch32_MPixels": 19.15003038945252,
+        "batch32_jobs_per_second": 74804.80620879891
+      },
+      "throughput_min_MBps": 76.52141422633227,
+      "throughput_max_MBps": 76.62161530187532
+    },
+    {
+      "id": 29,
+      "channels": 4,
+      "width": 1,
+      "height": 256,
+      "raw_bytes": 1024,
+      "file_bytes": 1166,
+      "samples": [
+        {
+          "cpu_single_cycles": 1497,
+          "cpu_batch32_cycles": 20905,
+          "cpu_single_us": 29.94,
+          "cpu_batch32_ms": 0.4181,
+          "cpu_batch32_per_task_us": 13.065625,
+          "hardware_single_us": 17.12,
+          "first_output_single_us": 13.12,
+          "batch32_input_MBps": 78.37359483377182,
+          "batch32_MPixels": 19.593398708442955,
+          "batch32_jobs_per_second": 76536.7137048553
+        },
+        {
+          "cpu_single_cycles": 1524,
+          "cpu_batch32_cycles": 20889,
+          "cpu_single_us": 30.48,
+          "cpu_batch32_ms": 0.41778,
+          "cpu_batch32_per_task_us": 13.055625,
+          "hardware_single_us": 17.28,
+          "first_output_single_us": 13.32,
+          "batch32_input_MBps": 78.43362535305664,
+          "batch32_MPixels": 19.60840633826416,
+          "batch32_jobs_per_second": 76595.33725884437
+        },
+        {
+          "cpu_single_cycles": 1522,
+          "cpu_batch32_cycles": 20931,
+          "cpu_single_us": 30.44,
+          "cpu_batch32_ms": 0.41862,
+          "cpu_batch32_per_task_us": 13.081875,
+          "hardware_single_us": 17.48,
+          "first_output_single_us": 13.52,
+          "batch32_input_MBps": 78.2762409822751,
+          "batch32_MPixels": 19.569060245568775,
+          "batch32_jobs_per_second": 76441.64158425303
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1522,
+        "cpu_batch32_cycles": 20905,
+        "cpu_single_us": 30.44,
+        "cpu_batch32_ms": 0.4181,
+        "cpu_batch32_per_task_us": 13.065625,
+        "hardware_single_us": 17.28,
+        "first_output_single_us": 13.32,
+        "batch32_input_MBps": 78.37359483377182,
+        "batch32_MPixels": 19.593398708442955,
+        "batch32_jobs_per_second": 76536.7137048553
+      },
+      "throughput_min_MBps": 78.2762409822751,
+      "throughput_max_MBps": 78.43362535305664
+    },
+    {
+      "id": 30,
+      "channels": 4,
+      "width": 255,
+      "height": 2,
+      "raw_bytes": 2040,
+      "file_bytes": 3279,
+      "samples": [
+        {
+          "cpu_single_cycles": 1728,
+          "cpu_batch32_cycles": 22697,
+          "cpu_single_us": 34.56,
+          "cpu_batch32_ms": 0.45394,
+          "cpu_batch32_per_task_us": 14.185625,
+          "hardware_single_us": 21.04,
+          "first_output_single_us": 10.48,
+          "batch32_input_MBps": 143.80755165880953,
+          "batch32_MPixels": 35.95188791470238,
+          "batch32_jobs_per_second": 70493.89787196546
+        },
+        {
+          "cpu_single_cycles": 1793,
+          "cpu_batch32_cycles": 22551,
+          "cpu_single_us": 35.86,
+          "cpu_batch32_ms": 0.45102,
+          "cpu_batch32_per_task_us": 14.094375,
+          "hardware_single_us": 22.5,
+          "first_output_single_us": 11.94,
+          "batch32_input_MBps": 144.73859252361316,
+          "batch32_MPixels": 36.18464813090329,
+          "batch32_jobs_per_second": 70950.29045275153
+        },
+        {
+          "cpu_single_cycles": 1730,
+          "cpu_batch32_cycles": 23010,
+          "cpu_single_us": 34.6,
+          "cpu_batch32_ms": 0.4602,
+          "cpu_batch32_per_task_us": 14.38125,
+          "hardware_single_us": 21.44,
+          "first_output_single_us": 11.7,
+          "batch32_input_MBps": 141.85136897001306,
+          "batch32_MPixels": 35.462842242503264,
+          "batch32_jobs_per_second": 69534.98478922207
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 1730,
+        "cpu_batch32_cycles": 22697,
+        "cpu_single_us": 34.6,
+        "cpu_batch32_ms": 0.45394,
+        "cpu_batch32_per_task_us": 14.185625,
+        "hardware_single_us": 21.44,
+        "first_output_single_us": 11.7,
+        "batch32_input_MBps": 143.80755165880953,
+        "batch32_MPixels": 35.95188791470238,
+        "batch32_jobs_per_second": 70493.89787196546
+      },
+      "throughput_min_MBps": 141.85136897001306,
+      "throughput_max_MBps": 144.73859252361316
+    },
+    {
+      "id": 31,
+      "channels": 4,
+      "width": 256,
+      "height": 256,
+      "raw_bytes": 262144,
+      "file_bytes": 294079,
+      "samples": [
+        {
+          "cpu_single_cycles": 50105,
+          "cpu_batch32_cycles": 1431655,
+          "cpu_single_us": 1002.1,
+          "cpu_batch32_ms": 28.6331,
+          "cpu_batch32_per_task_us": 894.784375,
+          "hardware_single_us": 982.76,
+          "first_output_single_us": 577.38,
+          "batch32_input_MBps": 292.9689066150714,
+          "batch32_MPixels": 73.24222665376784,
+          "batch32_jobs_per_second": 1117.5876869776587
+        },
+        {
+          "cpu_single_cycles": 50190,
+          "cpu_batch32_cycles": 1430761,
+          "cpu_single_us": 1003.8,
+          "cpu_batch32_ms": 28.61522,
+          "cpu_batch32_per_task_us": 894.225625,
+          "hardware_single_us": 984.78,
+          "first_output_single_us": 576.76,
+          "batch32_input_MBps": 293.15196598173975,
+          "batch32_MPixels": 73.28799149543494,
+          "batch32_jobs_per_second": 1118.2860030431357
+        },
+        {
+          "cpu_single_cycles": 50054,
+          "cpu_batch32_cycles": 1430500,
+          "cpu_single_us": 1001.08,
+          "cpu_batch32_ms": 28.61,
+          "cpu_batch32_per_task_us": 894.0625,
+          "hardware_single_us": 982.3,
+          "first_output_single_us": 576.84,
+          "batch32_input_MBps": 293.2054526389374,
+          "batch32_MPixels": 73.30136315973435,
+          "batch32_jobs_per_second": 1118.490038448095
+        }
+      ],
+      "median": {
+        "cpu_single_cycles": 50105,
+        "cpu_batch32_cycles": 1430761,
+        "cpu_single_us": 1002.1,
+        "cpu_batch32_ms": 28.61522,
+        "cpu_batch32_per_task_us": 894.225625,
+        "hardware_single_us": 982.76,
+        "first_output_single_us": 576.84,
+        "batch32_input_MBps": 293.15196598173975,
+        "batch32_MPixels": 73.28799149543494,
+        "batch32_jobs_per_second": 1118.2860030431357
+      },
+      "throughput_min_MBps": 292.9689066150714,
+      "throughput_max_MBps": 293.2054526389374
+    }
+  ],
+  "mixed_input_MBps_median": 259.6257452242603,
+  "read_write_request_counts_verified": true,
+  "memo_reset": false
+}
