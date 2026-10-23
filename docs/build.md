@@ -5,7 +5,18 @@
 
 ## Tools and component generation
 
-Run commands from the repository root. Component generators use Mill 1.1.7, Scala 2.13.18, Chisel 7.13.0 and CIRCT firtool 1.149.0, with a Java 17 runtime. Python 3.11 or newer and a C/C++ compiler are needed for host checks; RTL simulation needs Verilator. Dependency artifacts come from public Maven repositories; no private build outputs are required.
+Run commands from the repository root. Component generators use Mill 1.1.7, Scala 2.13.18, Chisel 7.13.0 and CIRCT firtool 1.149.0, with Java 17 or newer (fresh public-tree checks used Java 21). Python 3.11 or newer and a C/C++ compiler are needed for host checks; RTL simulation uses Verilator 5.050 and Make. Dependency artifacts come from public Maven repositories; no private build outputs are required. Start with the [stage map](reproduce.md).
+
+Install Java and a C++ toolchain using your OS package manager; install the pinned [Mill release](https://github.com/com-lihaoyi/mill/releases/tag/1.1.7) on PATH. `build.mill` resolves Scala, Chisel and its matching firtool. Do not point `CHISEL_FIRTOOL_PATH` at the Chipyard firtool; unset it unless it contains 1.149.0. Record versions before building:
+
+```sh
+java -version
+mill --version
+python3 --version
+c++ --version
+verilator --version
+make --version
+```
 
 ```sh
 python3 tools/check_public_tree.py
@@ -33,9 +44,11 @@ The generated native top exposes the ports described in [interfaces](interfaces.
 
 The platform adapter sources target Scala 2.13.12, Chisel 6.5.0 and the Rocket/Chipyard API; they are intentionally separate from the Chisel 7 component generator. Unit tests use chiseltest 6.0.0 and ScalaTest 3.2.19. Upstream Chipyard reference: `https://github.com/ucb-bar/chipyard.git`, commit `69eba860a352343e4ac6b6df0f3638a79a86ec78`. The reusable system trait accepts a subsystem, connects CSR/DMA/interrupts and does not select a physical board.
 
-Add the platform source set to a compatible Chipyard project, include `WithJxl` in the system configuration and mix `CanHaveJxl` into the subsystem. Attach a generated `FastNativeEncoder` implementation to `JxlNativeBlackBox`. Match the 128-bit system-bus / 512-bit memory-adapter assumptions, DDR address range, reset conversion and interrupt routing explicitly. The platform source and tests are supplied, but a fresh full digital SoC build with this generic mixin has not been qualified as part of this distribution; it is not a turnkey system-generation promise or the privately tested physical system configuration.
+Follow the [Chipyard tutorial](chipyard.md), including the installer, two SBT projects, adapter tests, generic one-Rocket configuration, device-tree inspection, system lowering and explicit BlackBox file list. This is a digital example, not the privately tested physical system configuration.
 
 ## Bare-metal software
+
+See the [driver tutorial](driver.md) for the register map, DMA allocation/cache rules, a polling example, interrupts and a complete ELF build. For full encoder RTL tests rather than the row-only smoke test, follow the [simulation tutorial](simulation.md).
 
 `software/jxl_benchmark.c` checks full official files and output padding. It assumes an RV64 coherent-memory platform with the documented CSR mapping, a SiFive-compatible UART at `0x10020000`, 50 MHz cycle counters, suitable DDR allocations and the supplied startup/linker layout. Adapt those digital platform contracts before use. The program does not configure an FPGA or provide a JTAG connection.
 

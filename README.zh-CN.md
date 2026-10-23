@@ -9,6 +9,10 @@
 
 ## 内容索引
 
+- [从这里开始：逐阶段复现](docs/reproduce.zh-CN.md)：每阶段的环境、命令、产物与通过判据。
+- [运行仿真](docs/simulation.zh-CN.md)：夹具准备、算术行、完整编码器和故障测试，含负向注错检查。
+- [用 Chipyard 拼接 SoC](docs/chipyard.zh-CN.md)：固定上游、单 Rocket 示例、CSR/DMA 测试、FIRRTL/SV 与 BlackBox 输入。
+- [编写与移植驱动](docs/driver.zh-CN.md)：寄存器 ABI、DMA 归属、轮询、中断、RV64 ELF 和 Linux 集成要求。
 - [架构与接口](docs/interfaces.zh-CN.md)：系统边界、内存归属、命令/结果通道及软件 ABI。
 - [构建与集成](docs/build.zh-CN.md)：固定工具版本、组件生成、原生集成和适配器要求。
 - [验证](docs/verification.zh-CN.md)：宿主检查、RTL 测试、参考夹具及单独列出的 FPGA 证据。

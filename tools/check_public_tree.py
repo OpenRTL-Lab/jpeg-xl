@@ -16,6 +16,10 @@ HEADER = "// OpenRTL Lab | JPEG XL | version 1.0.0\n// SPDX-License-Identifier: 
 def sensitive(text):
     patterns = (
         r"/(?:home|Users|mnt|media)/[A-Za-z0-9_.-]+/",
+        r"/(?:[A-Za-z0-9_.-]+-data|private-[A-Za-z0-9_-]+|workspaces?)(?:/|\b)",
+        r"[A-Za-z]:[\\/](?:Users|work|workspace)[\\/]",
+        r"\b(?:v13|term|capop)-[0-9a-f]{12,}\b",
+        r"\b(?:ssh|scp)\s+[^\s]*@[^\s]+",
         r"gh[pousr]_[A-Za-z0-9]{20,}",
         r"github_pat_[A-Za-z0-9_]{20,}",
         r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----",

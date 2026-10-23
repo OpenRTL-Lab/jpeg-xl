@@ -5,9 +5,19 @@
 
 ## Qualified implementation
 
+For executable instructions, use [simulation](simulation.md), [Chipyard integration](chipyard.md) and [driver development](driver.md), starting from the [stage map](reproduce.md). Their commands distinguish component RTL, adapters, digital generation, ELF construction and device execution.
+
 The supplied native encoder was checked before FPGA implementation with 136 RTL simulation cases and 1,056 CPU reference encodes. The suite includes component checks, complete native files, stalls, reset/cancel/error cases, arithmetic-row comparisons and intentional-error tests. Reference observers call the actual upstream fast-lossless implementation; they are not independent replacement codec models. The 32 distributed fixture pairs preserve complete captured files, not only headers or hashes.
 
 Subsequent bare-metal FPGA checks completed 3,168 tasks in three measurement rounds with complete file-byte and padding comparisons. This is finite-vector evidence, not a mathematical proof of all possible inputs. The publication preparation does not rerun that historical multi-hour suite. Current distribution checks and commands are described in [build](build.md); a successful host check is not an RTL or FPGA pass.
+
+## Reproduction-guide checks
+
+The added public one-Rocket example was compiled against the pinned public Chipyard sources, with successful CSR and DMA Verilator tests, configuration checks, FIRRTL/device-tree generation, firtool lowering and a 612-file combined RTL list. The generated DTS contains one CPU, 4 GiB memory and encoder interrupt 2. The RV64 polling example and benchmark ELF cross-compiled; the ELF was checked as ELF64/RISC-V with `_start`, `main` and `jxl_trap`. The polling example's seven fake-register host cases also passed. Public downloaded dependency caches were reused; no private compiled SoC outputs were copied into the example.
+
+These checks do not execute an ELF in the new digital SoC and do not build a simulator, bitstream or Linux driver. The simulation branch's fixed PLIC constants must be ported before such execution. The public TL-UL test skips nonexistent BCE channels; this test-harness correction changes no product RTL.
+
+The public fixture preparation and fresh native harness also produced 64 complete matching RTL files. The runtime-ROM negative was checked using that already-passed executable, retaining the normal result rather than rerunning it; it hit `FAST_NATIVE_OFFICIAL_BYTES` with unchanged executable SHA-256. The directed fault recipe passed all 16 scenarios / 20 task results, and its intentional-error run hit `FAST_NATIVE_FAULT_STATUS`. Host tests additionally reject unrelated negative failures and check reference restoration. These are targeted recipe checks, not a rerun of all 136 historical cases.
 
 ## Implementation evidence
 

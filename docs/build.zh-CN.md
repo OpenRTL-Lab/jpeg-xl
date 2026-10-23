@@ -5,7 +5,18 @@
 
 ## 工具与组件生成
 
-命令均从仓库根目录执行。组件生成器使用 Mill 1.1.7、Scala 2.13.18、Chisel 7.13.0、CIRCT firtool 1.149.0 和 Java 17。宿主检查需要 Python 3.11或更高版本及C/C++编译器，RTL仿真需要 Verilator。依赖来自公开Maven仓库，不需要私有构建产物。
+命令均从仓库根目录执行。组件生成器使用 Mill 1.1.7、Scala 2.13.18、Chisel 7.13.0、CIRCT firtool 1.149.0 和 Java 17或更高版本（独立分发树验证使用Java 21）。宿主检查需要 Python 3.11或更高版本及C/C++编译器，RTL仿真使用 Verilator 5.050 与 Make。依赖来自公开Maven仓库，不需要私有构建产物。先读[阶段路线图](reproduce.zh-CN.md)。
+
+通过系统包管理器安装Java与C++工具链，将固定的 [Mill 1.1.7](https://github.com/com-lihaoyi/mill/releases/tag/1.1.7) 放到PATH。`build.mill`解析Scala、Chisel及匹配的firtool。不要将`CHISEL_FIRTOOL_PATH`指向Chipyard版本；除非目录中是1.149.0，否则先取消该变量。构建前记录：
+
+```sh
+java -version
+mill --version
+python3 --version
+c++ --version
+verilator --version
+make --version
+```
 
 ```sh
 python3 tools/check_public_tree.py
@@ -33,9 +44,11 @@ python3 tools/run_row_test.py --out build/row
 
 平台适配源使用Scala 2.13.12、Chisel 6.5.0及Rocket/Chipyard API，故意与Chisel 7组件生成器分开。单测使用chiseltest 6.0.0及ScalaTest 3.2.19。上游Chipyard参考为 `https://github.com/ucb-bar/chipyard.git` 的提交 `69eba860a352343e4ac6b6df0f3638a79a86ec78`。可复用系统trait接收子系统、连接CSR/DMA/中断，不选择物理开发板。
 
-在兼容Chipyard工程加入平台源集，把 `WithJxl` 加入系统配置，将 `CanHaveJxl` 混入子系统，并为 `JxlNativeBlackBox` 连接生成的 `FastNativeEncoder` 实现。明确匹配128位系统总线/512位内存适配假设、DDR地址范围、复位转换及中断路由。提供平台源码和测试，但本次分发未对该通用混入方式重新完成整个数字SoC构建资格检查；不承诺一键系统生成，也不包含私有实测物理系统配置。
+按 [Chipyard教程](chipyard.zh-CN.md) 操作：安装器、两个SBT工程、适配器测试、通用单Rocket配置、设备树检查、系统降低和显式BlackBox文件列表。这是数字例子，不是私有实测物理系统配置。
 
 ## 裸机软件
+
+寄存器表、DMA分配/缓存规则、轮询例子、中断和完整ELF构建见[驱动教程](driver.zh-CN.md)。完整编码器RTL测试而非仅算术行烟测见[仿真教程](simulation.zh-CN.md)。
 
 `software/jxl_benchmark.c` 检查完整官方文件及输出填充，要求RV64一致性内存平台、文档中CSR映射、位于 `0x10020000` 的SiFive兼容UART、50MHz周期计数器、合适DDR分配以及提供的启动/链接布局。使用前应适配这些数字平台合同。程序不配置FPGA，也不提供JTAG连接。
 

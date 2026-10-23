@@ -9,6 +9,10 @@ This repository provides an MIT-licensed, bounded JPEG XL lossless encoder: Chis
 
 ## Contents
 
+- [Start here: stage-by-stage reproduction](docs/reproduce.md): prerequisites, commands, outputs and acceptance at every stage.
+- [Run simulations](docs/simulation.md): fixtures, arithmetic miter, complete encoder and fault tests, including negative checks.
+- [Assemble a Chipyard SoC](docs/chipyard.md): pinned upstream, one-Rocket example, CSR/DMA tests, FIRRTL/SV and BlackBox inputs.
+- [Write and port a driver](docs/driver.md): register ABI, DMA ownership, polling, interrupts, RV64 ELF and Linux integration requirements.
 - [Architecture and interfaces](docs/interfaces.md): system boundaries, memory ownership, command/result channels and software ABI.
 - [Build and integration](docs/build.md): pinned tools, component generation, native integration and adapter requirements.
 - [Verification](docs/verification.md): host checks, RTL tests, reference fixtures and separately identified FPGA evidence.

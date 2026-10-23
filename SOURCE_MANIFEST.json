@@ -25,16 +25,16 @@
       "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
     },
     "README.md": {
-      "body_sha256": "eb8a05191c92943f1054731885255d12fb4e2382f343292938aa52671a16a0ef",
+      "body_sha256": "70ee161213044343888e086541291971d4e7a863fe36427a8b248d3ba798975a",
       "category": "original",
       "license": "MIT",
-      "sha256": "122b8f072d145e9dfc5ec24bc6852b2f7dfa2aaee8657b119e728fffe52bff36"
+      "sha256": "638a9c3d3d84f8ed834fbf2efa0a1c5384251aacdd05daad8eb4bf3bf16957c7"
     },
     "README.zh-CN.md": {
-      "body_sha256": "93ef26b8f14623ccc0b58e3324c7b394a1975e296d6112a282525e5ebbe151d0",
+      "body_sha256": "8b5c1a2af5a1a3121eae07b862237d2e328a30b058a40bf7cf8b03ba114cac1b",
       "category": "original",
       "license": "MIT",
-      "sha256": "889f8a701319622afb62ad4f5b2df807fd959fc603b30878f632c70bf0131429"
+      "sha256": "9cdde2c09493526ff0ead119e91533207f554527ce20edf0b18cad56a4233a0c"
     },
     "THIRD_PARTY.md": {
       "body_sha256": "c3d6ea6960b6c9883f53e1f5379aab50db6692bb9685d239181db7716bb347b1",
@@ -67,16 +67,40 @@
       "sha256": "f1f0854e75b7d7017c79984b819288c81342ae52352a1f62520d51b10a5a44dc"
     },
     "docs/build.md": {
-      "body_sha256": "c35a2cc60fb19ca85cdacf372a92a0b59b993d5b3a931b1c832441db0faeb8e9",
+      "body_sha256": "78c9febdb90aef9c5530d28affe332a5b51bf1757a29556dea83bacc3bb5d148",
       "category": "original",
       "license": "MIT",
-      "sha256": "83a8f5b7ce201e118cea1fc5c263d1682229b0a00c96beac543186026970b312"
+      "sha256": "36c72ef4d560ab522d6fd396e8ba37fa8c6c65a63dea570ee94d9fef87f06347"
     },
     "docs/build.zh-CN.md": {
-      "body_sha256": "701e0226cc28044febb6f889c2b49df101b465be535498fd4cba40d06192a154",
+      "body_sha256": "4897ad1a4a0ea8a9c37991b39130d5a251e4ee1afeb8f2d0909bc50788b37d66",
       "category": "original",
       "license": "MIT",
-      "sha256": "93a1643ae5925489f5943b298ca06db2c6135d946810517be1243fc95b7e6176"
+      "sha256": "f75022a2d5c5fdfb7cec90eb867e9d01e730e68b947808d92bfcd1328e05729a"
+    },
+    "docs/chipyard.md": {
+      "body_sha256": "88a795703228e18d02e1740f9b7aa45278ddf0e3bd0f3d6a7a84fe4655304a54",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "888a78cc019b8adf095c35e876b94b6b678376cd3b6a20941942207c16f906af"
+    },
+    "docs/chipyard.zh-CN.md": {
+      "body_sha256": "f06bd30f6fa9225fc740a5a4e757b28d73be755f908ff4f575aae9d1c5b821ff",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "6a2593aa24abfc5118c61fa94eb45f80a534418bb1960b90e00cbb0bfbe22d73"
+    },
+    "docs/driver.md": {
+      "body_sha256": "7b79d8cf0a5a4a5ded25bf7aeea2cec4d48508032a45a7da10fb403455844777",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2e1eac0eb8e0778ef946fbabc853b7a98c514c8ac4bdff6ad6a7777083e6bdc6"
+    },
+    "docs/driver.zh-CN.md": {
+      "body_sha256": "f07b458e27504a01f407d39e537337e117bad7704f348e569cc8197054c9c9a0",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2ab4e4f0b959cacfdaf25986a32181b79a856ca9d2d509c4d847045b94f02919"
     },
     "docs/interfaces.md": {
       "body_sha256": "7752d833f4700702e3c9ecdc2e748564b561b44f89eaa65ce89400d1ea69cfd5",
@@ -102,17 +126,41 @@
       "license": "MIT",
       "sha256": "60cccda6e6e6c4edecd9ac85d9a2dce291addaf76b7d4fed6c5598ae866207ce"
     },
-    "docs/verification.md": {
-      "body_sha256": "9f53bdc56be4bb7aba009d0a2e8f03f26f06488e4668924d6730fee1421dda90",
+    "docs/reproduce.md": {
+      "body_sha256": "1fa1d9e0f9a137b9f5dfe19b5282ff45b86fe6cdd04e0bca0a65d91b7c6750a9",
       "category": "original",
       "license": "MIT",
-      "sha256": "670674e90f89cbeb5c3932f54bfcb87ec5a44b02c6dc93feef9ff93ad29a1b6c"
+      "sha256": "271ac70c0ed793f60ae7733132c7c4102606d30c8c490df288dd0e06ed9dcc3a"
+    },
+    "docs/reproduce.zh-CN.md": {
+      "body_sha256": "b9b1dd2cbdd0dce25681b9fde122e968999255638e191937fc3c9a09dadecbde",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ec190d659d50d307367dd5347b2dc43f0881387a78ee21a3c24dacbba4bc8222"
+    },
+    "docs/simulation.md": {
+      "body_sha256": "9a92ce27797dab9078367628866cb8f335f51f68b07355a322aaf5ae66f9307e",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "01ff37b38b1c708e5847e0b22bec710d9049501b6ebcead6d31d412bf7b3d313"
+    },
+    "docs/simulation.zh-CN.md": {
+      "body_sha256": "587b7162ab9db87f4502e9b209f0148486b68ed173fcc11b8c35d602c0dae8f4",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "23702c697829740c484ce5e15ac3a7c608fcc0ee3fd7a58efddf6e08da51a665"
+    },
+    "docs/verification.md": {
+      "body_sha256": "e7cde1b4339cb462a0969c03b2bde34f09f90bfff18257a3f86b37486def079d",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "a337e8db07075c4406366470c5375c65c583fe2fb2e897755f464ef837eb743a"
     },
     "docs/verification.zh-CN.md": {
-      "body_sha256": "0d36160b9d57ad8f86298fbbc7ade610204da7b7a77fea1afd418de9a0e1abb2",
+      "body_sha256": "68ff57b67dbd2c6757fb6866046160b279499284ea90f9e6f13013ab18927516",
       "category": "original",
       "license": "MIT",
-      "sha256": "6c4c61ae918d407506895110331bb5b084f6a7aff6b181f0336bd8c8919a7ca4"
+      "sha256": "61a00579a8e027e9c491a2430221b2088e72e0f1dffd3a11d61e3e7cb629d074"
     },
     "evidence/measurements.json": {
       "body_sha256": "1e3d4e5f262d6b57f4eb6d809d69d14a58f173e6aa3a6fe2e16b17534f8dfd59",
@@ -137,6 +185,18 @@
       "category": "original",
       "license": "MIT",
       "sha256": "14a0fdb5fc5f6db8653fa44f896b10cd5999653b00165b3d3ed316d988600e19"
+    },
+    "examples/chipyard/src/main/scala/jpegxl/example/JxlRocketConfig.scala": {
+      "body_sha256": "1d95ff60afd8d0afb314d9eda3f07416bafbbbf1d18fe0c717d21e6637b6fbcd",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "37067993968c8447c10ad591b9fc835cbdf66cec307e28d70c036c894ca8fa0a"
+    },
+    "integration/chipyard/jpegxl.sbt": {
+      "body_sha256": "9d9c73f0050db406b8a9266cb0af745c2af6170bd0bec1071638a20c36adb064",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "ecbb067e581367581d3f17f6ab4758c5c0e5bae85060de6fb19cc15b3f3859da"
     },
     "integration/src/main/scala/jpegxl/platform/JxlNative.scala": {
       "body_sha256": "08ea1d918131274618932603c8f3c679a9f3774a4962dccd1fba717fe29c3395",
@@ -169,10 +229,10 @@
       "sha256": "3315fb40e3f374e74031e7e4a0b6fffa1f883cdbb132c8e3d97a559c2635946f"
     },
     "integration/src/test/scala/jpegxl/platform/JxlDmaSpec.scala": {
-      "body_sha256": "fe139ef94d05378965c1bade1375e8aef46370f8a0d22494ef7ba3baf1181497",
+      "body_sha256": "51c480a853e34f3a5185dee7da2ab91371bce6190154cb6eae1f6f69f39256f4",
       "category": "original",
       "license": "MIT",
-      "sha256": "bc4b5729d8c68ebe2fffe3ab4b2f37ac04ea7d91fac6b497387f79365ab2c516"
+      "sha256": "cc688423c62b82ca8d4062a7cf62a514713306bfe4775146e62871e227dc8d27"
     },
     "licenses/libjxl-LICENSE": {
       "body_sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede",
@@ -983,6 +1043,24 @@
       "category": "generated-rtl",
       "license": "MIT",
       "sha256": "4705aeff4c6e5021c4efc9a2850ea8f1aab8636446409227db30df1201f6e7a4"
+    },
+    "software/examples/poll_once.c": {
+      "body_sha256": "8ee6f37545ade690e5cdfc77ebdd5b4e11b40718d75b6fcf3f6ae96283ba75be",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "2b5843ba68796d6724966f8fd874cf388ceddaddbf9915d114b4fa4429fc1d7b"
+    },
+    "software/examples/poll_once.h": {
+      "body_sha256": "2268041a2dd22a58d2b189ffee09e6cddf96a9ef7c2c052626c3e407c2d59c8a",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "06c0f6c6a5fa29d348381a51623a981867da7baf16fc21e54425fda527a32b07"
+    },
+    "software/examples/test_poll_once.c": {
+      "body_sha256": "d90cea199a5b2152097287d4369a981df3ef79f2c5f5a10cefaaaac6439b134e",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "5fb4031db6641ee3bf524c0991b47ffc2bd3df71f135e921642539279fd460d8"
     },
     "software/jxl_benchmark.c": {
       "body_sha256": "24025861135f833e7825339d5754d0992e4127223f1beb440bf28327e578c518",
@@ -2215,10 +2293,22 @@
       "sha256": "300b61c18ae9244dc96810060297c8a2b1828b583d7e898fbe159a89e267b844"
     },
     "tests/test_public_checks.py": {
-      "body_sha256": "8a6152a40b34bc5b14540f9d4cebced8258333b840cbb46561c94758f76b86fe",
+      "body_sha256": "7cd23853cda09edc0d2a1bea8ec3a34ed93d69d675a55ee0b1615e958768a19e",
       "category": "original",
       "license": "MIT",
-      "sha256": "88e69f9065d55a9c62f5a71144dd967702e696b1a8dcc20b1ce0834606e2d1bb"
+      "sha256": "03342024c769a998011f0cce0632554a2653f3c09a1609171bf692623e6ddcde"
+    },
+    "tests/test_reproduction.py": {
+      "body_sha256": "583d8d2257b2431ed9b4f88ca01fdcc4cec277e14446fe56eda5154dc2027ae0",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "f99f21a7ecc06872e871246cd9ea1d3500489a9f9790446f167eef7c4d582462"
+    },
+    "tools/check_driver_example.py": {
+      "body_sha256": "fe88586accf7d5f7eff69491ef0e86290712352091262b56bb95e134bb88cc7e",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "4d8c0fbb52f766ead083007e9aca51a3b6f16fdccc7519fa056d6283eae07fe6"
     },
     "tools/check_generated.py": {
       "body_sha256": "7ee1cb9f5115b18ab34f135dd4e85f001f1ad03be2d98a6846eb834f81fdbbe4",
@@ -2239,10 +2329,16 @@
       "sha256": "e8216634d9f635a330c85ab153cbcbfcafd2278a158cd5ffd71d7613e11f9e1c"
     },
     "tools/check_public_tree.py": {
-      "body_sha256": "1c889fb2886b5c409e225085d368d745608d8a91121d9e1dd9112bdaffa7a635",
+      "body_sha256": "888dec0c4f01af1d3e81de5bcbb97ab80966b7836db119a0eedc62495aaaf07b",
       "category": "original",
       "license": "MIT",
-      "sha256": "fc9040a93e782df31771904d9f84ed9e86338f0495f1a47aabecf84b9fdd99a3"
+      "sha256": "691114b1738efff7c7c164915d86889af303d60e8e3e223dceb527bc08f15787"
+    },
+    "tools/check_reference_capture.py": {
+      "body_sha256": "745febed1d5d0d7e5f1076ce2bc33237951d49cde9607fa95576c2e65ed5dddc",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "22f8678cb7a4710caf4406c5f0077fe9ef73ac150e6f598d494967655f0a847a"
     },
     "tools/fast_chunk_clock.cpp": {
       "body_sha256": "7556b4672df197ccefc1e529cbc110aab4ec5616fef4e573d9b4e47c0ab48bc6",
@@ -2357,6 +2453,30 @@
       "category": "original",
       "license": "MIT",
       "sha256": "9eef35699b93256d45e529654c77600d3e3b9f324cf14344f068153f5a25e945"
+    },
+    "tools/install_chipyard.py": {
+      "body_sha256": "6ff55d9f3b2d6543094c37300475dcd07a4e777d435387ef0642d6ac221cfe01",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "fe25d6e38f565dd17a43dc9f456bca38358bbf4d74134557822b7fccd3d1573b"
+    },
+    "tools/make_soc_filelist.py": {
+      "body_sha256": "6866ac79d590f3a751ce54455981dba3a76146f149b3fde1236bd12c49f04189",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "bec34a80fb6bb67c8956ed10aa37b4967ea1b2c72721761b7c93ab067cfce0ca"
+    },
+    "tools/prepare_native_fixtures.py": {
+      "body_sha256": "4da80f25180318d439ca5eda4c06a9aa4dd7e18a3c0eacec13c7f71feebb590a",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "b174d457101b973f8bc5c13a69cb92f7143d43b3caf5ef0b074f119786709d31"
+    },
+    "tools/run_native_test.py": {
+      "body_sha256": "e02ae9ae986b97d0ce6fa017b2fd351da1377fefb3e51bf38aba01a572ae0249",
+      "category": "original",
+      "license": "MIT",
+      "sha256": "c697262fc5a7e39c122fcd56c0e6c21cfe1d6b5012710d255c647279404ff15f"
     },
     "tools/run_row_test.py": {
       "body_sha256": "7d5a5497667b1469a6ae8eb4992fff1eb25bc49ebcd9e86fda14bfd251f1f1c8",

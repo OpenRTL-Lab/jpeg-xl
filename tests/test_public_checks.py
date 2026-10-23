@@ -26,6 +26,14 @@ class Checks(unittest.TestCase):
     def test_fake_token(self):
         self.assertTrue(checker.sensitive('ghp_' + 'X' * 30))
 
+    def test_internal_paths_and_runtime_ids(self):
+        for root in ('example' + '-data', 'workspace', 'workspaces', 'private' + '-cache'):
+            self.assertTrue(checker.sensitive('/' + root + '/example'))
+        self.assertTrue(checker.sensitive('v13' + '-' + 'a' * 12))
+        self.assertTrue(checker.sensitive('C:' + chr(92) + 'Users' + chr(92) + 'example'))
+        self.assertFalse(checker.sensitive('src/main/scala/example/Top.scala'))
+        self.assertFalse(checker.sensitive('https://github.com/ucb-bar/chipyard.git'))
+
     def test_manifest_and_checker_not_exempt(self):
         for name in ('tools/check_public_tree.py', 'SOURCE_MANIFEST.json', 'tests/fixtures/note.txt'):
             with self.subTest(name=name), tempfile.TemporaryDirectory() as folder:

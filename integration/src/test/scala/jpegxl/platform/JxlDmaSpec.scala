@@ -29,7 +29,10 @@ class JxlDmaSpec extends AnyFlatSpec with ChiselScalatestTester {
       c.io.native.read.valid.poke(false.B); c.io.native.write.valid.poke(false.B)
       c.io.native.readResponse.ready.poke(true.B); c.io.native.writeResponse.ready.poke(true.B)
       c.io.tl.a.ready.poke(true.B); c.io.tl.d.valid.poke(false.B)
-      c.io.tl.b.valid.poke(false.B); c.io.tl.c.ready.poke(true.B); c.io.tl.e.ready.poke(true.B)
+      // TL-UL has no BCE channels: touching the lazy accessors creates hardware.
+      if (c.io.tl.params.hasBCE) {
+        c.io.tl.b.valid.poke(false.B); c.io.tl.c.ready.poke(true.B); c.io.tl.e.ready.poke(true.B)
+      }
       c.reset.poke(true.B); c.clock.step(3); c.reset.poke(false.B); c.clock.step()
       val requests=scala.collection.mutable.Map.empty[Int,(BigInt,BigInt)]
       def tick():Unit = {
