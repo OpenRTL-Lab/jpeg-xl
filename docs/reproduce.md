@@ -3,7 +3,7 @@
 
 [简体中文](reproduce.zh-CN.md)
 
-Start in an empty working directory. Component generation, RTL execution, digital SoC construction and software builds are separate milestones. Stop on a failed command and inspect its log; never replace failed outputs with shipped RTL. Paths below are relative to your working directory. While this repository is private, cloning requires organization-granted read access.
+Start in an empty working directory. Component generation, RTL execution, digital SoC construction and software builds are separate milestones. Stop on a failed command and inspect its log; never replace failed outputs with shipped RTL. Paths below are relative to your working directory. Public cloning requires no GitHub credentials.
 
 ```sh
 git clone https://github.com/OpenRTL-Lab/jpeg-xl.git

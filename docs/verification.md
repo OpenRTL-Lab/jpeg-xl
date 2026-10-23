@@ -33,4 +33,4 @@ No claim is made for general JPEG XL decoding, lossy coding, HDR, animation, mul
 
 ## Integrity checks
 
-`SOURCE_MANIFEST.json` records distributed source and generated-body digests. `PUBLIC_FILES.json` inventories every distributed file except itself; it is an integrity index, not a cryptographic signature. Checkers reject missing, extra or changed payload files, invalid relative links and common sensitive literals. They cannot prove absence of every possible secret or third-party right; human source and licensing review is also required before public release. The repository remains private pending review.
+`SOURCE_MANIFEST.json` records distributed source and generated-body digests. `PUBLIC_FILES.json` inventories every distributed file except itself; it is an integrity index, not a cryptographic signature. Checkers reject missing, extra or changed payload files, invalid relative links and common sensitive literals. They cannot prove absence of every possible secret or third-party right; human source and licensing review is also required before redistributing changes.
